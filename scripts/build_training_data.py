@@ -6,6 +6,7 @@ into instruction-following chat format that teaches the model her voice.
 Sources:
 - Blog posts: real title → real post (natural prompt/response pairs)
 - Book excerpts: chunks of text with generated prompts
+- Podcast transcripts: chunks of spoken content with generated prompts
 
 Output: data/training/all.jsonl (before splitting)
 """
@@ -20,6 +21,7 @@ import httpx
 
 PROCESSED_DIR = Path("data/processed")
 BLOG_DIR = PROCESSED_DIR / "blog"
+PODCAST_DIR = PROCESSED_DIR / "podcasts"
 TRAINING_DIR = Path("data/training")
 
 SYSTEM_PROMPT_PATH = Path("prompts/system_prompt.txt")
@@ -198,6 +200,82 @@ def build_book_examples(system_prompt: str) -> list[dict]:
     return examples
 
 
+def build_podcast_examples(system_prompt: str) -> list[dict]:
+    """Build training examples from podcast transcripts.
+
+    Podcasts are conversational — Jacq's spoken voice is slightly different
+    from her written voice, but still valuable for capturing her ideas,
+    phrasing, and natural expression patterns.
+    """
+    examples = []
+
+    if not PODCAST_DIR.exists():
+        print("No podcast directory found, skipping podcast examples.")
+        return examples
+
+    podcast_files = sorted(PODCAST_DIR.glob("*.txt"))
+    if not podcast_files:
+        print("No podcast transcripts found, skipping.")
+        return examples
+
+    print(f"Processing {len(podcast_files)} podcast transcripts...")
+
+    for pod_path in podcast_files:
+        text = pod_path.read_text(encoding="utf-8")
+
+        # Extract title from header
+        title = pod_path.stem.replace("-", " ").replace("_", " ").title()
+        for line in text.split("\n"):
+            if line.startswith("TITLE: "):
+                title = line[7:].strip()
+                break
+
+        # Remove metadata header lines
+        content_lines = []
+        past_header = False
+        for line in text.split("\n"):
+            if past_header:
+                content_lines.append(line)
+            elif line.strip() == "":
+                past_header = True
+
+        content = "\n".join(content_lines).strip()
+        if not content or len(content) < 200:
+            print(f"  Skipping {pod_path.name} (too short)")
+            continue
+
+        chunks = chunk_text(content, min_words=100, max_words=600)
+        print(f"  {pod_path.name}: {len(chunks)} chunks")
+
+        for i, chunk in enumerate(chunks):
+            prompt = generate_prompt_for_passage(chunk)
+            if not prompt:
+                prompt = f"Talk about the ideas you shared on {title.lower()}"
+
+            # Vary prompt framing for podcast content
+            framings = [
+                prompt,
+                f"Write about this topic you discussed: {prompt}",
+                f"Share your thoughts on: {prompt}",
+            ]
+            selected_prompt = framings[hash(chunk[:50]) % len(framings)]
+
+            example = {
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": selected_prompt},
+                    {"role": "assistant", "content": chunk},
+                ]
+            }
+            examples.append(example)
+
+            if (i + 1) % 10 == 0:
+                print(f"    Processed {i + 1}/{len(chunks)} chunks")
+
+    print(f"  Created {len(examples)} podcast training examples")
+    return examples
+
+
 def validate_examples(examples: list[dict]) -> list[dict]:
     """Validate and filter training examples."""
     valid = []
@@ -233,12 +311,17 @@ def main():
     book_examples = build_book_examples(system_prompt)
     all_examples.extend(book_examples)
 
+    # Podcast transcripts (uses LLM to generate prompts)
+    podcast_examples = build_podcast_examples(system_prompt)
+    all_examples.extend(podcast_examples)
+
     if not all_examples:
         print("\nNo training examples generated!")
         print("Make sure you've run the extraction and cleaning scripts first:")
         print("  python scripts/extract_pdf.py")
         print("  python scripts/extract_docx.py")
         print("  python scripts/extract_blog.py")
+        print("  python scripts/extract_podcast.py")
         print("  python scripts/clean_text.py")
         sys.exit(1)
 
