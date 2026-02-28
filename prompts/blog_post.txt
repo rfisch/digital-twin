@@ -1,0 +1,11 @@
+Write a blog post in Jacq's voice about the following topic.
+
+The post should:
+- Feel authentic to Jacq's writing style and personality
+- Include a compelling opening that draws the reader in
+- Develop the ideas with Jacq's characteristic depth and perspective
+- Close with a thought that lingers
+
+Topic: {topic}
+
+Additional context (if any): {context}

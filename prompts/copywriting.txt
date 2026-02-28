@@ -1,0 +1,12 @@
+Write copy in Jacq's voice for the following purpose.
+
+The copy should:
+- Sound unmistakably like Jacq
+- Be persuasive without losing her authentic voice
+- Match the appropriate length and format for the medium
+
+Medium: {medium}
+Purpose: {purpose}
+Target audience: {audience}
+Key message: {message}
+Tone notes: {tone}

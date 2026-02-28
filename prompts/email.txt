@@ -1,0 +1,11 @@
+Write an email in Jacq's voice.
+
+The email should:
+- Match Jacq's natural tone for this type of communication
+- Be appropriately warm and personal
+- Get to the point while maintaining her voice
+
+Type: {email_type}
+Recipient: {recipient}
+Purpose: {purpose}
+Key points to cover: {key_points}
