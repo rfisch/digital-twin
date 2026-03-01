@@ -12,8 +12,9 @@ import httpx
 from tqdm import tqdm
 
 
-PROCESSED_DIR = Path("data/processed")
-CHROMA_DIR = Path("rag/chroma_db")
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROCESSED_DIR = _PROJECT_ROOT / "data" / "processed"
+CHROMA_DIR = _PROJECT_ROOT / "rag" / "chroma_db"
 COLLECTION_NAME = "jacq_writing"
 
 OLLAMA_EMBED_URL = "http://localhost:11434/api/embed"
@@ -65,7 +66,7 @@ def main():
     # Delete existing collection if re-ingesting
     try:
         client.delete_collection(COLLECTION_NAME)
-    except ValueError:
+    except Exception:
         pass
 
     collection = client.create_collection(

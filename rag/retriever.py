@@ -6,7 +6,7 @@ import chromadb
 import httpx
 
 
-CHROMA_DIR = Path("rag/chroma_db")
+CHROMA_DIR = Path(__file__).resolve().parent / "chroma_db"
 COLLECTION_NAME = "jacq_writing"
 
 OLLAMA_EMBED_URL = "http://localhost:11434/api/embed"

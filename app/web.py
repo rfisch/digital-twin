@@ -30,6 +30,9 @@ def create_app():
             return "Please enter a topic or writing request."
 
         try:
+            # Override model if different from default
+            if model and model != assistant.model:
+                assistant.model = model
             result = assistant.generate(
                 task_type=task_type,
                 topic=topic,
@@ -44,14 +47,11 @@ def create_app():
                 message=message,
                 tone=tone,
             )
-            # Override model if different from default
-            if model and model != assistant.model:
-                assistant.model = model
             return result
         except Exception as e:
             return f"Error: {e}"
 
-    with gr.Blocks(title="Jacq's Writing Assistant", theme=gr.themes.Soft()) as app:
+    with gr.Blocks(title="Jacq's Writing Assistant") as app:
         gr.Markdown("# Jacq's Writing Assistant")
         gr.Markdown("Generate writing in Jacq's voice using a fine-tuned model + RAG.")
 
@@ -100,7 +100,6 @@ def create_app():
                 output = gr.Textbox(
                     label="Generated Writing",
                     lines=25,
-                    show_copy_button=True,
                 )
 
         generate_btn.click(
@@ -117,7 +116,7 @@ def create_app():
 
 def main():
     app = create_app()
-    app.launch(server_name="127.0.0.1", server_port=7860)
+    app.launch(server_name="127.0.0.1", server_port=7860, theme=gr.themes.Soft())
 
 
 if __name__ == "__main__":

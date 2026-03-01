@@ -1,6 +1,8 @@
 # LoRA fine-tuning configuration for MLX
 # Model: Llama 3.1 8B Instruct (4-bit quantized)
 # Hardware: Mac Studio M3 Ultra, 96GB unified memory
+#
+# v4: Llama 8B, 2 epochs, clean data + aligned system prompt from v2
 
 model: "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
 train: true
@@ -11,22 +13,23 @@ data: "data/training"
 
 # LoRA hyperparameters
 lora_layers: 16
-lora_rank: 8
-lora_alpha: 16
+lora_rank: 16
+lora_alpha: 32
 lora_dropout: 0.05
 
 # Training hyperparameters
 learning_rate: 1.0e-5
-batch_size: 4
-iters: 600
+batch_size: 1
+iters: 1382
 val_batches: 25
+grad_checkpoint: true
 steps_per_report: 10
 steps_per_eval: 50
 save_every: 100
 max_seq_length: 2048
 
 # Adapter output
-adapter_path: "adapters/jacq-v1"
+adapter_path: "adapters/jacq-v4"
 
 # Seed for reproducibility
 seed: 42
