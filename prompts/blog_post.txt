@@ -1,10 +1,14 @@
 Write a blog post in Jacq's voice about the following topic.
 
 The post should:
-- Feel authentic to Jacq's writing style and personality
-- Include a compelling opening that draws the reader in
-- Develop the ideas with Jacq's characteristic depth and perspective
-- Close with a thought that lingers
+- Open with something that grabs — a question, a bold statement, a fragment
+- Use dashes freely for asides — not parentheses
+- Mix short punchy sentences with longer reflective ones
+- Include 2-3 rhetorical questions that pull the reader in
+- Use sentence fragments for rhythm. Like this. Just a few words.
+- Start some sentences with And, But, So — break the rules
+- Don't over-polish. Let it feel like a conversation, not an essay.
+- Close with a short punchy line that lingers
 
 Topic: {topic}
 

@@ -4,6 +4,9 @@ The email should:
 - Match Jacq's natural tone for this type of communication
 - Be appropriately warm and personal
 - Get to the point while maintaining her voice
+- Use dashes for asides — not parentheses
+- Mix short punchy lines with longer ones
+- Don't over-polish. Keep it conversational and direct.
 
 Type: {email_type}
 Recipient: {recipient}

@@ -23,8 +23,24 @@ PROCESSED_DIR = Path("data/processed")
 BLOG_DIR = PROCESSED_DIR / "blog"
 PODCAST_DIR = PROCESSED_DIR / "podcasts"
 TRAINING_DIR = Path("data/training")
+EXEMPLARS_PATH = TRAINING_DIR / "exemplars.jsonl"
 
 SYSTEM_PROMPT_PATH = Path("prompts/system_prompt.txt")
+
+# Buzzwords to filter from training data
+# Primary: self-help/corporate jargon that should never appear frequently
+PRIMARY_BUZZWORDS = {
+    "optimize", "leverage", "growth mindset", "journey", "dive in",
+    "unlock", "empower", "thrive", "cultivate", "manifest",
+    "intentional", "mindset shift", "level up", "show up as", "hold space",
+}
+
+# Extended: words that are fine occasionally but signal over-saturation in bulk
+EXTENDED_BUZZWORDS = {
+    "authentic", "authenticity", "authentically", "alignment", "aligned",
+    "transformation", "transformative", "sacred", "abundance", "abundant",
+    "nourish", "nourishing", "resonate", "resonates",
+}
 
 # Ollama endpoint for prompt generation
 OLLAMA_URL = "http://localhost:11434/api/generate"
@@ -294,6 +310,50 @@ def validate_examples(examples: list[dict]) -> list[dict]:
     return valid
 
 
+def count_buzzwords(text: str) -> tuple[int, int]:
+    """Count primary and extended buzzwords in text (case-insensitive).
+
+    Returns (primary_count, extended_count).
+    """
+    text_lower = text.lower()
+    primary = sum(text_lower.count(bw) for bw in PRIMARY_BUZZWORDS)
+    extended = sum(text_lower.count(bw) for bw in EXTENDED_BUZZWORDS)
+    return primary, extended
+
+
+def filter_buzzwords(examples: list[dict]) -> list[dict]:
+    """Drop training examples with excessive buzzword density.
+
+    Thresholds:
+    - Drop if primary_count >= 6
+    - Drop if (primary_count + extended_count) >= 10
+    """
+    kept = []
+    dropped = []
+
+    for ex in examples:
+        assistant_content = ex["messages"][2]["content"]
+        primary, extended = count_buzzwords(assistant_content)
+        total = primary + extended
+
+        if primary >= 6 or total >= 10:
+            # Extract user prompt for identification
+            user_prompt = ex["messages"][1]["content"][:80]
+            dropped.append((user_prompt, primary, extended))
+        else:
+            kept.append(ex)
+
+    if dropped:
+        print(f"\nBuzzword filter: dropped {len(dropped)} examples, kept {len(kept)}")
+        print("Dropped examples:")
+        for prompt, p, e in dropped:
+            print(f"  [{p}p+{e}e={p+e}] {prompt}...")
+    else:
+        print(f"\nBuzzword filter: all {len(kept)} examples passed")
+
+    return kept
+
+
 def main():
     TRAINING_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -311,9 +371,24 @@ def main():
     book_examples = build_book_examples(system_prompt)
     all_examples.extend(book_examples)
 
-    # Podcast transcripts (uses LLM to generate prompts)
-    podcast_examples = build_podcast_examples(system_prompt)
-    all_examples.extend(podcast_examples)
+    # Podcast transcripts — REMOVED in v5
+    # Podcasts have ~0.3 dashes/1k words vs blogs at 7-14/1k, near-zero fragments,
+    # and spoken-word cadence that actively dilutes the written voice signal.
+    # podcast_examples = build_podcast_examples(system_prompt)
+    # all_examples.extend(podcast_examples)
+
+    # Style exemplars (top blog posts duplicated + hand-crafted anchors)
+    # Run scripts/build_exemplars.py first to generate exemplars.jsonl
+    if EXEMPLARS_PATH.exists():
+        exemplar_examples = []
+        with open(EXEMPLARS_PATH, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.strip():
+                    exemplar_examples.append(json.loads(line))
+        print(f"Loaded {len(exemplar_examples)} style exemplars from {EXEMPLARS_PATH}")
+        all_examples.extend(exemplar_examples)
+    else:
+        print(f"No exemplars found at {EXEMPLARS_PATH} — run scripts/build_exemplars.py first")
 
     if not all_examples:
         print("\nNo training examples generated!")
@@ -328,6 +403,9 @@ def main():
     # Validate
     valid_examples = validate_examples(all_examples)
     print(f"\nValidation: {len(valid_examples)}/{len(all_examples)} examples passed")
+
+    # Filter buzzword-heavy examples
+    valid_examples = filter_buzzwords(valid_examples)
 
     # Write output
     output_path = TRAINING_DIR / "all.jsonl"

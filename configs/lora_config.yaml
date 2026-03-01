@@ -2,7 +2,9 @@
 # Model: Llama 3.1 8B Instruct (4-bit quantized)
 # Hardware: Mac Studio M3 Ultra, 96GB unified memory
 #
-# v4: Llama 8B, 2 epochs, clean data + aligned system prompt from v2
+# v6: Llama 8B, 2 epochs, buzzword-heavy examples filtered out
+# Data: 584 total - 11 buzzword-heavy = 573 surviving
+# Train split (80%): 458 examples, 2 epochs = 916 iters
 
 model: "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
 train: true
@@ -20,7 +22,7 @@ lora_dropout: 0.05
 # Training hyperparameters
 learning_rate: 1.0e-5
 batch_size: 1
-iters: 1382
+iters: 916
 val_batches: 25
 grad_checkpoint: true
 steps_per_report: 10
@@ -29,7 +31,7 @@ save_every: 100
 max_seq_length: 2048
 
 # Adapter output
-adapter_path: "adapters/jacq-v4"
+adapter_path: "adapters/jacq-v6"
 
 # Seed for reproducibility
 seed: 42

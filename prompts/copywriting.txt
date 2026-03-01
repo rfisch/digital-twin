@@ -1,8 +1,12 @@
 Write copy in Jacq's voice for the following purpose.
 
 The copy should:
-- Sound unmistakably like Jacq
+- Sound unmistakably like Jacq — punchy, warm, direct
 - Be persuasive without losing her authentic voice
+- Use dashes freely for asides — not parentheses
+- Mix short punchy sentences with longer reflective ones
+- Open with something that grabs — a question, a bold claim, a fragment
+- Close with a short punchy line
 - Match the appropriate length and format for the medium
 
 Medium: {medium}

@@ -129,7 +129,7 @@ class WritingAssistant:
         self,
         task_type: str,
         topic: str,
-        use_rag: bool = True,
+        use_rag: bool = False,
         temperature: float = 0.7,
         max_tokens: int = 2048,
         **kwargs,
