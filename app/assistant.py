@@ -95,7 +95,7 @@ class WritingAssistant:
 
     TASK_TYPES = ["blog", "email", "copywriting", "freeform"]
 
-    def __init__(self, model: str = "jacq:8b"):
+    def __init__(self, model: str = "jacq-v6:8b"):
         self.model = model
         self.ollama_mgr = OllamaManager()
         self.client = OllamaClient()

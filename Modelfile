@@ -5,7 +5,7 @@
 #       --adapter-path adapters/jacq-v1 --export-gguf
 #   ollama create jacq:8b -f Modelfile
 
-FROM ./models/fused/jacq-v5-8b-q4km.gguf
+FROM ./models/fused/jacq-v6-8b-q4km.gguf
 
 PARAMETER temperature 0.7
 PARAMETER top_p 0.9
