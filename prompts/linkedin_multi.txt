@@ -1,0 +1,47 @@
+You have already written {post_number} LinkedIn post(s) from this blog. Here they are:
+
+{prior_posts}
+
+---
+
+Now write a NEW LinkedIn post from the SAME blog post, but focus on a COMPLETELY DIFFERENT angle.
+
+Rules for differentiation:
+- Pick a different insight, lesson, or anecdote than any prior post
+- Your opening hook must be distinct — different structure, different topic sentence
+- Do not repeat the same conclusion or call-to-action phrasing
+- If prior posts used a personal anecdote, try a different rhetorical approach (question, bold statement, counterintuitive take)
+- Each post should stand alone — a reader seeing only this post should get full value
+
+Output ONLY the LinkedIn post text. No title, no heading, no preamble, no "here's the post" intro. Start directly with the hook line.
+
+LinkedIn algorithm rules (follow precisely):
+- HARD LIMIT: 150-300 words. Count them. Do not exceed 300 words.
+- First 2 lines are the hook — they show before "see more". Make them count.
+- Write in short paragraphs (2-4 sentences each), not one sentence per line. Separate paragraphs with a single blank line.
+- NO external links in the post body. Ever. The algorithm kills reach by 60%.
+- End with a question or call to engage (comment, share, reflect) — not a link.
+- 3-5 hashtags at the very end, separated from the body by a line break.
+- Do NOT tease the blog post. Do NOT say "read more on my blog." This post delivers the full value on its own.
+
+Content rules:
+- DISTILL, don't summarize. Pull out ONE core insight or takeaway from the blog post and build the LinkedIn post around it.
+- Reframe the idea for a LinkedIn audience (writers, coaches, creative entrepreneurs, women in business).
+- Use fresh language — do not copy sentences from the blog post. The algorithm penalizes duplicate content and so does the reader.
+- Personal anecdotes from the blog can be kept if they're punchy, but rewrite them shorter.
+- Do NOT invent details, stats, or anecdotes that aren't in the blog post. Only use facts from the source.
+- Do NOT put each sentence on its own line. Group 2-4 sentences into real paragraphs.
+
+Voice rules (same as always):
+- Dashes for asides — never parentheses
+- 1-2 rhetorical questions
+- Sentence fragments for rhythm
+- Start sentences with And, But, So
+- No corporate jargon, no self-help buzzwords
+- Profanity is fine if it fits — don't force it, don't censor it
+
+Blog post to transform:
+
+TITLE: {title}
+
+{content}

@@ -235,10 +235,276 @@ This confirms the self-judging bias hypothesis. The base model rated its own out
 
 ---
 
+---
+
+## Training Version History
+
+### v1 — Initial Baseline (2026-02-28)
+
+**Config:**
+- Model: Llama 3.1 8B Instruct 4-bit
+- LoRA: rank=8, alpha=16, layers=16
+- Learning rate: 1e-5, batch_size=1, max_seq_length=1024
+- Iterations: 600 (~0.87 epochs over 691 examples)
+- grad_checkpoint: true
+
+**Results:**
+- Final train loss: 2.029
+- Val loss: 2.086
+- Peak memory: 6.4 GB
+- Speed: ~549 tokens/sec
+
+**Evaluation (Gemini 2.5 Flash judge):**
+- Overall: 6.7/10 (vs baseline 5.3/10)
+- Vocabulary overlap: 0.23 (vs baseline 0.18)
+- ROUGE-1: 0.43 (vs baseline 0.37)
+- Avg sentence length: 20.3 words (reference: 16.5)
+
+**Findings:**
+- Undertrained — only saw ~87% of training data once
+- Voice was present but inconsistent
+- Model still overshooting sentence length (20.3 vs Jacq's 16.5)
+
+**Checkpoint used:** Final (iter 600)
+
+---
+
+### v2 — 3-Epoch Experiment (2026-02-28)
+
+**Config:**
+- Same as v1 except: 3 epochs
+- LoRA: rank=8, alpha=16
+
+**Results:**
+- Val loss: 1.520
+- Lower loss than v1 but voice quality degraded
+
+**Evaluation:**
+- Overall: 6.7/10 (no improvement over v1)
+- Voice over-smoothed — lost Jacq's edge, directness, and stylistic quirks
+- Model averaged out distinctive features into blander prose
+
+**Key Lesson:** 3 epochs is too many for an 8B model on this dataset. The model memorizes surface patterns and smooths out the voice. 2 epochs became the standard.
+
+---
+
+### v3 — Qwen 14B Experiment (2026-02-28)
+
+**Config:**
+- Model: Qwen 2.5 14B (switch from Llama)
+- 3 epochs
+- Same LoRA config
+
+**Results:**
+- Val loss: 1.533
+- Overall: 2.5/10
+
+**Evaluation:**
+- Catastrophic failure
+- Qwen's safety training fought the LoRA adaptation
+- Model broke character constantly, reverted to assistant-speak
+- Output read like a corporate FAQ, not Jacq's voice
+
+**Key Lesson:** Qwen 2.5 14B is a bad base for voice cloning. Its aggressive safety training overrides LoRA's influence. Llama 3.1 is naturally conversational and easy to steer. Abandoned Qwen entirely.
+
+---
+
+### v4 — Production Baseline (2026-02-28)
+
+**Config:**
+- Model: Llama 3.1 8B Instruct 4-bit
+- LoRA: rank=16, alpha=32, layers=16 (doubled from v1-v3)
+- Learning rate: 1e-5, batch_size=1, max_seq_length=2048 (doubled from v1)
+- 2 epochs (1382 iterations)
+- Checkpoint frequency: every 100 steps
+
+**Results:**
+- Train loss: 1.460
+- Val loss: 1.507
+- Train-val gap: 0.047 (best generalization of any version)
+- Peak memory: 7.8 GB
+
+**Evaluation (Gemini judge):**
+- Overall: 7.0/10 (best at the time, beat v1's 6.9)
+- Better sentence rhythm, vocabulary, and structure
+
+**Key Changes from v1:**
+- Doubled LoRA rank (8→16) and alpha (16→32) — more adapter capacity
+- Doubled max_seq_length (1024→2048) — model sees full blog posts
+- 2 epochs instead of <1 — proper training duration
+
+**Key Lesson:** Doubling LoRA capacity and sequence length was the right move. 2 epochs gave excellent generalization (gap of only 0.047).
+
+---
+
+### v5 — Data Cleanup & Prompt Rewrite
+
+**Config:**
+- Model: Llama 3.1 8B Instruct 4-bit
+- LoRA: rank=16, alpha=32, layers=16
+- Learning rate: 1e-5, batch_size=1, max_seq_length=2048
+- 2 epochs (934 iterations on ~467 train examples)
+- Checkpoint frequency: every 100 steps
+
+**Changes from v4:**
+1. **Removed podcast transcripts** — 142 examples dropped. Podcast transcripts had near-zero dashes (0.3/1k words) and no sentence fragments, actively diluting the written voice. This was the single biggest data quality fix.
+2. **Rewrote system prompt** — Updated with accurate style statistics measured from her actual writing:
+   - Dashes: 7-14 per 1,000 words
+   - Sentence fragments: ~15%
+   - Profanity: ~40% of posts contain mild profanity
+   - Conjunction starters: And, But, So, Or
+   - Previous prompt had wrong claims that created contradictory training signals
+3. **Added style exemplars** — Top 20 blog posts ranked by "Jacq-ness" score + 15 hand-crafted style anchors (`data/training/exemplars.jsonl`, built by `scripts/build_exemplars.py`)
+
+**Results:**
+- Val loss: ~1.15
+- Training examples: ~467 (down from 691 after podcast removal)
+
+**Evaluation (new objective metrics — replaced Gemini judge):**
+- Buzzwords: 5.1 (measured count per piece)
+- Embedding similarity: 0.70
+- Specificity: 5.2
+- Dashes: 12.89/1k words
+- Fragments: ~8%
+
+**RAG experiment (v5):**
+- RAG ON: buzzwords 11.1, embed sim 0.67, specificity 3.9, dashes 17.36
+- RAG OFF: buzzwords 5.1, embed sim 0.70, specificity 5.2, dashes 12.89
+- Conclusion: RAG poisons voice generation. Turned OFF by default for all generation tasks.
+
+**Evaluation system overhaul:**
+- Replaced LLM-as-judge (Gemini) with 3 objective metrics:
+  1. Perplexity (MLX) — does the model predict Jacq's words better?
+  2. Embedding similarity (nomic-embed-text) — does output occupy the same style-space?
+  3. Failure mode detection — targeted counts of buzzwords, dashes, fragments
+- Reason: Gemini judge scored against generic style adjectives, so the base model could score higher by being generically "confident" even though it sounded nothing like Jacq
+
+---
+
+### v6 — Buzzword Filtering (Current Production)
+
+**Config:**
+- Model: Llama 3.1 8B Instruct 4-bit
+- LoRA: rank=16, alpha=32, layers=16, dropout=0.05
+- Learning rate: 1e-5, batch_size=1, max_seq_length=2048
+- 2 epochs (916 iterations on 458 train examples)
+- Checkpoint frequency: every 100 steps
+- Validation: every 50 steps, 25 batches
+
+**Changes from v5:**
+1. **Training data buzzword filter** — Added to `build_training_data.py`: drops examples with primary buzzword count >= 6 or total >= 10. Dropped 11 of 584 examples, 573 surviving, 458 train / 57 valid / 58 test split.
+2. **System prompt cleanup** — Replaced buzzy theme/value labels:
+   - "intentional living" → "doing things on purpose"
+   - "authenticity" → "writing that sounds like a real person"
+   - Added crutch word rule: journey/intentional/authentic once per piece max
+   - Expanded banned jargon list to 13 terms
+
+**Results:**
+- Best val loss: 1.138 at iteration 600
+- Train-val gap: 0.083 at best checkpoint
+- Overfitting onset after iteration 700+
+- Peak memory: 7.8 GB
+- Speed: ~534 tokens/sec
+
+**Evaluation (v6 vs v5):**
+
+| Metric | v5 | v6 | Target | Status |
+|--------|-----|-----|--------|--------|
+| Buzzwords | 5.1 | 4.8 | <5 | Met |
+| Embedding similarity | 0.70 | 0.75 | >0.70 | Met |
+| Specificity | 5.2 | 5.1 | >5 | Met |
+| Dashes | 12.89 | 16.14/1k | 7-14 | Over target |
+| Fragments | ~8% | 8.72% | ~15% | Under target |
+| Directness | — | 4.1/5 | >4.3 | Under target |
+
+**Best checkpoint:** Iteration 600 (NOT the final iteration 916)
+- Copied: `cp adapters/jacq-v6/0000600_adapters.safetensors adapters/jacq-v6/adapters.safetensors`
+
+**GGUF export:**
+- Fuse: `mlx_lm fuse` → `models/fused/jacq-v6-8b-fused/`
+- Dequant: `mlx_lm convert --dtype float16` → `models/fused/jacq-v6-8b-fp16/`
+- GGUF: `mlx_lm gguf --q-type Q4_K_M` → `models/fused/jacq-v6-8b-q4km.gguf` (4.6 GB)
+- Import: `ollama create jacq-v6:8b -f Modelfile`
+
+**Remaining issues for v7:**
+- Dashes 16.14/1k (target 7-14) — overshooting
+- Fragments 8.72% (target ~15%) — undershooting
+- Directness 4.1/5 (baseline 4.3) — slightly below baseline
+
+---
+
+### Training Version Summary
+
+| Version | Model | Epochs | Iters | Val Loss | Gap | Score | Notes |
+|---------|-------|--------|-------|----------|-----|-------|-------|
+| v1 | Llama 8B | ~0.87 | 600 | 2.086 | — | 6.9 | Undertrained baseline |
+| v2 | Llama 8B | 3 | — | 1.520 | — | 6.7 | Over-smoothed voice |
+| v3 | Qwen 14B | 3 | — | 1.533 | — | 2.5 | Qwen fought fine-tuning |
+| v4 | Llama 8B | 2 | 1382 | 1.507 | 0.047 | 7.0 | Best generalization |
+| v5 | Llama 8B | 2 | 934 | ~1.15 | — | — | Podcasts removed, prompt rewrite |
+| v6 | Llama 8B | 2 | 916 | 1.138 | 0.083 | — | **Current production** |
+
+### Cumulative Lessons Learned
+
+1. **2 epochs is the sweet spot** for Llama 8B on ~460 examples — 3 epochs over-smooths
+2. **Qwen is a bad base for voice cloning** — safety training overrides LoRA
+3. **Llama 3.1 8B is naturally conversational** and easy to steer with LoRA
+4. **System prompt accuracy matters enormously** — wrong claims create contradictory training signals
+5. **Train = serve alignment is critical** — system prompt must match between training and inference
+6. **Podcast transcripts actively dilute written voice** — near-zero dashes, no fragments
+7. **RAG poisons voice generation** — use only for factual retrieval, never for style
+8. **Best checkpoint is often NOT the final one** — always check val loss curve
+9. **Training data quality > quantity** — removing 11 bad examples improved output more than adding 100 average ones
+10. **LLM-as-judge is unreliable for voice evaluation** — objective metrics (perplexity, embedding similarity) are more trustworthy
+11. **LoRA rank 16 > rank 8** for voice cloning — more adapter capacity needed to capture stylistic nuance
+12. **Buzzword contamination propagates** — if 65% of training data has buzzwords, the model will generate them regardless of prompt instructions
+
+---
+
+## 2026-03-01 — LinkedIn Content Repurposing (Feature Implementation)
+
+### What was built
+LinkedIn post generator — takes a blog post URL, fetches the content, and generates a standalone LinkedIn post (150-300 words) in Jacq's voice using the fine-tuned model.
+
+### Files created/modified
+- `prompts/linkedin.txt` — LinkedIn-specific prompt template (algorithm rules, content rules, voice rules)
+- `app/assistant.py` — Added `"linkedin"` task type, URL fetching via Squarespace JSON API + HTML fallback, LinkedIn-specific system prompt override, max_tokens cap (512), post-processing cleanup
+- `app/web.py` — Added LinkedIn task type to UI, URL input field, Post to LinkedIn button, word/character counter, temperature default (0.6 for LinkedIn)
+- `app/linkedin_client.py` — LinkedIn API client (OAuth2, post creation via `/rest/posts`)
+- `scripts/linkedin_auth.py` — One-time OAuth2 flow script
+
+### LinkedIn API Details
+- API version: `202507`
+- Endpoint: `POST https://api.linkedin.com/rest/posts`
+- Author format: `urn:li:person:{sub}` where `sub` comes from `/v2/userinfo` OpenID endpoint
+- Required scopes: `openid`, `w_member_social`
+- Credentials: `credentials/linkedin_credentials.json`, `credentials/linkedin_token.json`
+
+### Voice Quality Findings
+- Temperature 0.3: Too harsh — lost Jacq's warmth and personality
+- Temperature 0.5: Decent but flat
+- **Temperature 0.6: Sweet spot** — warm enough for voice, controlled enough for constraints
+- Temperature 0.7: Hallucinated details
+- max_tokens capped at 512 for LinkedIn (enforces 150-300 word range)
+- Model struggles with distillation — tends to write full blog posts instead of condensing
+
+### LinkedIn Algorithm Strategy
+- Native-first: standalone posts deliver full value without linking out
+- LinkedIn penalizes external links by ~60% reach
+- Posts end with engagement question + 3-5 hashtags
+- Profile bio/featured section drives click-through (appears as "direct" in GA4)
+
+### Status
+- LinkedIn posting: working (first post published successfully)
+- OAuth: token expires ~2 months, re-auth via `scripts/linkedin_auth.py`
+
+---
+
 ## Phase Status
 - [x] Phase 1: Environment Setup
 - [x] Phase 2: Data Pipeline
 - [x] Phase 3: Prompt Engineering Baseline
-- [x] Phase 4: Fine-Tuning
-- [x] Phase 5: Writing Assistant App
-- [x] Phase 6: Evaluation (initial run complete, iteration ongoing)
+- [x] Phase 4: Fine-Tuning (v6 — current production)
+- [x] Phase 5: Writing Assistant App (Gradio web UI + CLI)
+- [x] Phase 6: Evaluation (objective metrics: perplexity, embedding similarity, failure modes)
+- [x] LinkedIn Content Repurposing (P0 feature — blog URL → LinkedIn post → API posting)

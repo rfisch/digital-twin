@@ -1,0 +1,1120 @@
+{
+  "config": {
+    "model": "jacq-v5:8b",
+    "baseline": "llama3.1:8b",
+    "use_rag": false,
+    "n_examples": 10,
+    "skip_perplexity": true,
+    "skip_failure_modes": false
+  },
+  "perplexity": {},
+  "examples": [
+    {
+      "prompt": "Write about a recent retreat or getaway where you were able to focus on writing or another creative pursuit.",
+      "reference": "•5:00-7:00 p.m. Fresh air, walking, and creative well refilling. Whether that was strolling through an art gallery, walking around looking at historic buildings, churches, and sculptures - it was a brain break.\n\n•7:00-8:30 p.m. Dinner. Naturally, we'd end up talking about our work, which led to life, family, and all the things business friends talk about.\n\n•9:00-10:00 p.m. Relax, unwind, then bed.\n\nI didn't have a word count goal going into the retreat, but I had about six ideas bulleted out that I needed to flesh out. I guessed that each of the six ideas would be roughly the length of a blog post. It turns out I was right.\n\n•After day one, hour one, I had written 3,557 words (which counted the bullets I had outlined ahead of time). My most productive session!\n\n•By the end of day one, I had 4,700 words.\n\n•By 10:00 a.m. on day two, I had 5,680 words. And I spent much of the second day revisiting what I wrote on day one, which meant tweaking and adding stuff.\n\n•By 11:00 a.m. (lunchtime), I had 6,231 words.\n\n•On day three, I had a three-hour writing marathon in the middle of the day for my community (which meant they were writing and I was coaching) and had to scoot out early to get to my son's playoff hockey game, so I didn't write as much as I thought I would.\n\n•Total three-day writing time for my business: eleven hours.\n\n•Total new words for my business: 8,200 words.\n\nWhen I first saw the total word count and time invested for three days, my ego wanted to feel crappy about it - I should have prepared more, pushed harder, and written more.\n\nBut I stopped that mind chatter. I did more than enough. At this time, I wasn't yet aligning my writing activities with nature's rhythms. We had some great conversations, and I had to think through some business decisions as these came up in my writing. And there were 8,200 words to use in my business that didn't exist before.\n\nHere's an estimated breakdown of my total costs:\n\n•Airbnb for three nights (my portion): $260\n\n•Gas: $30\n\n•Parking: $100\n\n•Lunches and dinners: $400 (this was the highest because I like food and picked up the tab for at least one dinner)\n\nTotal cost: $790.\n\nYou could do it for much more or much less. Travel costs were low, and food costs were relatively higher.\n\nMy biggest worry going into this writing retreat: If I was investing all this time and energy in this trip, I wanted to be sure I'd get more writing done than I would have at home.\n\nSince I didn't plan much in advance, I worried that I'd have too much client work to do or that I wouldn't feel inspired, clear, or even have the stamina to write anything useful. Next time, I'll plan it further in advance and make sure to block my calendar, so I have complete focus.\n\nOne of us didn't write for the specific project we were working on at all on day one - and that's okay.\n\nAfter our second Pomodoro sprint, as I was pouring a third cup of coffee (the cups were tiny), one friend looked up from her laptop and said, \"I'm not writing what I'm supposed to.\"\n\nWithout missing a beat, I replied, \"That's okay.\" Because it is okay. She was writing something - that's the important part. She was journaling, emailing, and doing other writing.\n\nIt was so powerful to see living proof that my belief that writer's block is BS was accurate. She had some stuff to sort out in her mind and heart before she could get to her intended project.\n\nBy the afternoon, she was ready to work on her project, and by day two, she wrote like an intuitive MOFO.\n\nI hope this inspires you to create a little writing retreat of your own - to start your website, a book, a screenplay, a few months of blog content, a bunch of poems, or whatever it is you want to write.\n\nExtended vacations can turn into a writing retreat. I've kick-started lots of projects on planes sans Wi-Fi. You'll love how Mairéad, a writing community member, turned travel into a daily writing habit.\n\nBefore 2020, we used to travel for months from Ireland to mainland Europe in our camper van. I wrote a blog post most days. I cannot understand where I found the time. Travel in a van has lots of extra chores because it's not connected to water or electricity, it has no dishwasher or washing machine, and on damp days there's no suitable place to hang your wet clothes. It can get very uncomfortable.",
+      "reference_preview": "•5:00-7:00 p.m. Fresh air, walking, and creative well refilling. Whether that was strolling through an art gallery, walking around looking at historic buildings, churches, and sculptures - it was a br",
+      "fine_tuned": {
+        "response": "It was like 3:00 am and I woke up in my hotel room with my bladder screaming at me. After a quick trip to the bathroom, I felt refreshed and ready.\n\nI had spent the previous day driving from Toronto down to Pennsylvania, where I would spend three days on a writing retreat. I'd invited a few friends who were also writers, and we were going to hunker down and write for 24 hours straight.\n\nOnce everyone arrived, our hostess brought us dinner - a delicious spread of pasta, bread, and vegetables. We ate in silence, each of us lost in our own thoughts about what we wanted to create the next day.\n\nThe first morning started early, with a 5:30 am wake-up call (note to self: ask for room service instead). We wrote until lunchtime, then took a break outside to enjoy some sunshine. The fresh air and warm sun on my skin was just what I needed - it felt like I'd been cooped up in the hotel room forever.\n\nOne of the best parts about this retreat was that we didn't have access to phones or laptops during our writing time. We were forced to focus entirely on our work, which made for a really productive and focused 24 hours. Well, mostly focused - there was some gossiping going on over lunch (I won't name names), but overall the energy felt really positive.\n\nOne of my favorite parts about this experience was hearing what everyone else had written that day. It's always inspiring to read someone else's work, especially when you've been cooped up in a hotel room all morning and it feels like the sun isn't shining (which I know is crazy - it was actually shining pretty brightly).\n\nWe talked about our projects, and some of us even shared what we had written. It was such a supportive environment that I felt totally comfortable sharing my work. It's always scary to share your writing with others, but in this case it really felt like we were all in the same boat.\n\nAnother great part about this retreat was just how much food there was. The hostess brought us dinner again on the second night - a massive spread of pasta, meatballs, and chicken parmesan. We ate until we were stuffed, then sat around chatting for hours.\n\nI think one of my favorite moments from the entire trip was when I realized that I had written over 4,000 words in just two days. That's a lot, right? It felt like a huge accomplishment to me - especially since I've been working on this book project for a while now. There were some other great moments too, but that one really stood out.\n\nNow, as I sit at home and think about what happened over the past few days, I can see just how much I needed that break. Sometimes it takes getting away from all the distractions in our daily lives to do something creative and focus on our work. It doesn't have to be a three-day writing retreat (or even 24 hours) - sometimes even an hour or two of focused time is enough.\n\nThe most important thing for me was being able to write without distraction, which felt amazing after the past few weeks. I know this might sound weird, but it's actually really helpful when you can get away from all the things that could potentially distract you and just sit down with your writing. It feels like a big weight has been lifted off my shoulders - especially since I've been working on some pretty big projects.\n\nI think one of the best ways to do this is by setting boundaries for yourself around how much time you spend focused on your work. This might mean telling people that you don't have time to chat or meet up, and sticking to your schedule (or not). It might also be about finding a quiet place where you can focus - like my hotel room in Pennsylvania.\n\nThe more I learn about writing the more I realize how much support we need as writers. We're often so isolated in our own heads that it's hard to know if we're on the right track or completely off base (or even worse, stuck). But having a few people around who can offer guidance and encouragement - like my writing friends at the retreat - is absolutely priceless.\n\nThe last day of the retreat flew by in an instant. We wrote some more, then packed up our things to head home. I was sad to leave because it felt so good to be there with these women and just focus on our work. But as soon as we got back into our cars and headed north, I knew that I would be back for another visit.\n\nI stopped at a local diner in Ohio to grab some breakfast (and a much-needed coffee) before driving home to Toronto. They had the best pancakes - big, fluffy, and dripping with syrup. I was so hungry after not eating since lunch the day before that I practically devoured the entire short stack.\n\nThe drive back felt long, but it wasn't until I pulled into my driveway that I realized how much work I still had to do on this book project of mine. It's a big job - almost 50,000 words! But after getting away from all the distractions and focusing for three days straight, I felt confident that I could get it done.\n\nI know I have a long way to go (and probably many more 3:00 am wake-up calls), but this experience reminded me why I love writing so much. It's not just about producing words on a page - it's about connection and community. When you're surrounded by people who understand the struggle of getting your work out there, you feel supported. You know that you're not alone in what you're trying to do.\n\nI also realized how important it is for me to keep writing (and sharing) my stories. It's a way for me to process and make sense of the world around me. And when I'm doing something creative - like writing or painting - I feel more grounded, calm, and at peace.\n\nIt was really special to be able to share this experience with other women who are also passionate about their work. We can learn so much from each other and just by being together (in person), we're supporting each other in a way that feels authentic and meaningful.\n\nI think I'm going to remember this trip for a long time - especially the feeling of having written over 4,000 words in two days. It's such an amazing feeling when you sit back and realize how much work you've accomplished in just 24 hours (or even less).\n\nAs we sat around chatting at dinner on our last night there, I felt grateful for this experience. It was a reminder that it's always okay to ask for support - especially from people who understand your work. And the more I think about it, the more I realize how important it is to keep taking breaks and focusing on my writing projects.\n\nIt wasn't until we were getting ready to leave that one of my friends asked me if I felt like I'd accomplished everything I wanted to in such a short amount of time. My response was an immediate yes - I knew right away that I had done all the work that I needed to do and then some.\n\nThe next morning, as I prepared to head home, I realized just how much I loved writing this book. It's not just about getting words on a page or telling a story (or even making money). It's also about connection - and when you connect with others around shared passions, you feel supported in ways that are hard to explain.\n\nI spent the last few hours of our trip driving north through Pennsylvania and then into Ohio. The drive felt long, but it was an important reminder for me about just how much work I still had ahead of me on this book project (and probably many other things too).",
+        "response_preview": "It was like 3:00 am and I woke up in my hotel room with my bladder screaming at me. After a quick trip to the bathroom, I felt refreshed and ready.\n\nI had spent the previous day driving from Toronto d",
+        "style_metrics": {
+          "ref_avg_sent_len": 19.7,
+          "gen_avg_sent_len": 23.1,
+          "vocab_overlap": 0.2319,
+          "ref_word_count": 789,
+          "gen_word_count": 1376,
+          "ref_structural": {
+            "dashes_per_1k": 6.34,
+            "parens_per_1k": 7.6,
+            "questions_per_1k": 0.0,
+            "fragment_pct": 22.8
+          },
+          "gen_structural": {
+            "dashes_per_1k": 14.53,
+            "parens_per_1k": 9.45,
+            "questions_per_1k": 0.73,
+            "fragment_pct": 1.5
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4747,
+          "rouge2_f": 0.0993,
+          "rougeL_f": 0.1386
+        },
+        "embedding": {
+          "ref_similarity": 0.8793,
+          "centroid_similarity": 0.8309
+        },
+        "failure_modes": {
+          "buzzwords": [],
+          "generic_ai": false,
+          "specifics": {
+            "count": 14,
+            "items": [
+              "3:00 am",
+              "Toronto",
+              "Pennsylvania",
+              "three days",
+              "24 hours",
+              "5:30 am wake-up call",
+              "no phones or laptops",
+              "gossiping over lunch",
+              "over 4,000 words",
+              "two days",
+              "book project",
+              "pasta, bread, vegetables",
+              "pasta, meatballs, chicken parmesan",
+              "bladder screaming"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "A week in a tiny cabin, surrounded by towering pines and a stream that babied me with gentle lapping sounds - what if you just let go of the constant need for productivity and allowed yourself to simply be? I spent those five blissful days doing just that.\n\nI'd been itching to get out of my cozy but overwhelming home office, where the temptation to do everything at once always threatens to consume me. So when a friend offered her family's lake house rental for a week, I jumped at the chance. It was exactly what I needed - a break from the constant need to create and produce.\n\nThe cabin itself was tiny, with creaky wooden floors and a kitchen that seemed to be begging for a good scrubbing. But it had everything I needed: a writing nook, a comfy reading chair, and a view of the lake that would put even the most seasoned meditator to sleep. And then there were the surroundings - nature in all its untamed glory.\n\nI spent my mornings sipping coffee on the porch, watching the mist clear off the water as the sun rose over the hills. Those quiet moments felt like a reset button for my entire being. I'd take a deep breath, feeling the stillness seep into my bones, and let my thoughts wander to whatever writing project needed attention.\n\nAnd then - the best part - I started writing. Not forcing it, not trying to hit any word count targets, just allowing myself to flow onto the page like water over rocks. It was as if all the noise in my head had been muffled, leaving only this gentle hum of creativity that guided me along.\n\nAfternoons were for experimenting with new recipes - think: wine-infused pasta sauce, blackberry jam on toast, and the occasional (okay, frequent) glass of Pinot Noir to keep things interesting. Dinner was often a solo affair, but I didn't mind; I'd sit by the fire, watching the stars twinkle to life above, feeling grateful for this time to recharge.\n\nThe best part? No social media, no email, no phone notifications screaming at me to \"get back on track.\" Just me, my notebook, and the gentle lapping of that stream. Sometimes it's not about what you produce, but how you feel while producing it - or, in some cases, not producing anything at all.\n\nSo here's the question: What if you let go of your next big project for just one week? What if you surrendered to the idea that sometimes it's okay to do nothing at all?",
+        "response_preview": "A week in a tiny cabin, surrounded by towering pines and a stream that babied me with gentle lapping sounds - what if you just let go of the constant need for productivity and allowed yourself to simp",
+        "style_metrics": {
+          "ref_avg_sent_len": 19.7,
+          "gen_avg_sent_len": 22.5,
+          "vocab_overlap": 0.1742,
+          "ref_word_count": 789,
+          "gen_word_count": 433,
+          "ref_structural": {
+            "dashes_per_1k": 6.34,
+            "parens_per_1k": 7.6,
+            "questions_per_1k": 0.0,
+            "fragment_pct": 22.8
+          },
+          "gen_structural": {
+            "dashes_per_1k": 16.17,
+            "parens_per_1k": 2.31,
+            "questions_per_1k": 9.24,
+            "fragment_pct": 4.5
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3591,
+          "rouge2_f": 0.0568,
+          "rougeL_f": 0.1307
+        },
+        "embedding": {
+          "ref_similarity": 0.7692,
+          "centroid_similarity": 0.7941
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "let go",
+            "productivity",
+            "reset button",
+            "recharge",
+            "get back on track",
+            "surrendered"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 9,
+            "items": [
+              "five blissful days",
+              "creaky wooden floors",
+              "kitchen that seemed to be begging for a good scrubbing",
+              "writing nook",
+              "comfy reading chair",
+              "wine-infused pasta sauce",
+              "blackberry jam on toast",
+              "Pinot Noir",
+              "one week"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"Jacqueline Fisch - Wishbeads Guest Blog post\"",
+      "reference": "I've been a long-time fan of Wishbeads bracelets. First, and selfishly, for myself - I mean, who wouldn't want another tool to help make their wishes come true?\n\nAnd then, as a writer and writing coach, I wanted to keep finding ways to surprise and delight my clients. I mean, I can only send people so many pens and notebooks and what better way to celebrate the work my clients accomplish than to support them in making their wishes come true.\n\nWhat's even more amazing is hearing the stories and seeing the pictures of the beads on people's social media feed. My clients often become my friends, and it's incredibly satisfying to deepen a friendship by honoring each other's wishes. I keep a few dozen Wishbeads in a variety of colors stashed under my desk to surprise and delight my clients.\n\nAs I package them up, gratitude and a knowing smile always wash over me as I imagine the look on their face, and then them making a wish, rolling it up, and slipping it inside the secret compartment. And of course, when their dreams become a reality.\n\nSwapping out my wishpaper when my wish has come true brings me tremendous joy.\n\nI have a few Wishbeads bracelets, and they all contain a different wish. There's something that happens when you intentionally focus on a specific outcome - you notice all the ways your wish is already on its way to you.\n\nWhat's also beautiful is how your wish might show up in a slightly different form. It's an excellent reminder to let go of the how. I realized along this wishing journey, that the more I pay attention and look for signs of my wish out there, the faster wishes come true. There's actually some brain science to this too - it's called the reticular activating system (or the RAS) and our brain shows us what we're focusing on. Same reason that once you decide to go Jeep shopping you can't help but notice all the Jeeps on the road.\n\nThis past summer, I wanted to give the ladies in my mastermind group a special gift - something we could all connect with, and deepen our relationship. Having shared many hours of conversations, connections, tears, and advice with them over the past year, I wanted to gift them something meaningful.\n\nI'm also unreasonably practical, so the idea of giving a gift that sits on a shelf or doesn't get used hurts my heart a little.\n\nInside our mastermind group, we all have big goals and important dreams.\n\nWhat if we all had Wishbeads to cement our highest hopes for ourselves and our businesses?\n\nWanting to give each of these important women a color they'd love, I sent everyone a cryptic message the evening before my flight to meet them at our annual retreat, \"Black, blue, or green?\" The three colors of bracelets I had beneath my desk. I collected their responses, tucked their Wishbeads into my carry-on bag and boarded the plane.\n\nOur theme for our most recent group mastermind retreat was rejuvenation, and we had just spent a delicious hour vibrating along with a sound bath experience. It was my first sound bath experience - you lay down on yoga mats while someone creates sounds using a variety of instruments, including tuning forks, gongs, crystal singing bowls, chimes, and voice.\n\nThe sound bath left us deeply relaxed, so now was the perfect time to present the gifts.\n\nI called each member of our group over and presented a Wishbeads bracelet in their chosen color, which was followed by gasps of delight, gratitude, and hugs. Having been an experienced \"wisher,\" I offered up some suggestions on the specific language to use when writing their wishes.\n\nThe results of our group all leaving that evening, making wishes, and seeing them wearing their intentions was potent.\n\nSome ladies shared their wishes later with the group, and some kept them private.\n\nWithin a few weeks the updates started rolling in:\n\nMy wish came true already!\n\nI crushed it! Time for a new wish!\n\nMy wish is coming true!\n\nIt ended up looking slightly different, but still amazing!\n\nWishing as a group was a powerful and moving experience. In our inner circle, we held each other accountable and were able to hold the space, and in a way, amplify one another's wishes. Having insight into each other's big intentions also helped us to serve as reminders for one another - for those of us who shared our wish, we now had five other women keeping their eyes and ears open for clues.\n\nWishing alone can take you far, wishing together can take you farther!\n\n(Insert Podcast recording)\n\nJacqueline Fisch is an intuitive writer, strategist, and coach for business owners who want to sound human while they make an impact in the world. She's the creator of Write Like a MOFO, an online writing community for writers, coaches, and business owners. In this podcast, we chat about the power of setting intentions and goals and then doing some dang work to get it done! Learn more about Jacq here.",
+      "reference_preview": "I've been a long-time fan of Wishbeads bracelets. First, and selfishly, for myself - I mean, who wouldn't want another tool to help make their wishes come true?\n\nAnd then, as a writer and writing coac",
+      "fine_tuned": {
+        "response": "**How to Keep Writing Through the Holidays: 7 Tips from a Seasoned Writer**\n\nI've been writing for over a decade, but I still find that the holidays can throw me off my game. It's easy to get sidetracked by holiday baking (which is not as fun when you're eating all of your own creations) and family time.\n\nHere are some ways I stay on track with my writing during the holidays:\n\n**1. Set a goal**\n\nMy goal for this season was to write 5,000 words. This might seem like a lot if you're looking at it from an external perspective, but it's actually a manageable amount of words that will help me make progress on my larger projects.\n\n**2. Plan ahead**\n\nI started planning my holiday content well in advance - sometimes up to 3 months before the season starts. Having a plan helps me stay focused and makes sure I'm not scrambling at the last minute for ideas.\n\n**3. Use your downtime wisely**\n\nInstead of spending all day watching holiday movies, use some of that time to write. You can get more done in an hour than you might think, especially if you have a plan.\n\n**4. Keep it short and sweet**\n\nDon't feel like writing a 2,000-word blog post? Write a series of shorter posts instead! This will help you stay focused and make progress on your goals without feeling overwhelmed by a big piece of content.\n\n**5. Make the most of morning pages**\n\nMorning pages are a great way to get some writing done before anyone else wakes up in the house. I also use them as a place to brainstorm new ideas or work through any creative blocks.\n\n**6. Keep your eyes on the prize**\n\nRemember why you're doing this - because you love it, and because you have something valuable to say. Don't let others make you feel like you should be spending more time baking cookies than writing (as much as I adore cookies).\n\n**7. Be intentional with your time**\n\nIf someone asks if they can schedule a meeting or call with you during the holidays, ask them when would work best for you - and then stick to that date and time.\n\nAs a writer, it's easy to get sucked into the idea of taking a break from writing during the holiday season. But by being intentional about your time and setting small goals, you can keep making progress on your projects even while surrounded by festive lights and family members who are eager to know what you're doing in there with all those words.\n\nIf you have any favorite ways to stay motivated and make progress on your writing during the holidays, I'd love to hear them. Let me know in the comments below!\n\nJacqueline Fisch is a writer, copywriter, and writing coach who helps women get their creative projects off the ground. She's been featured on The Write Life and has contributed to various publications including The Creative Penn.\n\nFind more writing tips and inspiration from Jacqueline at How Women Write - a podcast dedicated to exploring what it means to be a female writer in today's world.",
+        "response_preview": "**How to Keep Writing Through the Holidays: 7 Tips from a Seasoned Writer**\n\nI've been writing for over a decade, but I still find that the holidays can throw me off my game. It's easy to get sidetrac",
+        "style_metrics": {
+          "ref_avg_sent_len": 21.8,
+          "gen_avg_sent_len": 20.7,
+          "vocab_overlap": 0.1993,
+          "ref_word_count": 855,
+          "gen_word_count": 527,
+          "ref_structural": {
+            "dashes_per_1k": 7.02,
+            "parens_per_1k": 2.34,
+            "questions_per_1k": 3.51,
+            "fragment_pct": 2.2
+          },
+          "gen_structural": {
+            "dashes_per_1k": 7.59,
+            "parens_per_1k": 3.8,
+            "questions_per_1k": 1.9,
+            "fragment_pct": 20.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4,
+          "rouge2_f": 0.0483,
+          "rougeL_f": 0.1333
+        },
+        "embedding": {
+          "ref_similarity": 0.6189,
+          "centroid_similarity": 0.8128
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "intentional"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 9,
+            "items": [
+              "over a decade",
+              "5,000 words",
+              "3 months",
+              "2,000-word blog post",
+              "Morning pages",
+              "Jacqueline Fisch",
+              "The Write Life",
+              "The Creative Penn",
+              "How Women Write"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "**How to Break Free from Writing Shame (and Why You Should)**\n\nI'm sitting here with my morning coffee, surrounded by the chaos of family life – aka my two tiny humans and their dad trying to cook breakfast while I attempt to write. It's a scene you might see in any given household, but it's also a reminder that I don't have to be writing like this all the time.\n\nYou know what holds us back from our best writing lives? Writing shame. Yes, that's a thing – and it's a real pain in the butt. It's the voice in your head telling you, \"You're not good enough,\" or \"No one wants to read your stuff.\" Sound familiar?\n\nI used to be a corporate writer. The kind who cranked out reports with ease, but also felt like I was slowly dying inside. When I made the leap to full-time writing, it wasn't just about trading in my suit for yoga pants – it was about confronting this deep-seated shame.\n\nHere's the thing: writing is not a competition. It's not a space where we try to outdo each other or prove our worth. It's about sharing our stories, our thoughts, and our experiences with others. So why do we let shame hold us back?\n\nJust that. I mean, think about it – if you're holding onto writing shame, what are you really saying? That your words don't matter? That no one wants to hear from you?\n\nEvery single time I've tried to push through this shame and just write anyway, I've ended up with something beautiful. Not because I'm a \"good\" writer (I'm still working on that), but because I was willing to take the risk.\n\nSo what if you just... stopped trying to fix it? What if you let go of the need for perfection and just wrote from the heart?\n\nHere's my promise to you: your words do matter. They may not change the world overnight, but they can spark something in someone else. And that's worth fighting for.\n\nAnd – I know this might sound weird – but I'm going to give you a gift. It's called \"write-ability.\" Yeah, I just made that up. But it's real. When we write from a place of shame, our words are laced with doubt and fear. We're not being true to ourselves.\n\nSo let's try something new. Let's take a deep breath, grab a cup of coffee (or tea, or wine – whatever fuels you), and just... write.\n\nNot for anyone else, but for yourself. For the sake of putting words down on paper and seeing where they take us.\n\nAnd if it's all crap? Well, that's okay too. Because sometimes we have to get the crap out before we can find what's truly beautiful.\n\nNow, go ahead – I dare you. Write like no one is watching. Write with abandon. Write because you must.\n\nNot even close to perfect yet, but getting there.\n\nHow will you break free from writing shame today?",
+        "response_preview": "**How to Break Free from Writing Shame (and Why You Should)**\n\nI'm sitting here with my morning coffee, surrounded by the chaos of family life – aka my two tiny humans and their dad trying to cook bre",
+        "style_metrics": {
+          "ref_avg_sent_len": 21.8,
+          "gen_avg_sent_len": 14.1,
+          "vocab_overlap": 0.1793,
+          "ref_word_count": 855,
+          "gen_word_count": 502,
+          "ref_structural": {
+            "dashes_per_1k": 7.02,
+            "parens_per_1k": 2.34,
+            "questions_per_1k": 3.51,
+            "fragment_pct": 2.2
+          },
+          "gen_structural": {
+            "dashes_per_1k": 15.94,
+            "parens_per_1k": 5.98,
+            "questions_per_1k": 19.92,
+            "fragment_pct": 19.6
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3897,
+          "rouge2_f": 0.0488,
+          "rougeL_f": 0.1361
+        },
+        "embedding": {
+          "ref_similarity": 0.5822,
+          "centroid_similarity": 0.8283
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "break free",
+            "best writing lives",
+            "deep-seated shame",
+            "spark something",
+            "true to ourselves",
+            "write with abandon",
+            "getting there",
+            "confronting",
+            "fuels you"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 11,
+            "items": [
+              "morning coffee",
+              "two tiny humans",
+              "their dad",
+              "corporate writer",
+              "reports",
+              "suit",
+              "yoga pants",
+              "write-ability",
+              "cup of coffee",
+              "tea",
+              "wine"
+            ]
+          },
+          "directness": 5
+        }
+      }
+    },
+    {
+      "prompt": "Describe the writing process as a journey of intentional motion and growth, where one's body of work is carefully curated to nourish and delight their audience.",
+      "reference": "An object in motion tends to stay in motion. That's our goal here - motion. And not just any kind of motion: Intentional, grounded, and aligned motion to support your highest path. There will be bumps and it will be uncomfortable at times. The more you embrace discomfort and feel okay in it, the more you'll grow as a writer and as a person. Buckle up and enjoy the ride.\n\nChapter 20: Your body of work\n\nIn Chapter 13 we talked about your charcuterie board of content. If you're worried your content, books, and blog posts all read like a mishmash of topics, I invite you to think about everything you write about as a component that goes on one of these tastebud adventures on a wooden plank.\n\nThe tastes of the charcuterie board are delicious when enjoyed alone and even better when paired together. And with a delightfully curated presentation, it's also a feast for your eyes.\n\nApplying the charcuterie concept to your writing, each of your blog posts, courses, and books are nourishing and helpful on its own. When enjoyed one after another with a small taste from all the other accompanying content - the experience is even better.\n\nYour group programs paired with your weekly emails.\n\nYour books paired with your newsletter.\n\nYour social media captions paired with your poetry.\n\nYour podcast paired with your workshops.\n\nThis is why organizing your content into buckets, or a handful of key themes, will help your work appear as a charcuterie board. You wouldn't drop mashed potatoes, Brussels sprouts, or spaghetti on your board. It wouldn't fit.\n\nAnd now, if you're wondering how many themes you have or how even to begin organizing your body of work, here are some ways to figure them out.\n\nRemember that each piece of writing you create is not for everyone. Think about the writers you enjoy - do you absolutely love every bit of their work? Maybe. But chances are that you enjoy some pieces more than others.\n\nJust like the plant-based eater at your party, they're not going to be mad if there's prosciutto on your plate - they'll just eat the things they prefer.\n\n1. Scan your existing writing.\n\nLook across everything you've ever written. If you had to put all the topics into categories, where would they naturally fit? Then, consider your list of groups and think about combining or removing some if there are too many. Are there some topics you no longer write about? You can let those live on the internet and write about things you're most interested in now. If you notice you have a single theme, that's great too. You can absolutely stick to one subject or add more if you feel inspired in the months and years ahead.\n\n2. Consider what you want to be known for.\n\nHow do you want people to remember you? Do you want them to remember you for your ability to tell a story and apply a life lesson? Do you want to be known for your no-BS talk? What subject matter do you want readers to associate with your name? Do you want to be a poet who cooks? A romance writer who's also a kickass marketer?\n\n3. Consider what you could talk about all day long.\n\nWhen you talk about something, and it brings you an inner feeling of excitement and enthusiasm, that right there is magic - follow it. Remember, what feels good to you to create feels good to your readers. List out all the topics that make you feel antsy with anticipation. Subjects so good that you can't wait to share what you know.\n\n4. What do people always ask for your advice on?\n\nIf people constantly ask you for cooking advice and you're a life coach, you may want to keep those topics to a minimum. When you notice you're giving the same advice repeatedly, you've got a gift right there. That's the magic sauce you can serve to your audience.\n\nIntuitive Writing Tip\n\nUncouple the idea that everything you write needs to make money. Some writing can (and should) be for fun or for helping others. Let your art be art without putting pressure on it to do something for you - like make you famous or rake in a million bucks.\n\n5. Write out your list of themes - maybe you have one, three, or even six.\n\nReview each topic on the list. Do you enjoy and want to continue talking about these topics? If not, go ahead and strike some. Maybe what you remove from your blog content is what you'll share in your books. And if you do love these topics, now you have some boundaries to help you brainstorm.",
+      "reference_preview": "An object in motion tends to stay in motion. That's our goal here - motion. And not just any kind of motion: Intentional, grounded, and aligned motion to support your highest path. There will be bumps",
+      "fine_tuned": {
+        "response": "As you sit down to write, imagine yourself stepping onto a path that winds through mountains. You're about to begin a journey that requires intention - not just every step you take, but every thought, feeling, and word.\n\nYour goal isn't just to get from point A to B. It's to experience the journey itself. To pay attention to your surroundings, to notice the subtle shifts in light and shadow as the sun rises over the mountains, casting long shadows behind the trees.\n\nYou're not rushing through this mountain pass. You're taking time to breathe, to pause, and to look around. Every step you take is an intentional motion - a conscious movement towards clarity and purpose.\n\nYour writing is your body of work. As you make progress on your journey, it's not just about the destination. It's about how you feel along the way. You're nourishing yourself with every word, every sentence, and every story. And as you move forward, you're creating a landscape that will eventually bring delight to your readers.\n\nImagine standing at the top of the mountain pass, looking out over a vast expanse of rolling hills and valleys below. That's where your writing takes shape. It's not something you force - it's something that unfolds naturally from within you.\n\nYour body of work isn't just about what you write. It's about how it makes people feel when they read it. Is it inspiring? Uplifting? Provoking? Challenging?\n\nYou're not trying to force-feed your audience anything. You're simply being a vessel for the wisdom, experiences, and stories that want to come through you. Your writing is your offering - a gift to share with others.\n\nAs you continue on this journey, you'll notice changes within yourself. You might feel more grounded, more confident, or more clear about what matters most to you. This isn't just luck or accident. It's the result of intentional motion and growth.\n\nYou're not trying to change who you are. You're simply evolving into a more authentic version of yourself - one that shines brighter with every step you take. And as you continue along this path, your writing will naturally reflect those changes.\n\nYour body of work is an extension of yourself - an expression of who you are and what you bring to the world through your words. It's not something external or separate from you; it's a reflection of the journey you're on and all that you've learned along the way.\n\nSo as you continue down this mountain path, remember that every step is intentional. Every word matters. And every story - no matter how big or small - has the power to impact someone's life in a meaningful way.\n\nThe question now becomes: What kind of body of work do you want to leave behind?",
+        "response_preview": "As you sit down to write, imagine yourself stepping onto a path that winds through mountains. You're about to begin a journey that requires intention - not just every step you take, but every thought,",
+        "style_metrics": {
+          "ref_avg_sent_len": 14.4,
+          "gen_avg_sent_len": 14.5,
+          "vocab_overlap": 0.1952,
+          "ref_word_count": 791,
+          "gen_word_count": 466,
+          "ref_structural": {
+            "dashes_per_1k": 8.85,
+            "parens_per_1k": 1.26,
+            "questions_per_1k": 13.91,
+            "fragment_pct": 12.7
+          },
+          "gen_structural": {
+            "dashes_per_1k": 17.17,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 10.73,
+            "fragment_pct": 13.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4369,
+          "rouge2_f": 0.0714,
+          "rougeL_f": 0.158
+        },
+        "embedding": {
+          "ref_similarity": 0.7712,
+          "centroid_similarity": 0.8329
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "journey",
+            "intentional",
+            "clarity and purpose",
+            "body of work",
+            "nourishing yourself",
+            "unfolds naturally",
+            "vessel",
+            "offering",
+            "grounded",
+            "growth",
+            "evolving",
+            "authentic version of yourself",
+            "shines brighter",
+            "extension of yourself"
+          ],
+          "generic_ai": true,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "The writing life - it's like planting a garden, isn't it? You sow seeds of thought, tend to them with attention, and watch them bloom into words that feed the soul.\n\nFor me, the writing process starts before dawn, when my mind is still quiet and my body is awake but not yet alert. I savor a cup of strong coffee, feel the weight of my pen in hand, and let the blank page stare back at me like an open door. And then... I start to move.\n\nNot always with purpose, mind you. Sometimes I just put words on paper because it's what my fingers demand. Other times, I'm chasing a thread of thought that refuses to be silenced. Either way, the act of writing becomes a form of yoga - a practice of bending and releasing, of surrendering to the flow.\n\nAs the days turn into weeks, and the pages start to fill up with words, the motion begins to shift. It's no longer just about putting pen to paper; it's about cultivating a conversation with my audience. I think back on the women who've shared their stories with me through the podcast - how they weave together threads of personal experience, intuition, and creative passion.\n\nAnd that's when it hits me: our bodies of work aren't just collections of words; they're living, breathing ecosystems that nourish and delight those who engage with them. It's not about churning out content for its own sake; it's about curating a collection of writing that is an extension of ourselves - our quirks, our strengths, our messiness.\n\nSo I slow down, take my time, and ask myself: what do I want to feed my audience? What stories need to be told, what wisdom shared, what laughter evoked? And as the words start to flow, I'm no longer just writing; I'm tending a garden of connection, where each piece of work is carefully planted to flourish.\n\nThe journey may twist and turn, but with every step forward, I become more attuned to my own voice, my own rhythm. The motion deepens, and the words start to take on a life of their own - as if they're not just coming from me, but through me. And that's when the magic happens: we create something that's greater than the sum of its parts - a tapestry of words that weave together our hearts, our passions, and our unique perspectives.\n\nWhat if you just let your writing process unfold like this? What if you trusted the motion to guide you, instead of trying to control every step along the way?\n\nJust start moving. See where the words take you.",
+        "response_preview": "The writing life - it's like planting a garden, isn't it? You sow seeds of thought, tend to them with attention, and watch them bloom into words that feed the soul.\n\nFor me, the writing process starts",
+        "style_metrics": {
+          "ref_avg_sent_len": 14.4,
+          "gen_avg_sent_len": 21.0,
+          "vocab_overlap": 0.1828,
+          "ref_word_count": 791,
+          "gen_word_count": 445,
+          "ref_structural": {
+            "dashes_per_1k": 8.85,
+            "parens_per_1k": 1.26,
+            "questions_per_1k": 13.91,
+            "fragment_pct": 12.7
+          },
+          "gen_structural": {
+            "dashes_per_1k": 13.48,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 11.24,
+            "fragment_pct": 12.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3851,
+          "rouge2_f": 0.054,
+          "rougeL_f": 0.1331
+        },
+        "embedding": {
+          "ref_similarity": 0.7811,
+          "centroid_similarity": 0.8606
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "flow",
+            "cultivate",
+            "journey"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 1,
+            "items": [
+              "women who've shared their stories with me through the podcast"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Describe the strategies you use to manage your thoughts and emotions when faced with negative self-talk or criticism from others.",
+      "reference": "One of my favorites is the cancel process. While I'm usually thoughtful with my words, sometimes my mouth moves faster than my brain, and I say something stupid or out of line. Wait! I take that back! Well, I do the same with my thinking. When a thought creeps up that dulls my shine, I say something in my head like cancel, cancel, cancel, or delete, delete, delete, or reject and delete.\n\nThen, I get to tell a better story.\n\nYou are in charge of your thoughts. You can change them whenever you like. Hear a load of crap in your ear? Stop that thought and tell yourself another one. You don't have to be all fairy dust about it and tell yourself that you're a sparkly rainbow of luminous delight. Use words you'd use with close friends, like \"Hey, this is completely normal, do better next time.\"\n\nI also have a thank bank that I deposit praise, kind emails, and kudos into regularly. I keep mine in a Google Doc and in a special email folder that I literally named \"Thank Bank.\" Every time I get a gushing email, or a small note of thanks or praise, I take a copy and store it in my thank bank. On days when my thoughts are running wild, I make a mistake, or actually do suck at something, I read through my thank bank and feel so much better.\n\nBeyond showering myself in gratitude, sharing gratitude outward gives me an instant boost. Sometimes I write a thank-you note on a card and drop it in the mail, send a nice email, or write a review of a favorite restaurant.\n\nIn addition, consider getting a coach, a therapist, and some friends who will check your limiting thoughts at the door. Even better, get all three - remember, you become the essence of the five people you spend the most time with.\n\nFor most of my life I tried to go it alone. The lone warrior, I always had an idea that asking for help made me weak. I'm still unraveling those behaviors. The more you ask for help, the more you realize that people want to help. Especially when those people are good at it.\n\nHere's what my support network looks like these days - Ryan holding up the other end of our household in his career, striving for more and better, and pushing me to be better. My kids to show me where I need to work on myself, and for them to do chores around the house (for this reason, a housekeeper is not yet part of my support system). A paid mastermind because I don't want to be the smartest person in a room. Business besties - friends I can text in the middle of the day when I'm stuck or need to bounce my latest idea off someone. A coach - who's supported me in wiping out negative emotions (yeah, I didn't think it was possible either) and showing me how to train my brain to expect good things. My work with my coach has been a game changer. My family, who I can always count on. Even though we're five hundred miles away, they're my number one fans.\n\nAn objective opinion will be able to spot a negative thought spiral a mile away and can help you reframe it. And it takes practice. I've spent more than a decade consciously looking at my thoughts, and there's still some gunk that comes up in there from time to time. It's going to happen - I can use the opportunity to strengthen my mind, and over time, it becomes a habit.\n\nYou've got a masterpiece to create\n\nWhen I was first thinking about starting a business - remember, eight whole years before I had enough momentum to take it full time, I spent months trying to figure it out by staring at my computer, filling out worksheets, and downloading every free PDF on the internet - I was doing a lot of things that made me feel like I was building something but didn't actually take me any further down the road. I was desperate to finally figure out what it was that I wanted to do with my life. It was as if someone else or something outside of me had all the answers.\n\nNight after night, I'd eat an inappropriate amount of chocolate and drink just a little more wine than I'd planned. I'd have an idea - I'm going to only write about hummus! I wish I was joking. I thought I was going to build a business around dip. Now, I believe you can create a business around just about anything. Building a thriving income around dip might have been a stretch, though.",
+      "reference_preview": "One of my favorites is the cancel process. While I'm usually thoughtful with my words, sometimes my mouth moves faster than my brain, and I say something stupid or out of line. Wait! I take that back!",
+      "fine_tuned": {
+        "response": "You're going to want to take a step back and ask yourself: What are you thinking? Who is telling you this? Is it true?\n\nWhen I'm faced with negative self-talk or criticism from others, here's how I manage my thoughts and emotions:\n\nFirst, I pause. I put down whatever I was doing and take a breath in through my nose and out through my mouth.\n\nThen, I ask myself if what I'm thinking is really true. If I believe the negative narrative, it might be helpful to write about why that's the case. Is this story something I've been telling myself for years? Is it serving me?\n\nOnce I have some clarity around whether or not it's even a valid thing to think, I ask myself if I'm willing to let go of it. Am I ready to move on from this belief? If so, I make a conscious decision to release it.\n\nIf the negative self-talk is coming from someone else, I try to put myself in their shoes and see where they're coming from. What are they afraid of? Are they insecure about something?\n\nThen, I look at my own strengths and accomplishments. How many times have you accomplished something amazing today? Last week? Last year? You've got this! Keep going.\n\nAnd if all else fails, I remind myself that negative thoughts are just that - temporary visitors in my mind and heart. They don't define me or my worth. They're not facts; they're just thoughts.\n\nFinally, I tell myself something kind, like: \"I'm doing the best I can,\" or, \"That's okay, it's only a mistake if you let it be.\"",
+        "response_preview": "You're going to want to take a step back and ask yourself: What are you thinking? Who is telling you this? Is it true?\n\nWhen I'm faced with negative self-talk or criticism from others, here's how I ma",
+        "style_metrics": {
+          "ref_avg_sent_len": 19.6,
+          "gen_avg_sent_len": 13.4,
+          "vocab_overlap": 0.2128,
+          "ref_word_count": 798,
+          "gen_word_count": 273,
+          "ref_structural": {
+            "dashes_per_1k": 10.03,
+            "parens_per_1k": 2.51,
+            "questions_per_1k": 1.25,
+            "fragment_pct": 6.4
+          },
+          "gen_structural": {
+            "dashes_per_1k": 3.66,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 40.29,
+            "fragment_pct": 26.9
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3521,
+          "rouge2_f": 0.0782,
+          "rougeL_f": 0.1289
+        },
+        "embedding": {
+          "ref_similarity": 0.7487,
+          "centroid_similarity": 0.7459
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "negative narrative",
+            "serving me",
+            "clarity",
+            "conscious decision",
+            "release it",
+            "define me or my worth"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "So, let's talk about the inevitable - that inner critic who loves to show up uninvited. You know, the one who's always like, \"You're not good enough,\" or \"Your writing is crap.\" Yeah, I've got a few choice words for her, too.\n\nFirst of all, I want you to try something with me: when those voices come up - and they will come up - just acknowledge them. Say it out loud, or to yourself: \"Okay, inner critic, I see you. You're here again.\" Don't engage, don't argue, just observe.\n\nNow, here's where things get interesting. Have you ever noticed how our brains love to catastrophize? Yeah, mine does too. So when that inner critic shows up, my brain starts racing with all the worst-case scenarios: \"You'll never finish this project,\" or \"Your writing will never be good enough.\" But I've learned a trick to shut that down.\n\nI call it the \"pause and pivot\" technique. When those thoughts start spiraling out of control, I pause - just for a second. Literally, take a deep breath in, hold it for a beat, and exhale slowly. And then, pivot. Ask yourself: \"What would happen if...?\" What if this project does take longer than expected? What if my writing isn't perfect? (It won't be.)\n\nYou see, our brains are wired to seek perfection, but the truth is, it's just not possible. And what happens when we aim for perfection? We freeze up, we procrastinate, and we give in to that inner critic.\n\nBut here's the thing: you don't have to believe every negative thought that crosses your mind. You can choose to reframe them. So, when that voice says, \"You're not good enough,\" I say back to it: \"I'm doing my best with what I've got right now.\" And if someone else tells me I'm not good enough? Well, that's their problem, not mine.\n\nOne final thing to remember: you are not your thoughts. They're just passing through, like clouds in the sky. You get to choose how you respond to them. So, take a deep breath, and remind yourself: \"I trust my process.\"",
+        "response_preview": "So, let's talk about the inevitable - that inner critic who loves to show up uninvited. You know, the one who's always like, \"You're not good enough,\" or \"Your writing is crap.\" Yeah, I've got a few c",
+        "style_metrics": {
+          "ref_avg_sent_len": 19.6,
+          "gen_avg_sent_len": 14.7,
+          "vocab_overlap": 0.216,
+          "ref_word_count": 798,
+          "gen_word_count": 352,
+          "ref_structural": {
+            "dashes_per_1k": 10.03,
+            "parens_per_1k": 2.51,
+            "questions_per_1k": 1.25,
+            "fragment_pct": 6.4
+          },
+          "gen_structural": {
+            "dashes_per_1k": 11.36,
+            "parens_per_1k": 2.84,
+            "questions_per_1k": 17.05,
+            "fragment_pct": 15.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3807,
+          "rouge2_f": 0.0593,
+          "rougeL_f": 0.1269
+        },
+        "embedding": {
+          "ref_similarity": 0.7305,
+          "centroid_similarity": 0.7846
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "inner critic",
+            "show up",
+            "catastrophize",
+            "pause and pivot",
+            "reframe",
+            "trust my process"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post about inspiring astrology writing prompts for creative businesses",
+      "reference": "I love a good writing prompt. Sometimes I look at writing prompts, especially when they're in a prescribed format when I have to follow them in order, and they feel stifling.\n\nOr, I read a prompt, ready to dive into my unconscious mind to see what wants to come out, and it just feels off. I can't explain the feeling, but it doesn't feel exciting to write about.\n\nA few years ago, I started aligning my content writing calendar with the astrological calendar.\n\nSo why not have a set of writing prompts to explore during every astrological season?\n\nHow to use these prompts:\n\nSave this article to come back to throughout the year and visit each sun sign's writing prompts as we move from season to season.\n\nChoose to ponder, write about, or explore one prompt a week for the season.\n\nHave fun with them and come back to them.\n\nYou can use these to drive content inspiration for your business, or writing ideas for your blog and emails - just use them.\n\nPlay with the writing prompts for your sun, rising, and moon signs. Don't know what those are? Find out for free on astro.com with your date, time, and place of birth, or join my favorite astrologer's community - Luminary Parenting.\n\nAries: The Ram\n\nDates: Mar 21 - Apr 19\n\nMode + Element: Cardinal Fire\n\nWhat lights your fire?\n\nWrite 5-10 \"I am...\" statements in positive toward language.\n\nHold a ceremony to initiate yourself as a writer.\n\nWrite out the details of your most abundant launch. How do people feel signing up? Where are you? How do you celebrate?\n\nDuring what event did you feel truly fearless? Where is that energy needed today?\n\nTaurus: The Bull\n\nDates: Apr 20 - May 20\n\nMode + Element: Fixed Earth\n\nList 10 things you have - Can be material goods, strengths, or qualities that help you feel safe, secure, and at peace.\n\nHow can you serve your current customers ever more powerfully?\n\nReview your body of work. Write gratitude for your favorite creations.\n\nPut your bare feet on the ground and ask, who am I?\n\nReview your list of unfinished projects. Choose one project and a target completion date. What resources do you need to finish it? Who can help? Write it on your calendar and plan your finishing strategy.\n\nGemini: The Twins\n\nDates: May 21 - Jun 20\n\nMode + Element: Mutable Air\n\nWhat do you want to know from your audience? Send an email and ask them.\n\nWrite your argument for what you believe. Now get curious, and write the opposite.\n\nWhat difficult conversation do you need to have? Write what you'll say in an email or letter. Only send it if you want to.\n\nDescribe the way you'd like to improve your communication.\n\nDescribe your favorite co-creation with the Divine.\n\nCancer: The Crab\n\nDates: June 21 - July 22\n\nMode + Element: Cardinal Water\n\nWrite about how you feel around bodies of water.\n\nWhere can you nurture your inner writer more deeply?\n\nHow do your clients like to be nurtured?\n\nGo above and beyond to nurture your next prospective client. What do you do?\n\nCreate a survey for your customers with all the things you'd love to know but were afraid to ask.\n\nReconnect with a past customer or your email list.\n\nLeo: The Lion\n\nDates: July 23 - Aug 22\n\nDeclare what you'll do this month in a series of \"I will\" statements.\n\nWhere do you crave more visibility? Where can you promote yourself?\n\nPlan your next launch with all the bold details, including how you'll celebrate.\n\nCommit a day this week to looking for sparks.\n\nPlan the rest of your year.\n\nIs your authentic self showing up in your writing?\n\nWhere are you called to go BIG?\n\nVirgo: The Virgin\n\nDates: Aug 23 - Sep 22\n\nMode + Element: Mutable Earth\n\nWhat's your favorite way to serve?\n\nAsk your readers, \"How can I best serve you today?\"\n\nGo through all your old notes and files. What feels valuable to pay more attention to?\n\nHow do you feel about your current content format (blogging, podcasting, social media posting)? What else could you explore?\n\nList out your strengths in your teaching style.\n\nLook at your well-being routine. Think about where it needs an upgrade.\n\nLibra: The Scales\n\nDates: Sep 23 - Oct 22\n\nMode + Element: Cardinal Air\n\nIf you could collaborate with your favorite creative or business person, what would you make together?\n\nHow can you improve your relationship with your reader?\n\nWhere are you craving more balance?\n\nRevisit your writing space and make some small upgrades to make it more inviting.\n\nCraft a vision board of your dreamiest writing retreat.\n\nList your most trusted business friends. Do they fit where you're going? Is there anyone missing?\n\nScorpio: The Scorpion\n\nDates: Oct 23 - Nov 21\n\nMode + Element: Fixed Water\n\nReview the parts of your client's lives that you change and write 10 declarations starting with, \"I transform...\"\n\nShare a case study of a client transformation.\n\nWrite about a transformation you've been through how you achieved it.\n\nWhat work is calling for you to put your head down and go deep?\n\nWhat will you commit to?\n\nHow could you put yourself out there (even if it feels scary) just to see what happens?\n\nSagittarius: The Archer\n\nDates: Nov 22 - Dec 21\n\nMode + Element: Mutable Fire\n\nThink about your next writing project and what you see it doing for your reader. Commit these to a series of \"I see\" statements.\n\nAllow yourself to dream big - what does it look like?\n\nWhat wisdom do you love to share? How can you share more?\n\nWhere can you take three new risks in your business or writing?\n\nCreate your vision for the coming year. Then 5 years from now. Pretend it's here today.\n\nCapricorn: The Goat\n\nDates: Dec 22 - Jan 19\n\nMode + Element: Cardinal Earth\n\nPlan the next three months of your writing and map out a plan to get it done.\n\nWhat are people always asking for your advice on? Write a how-to blog or email.\n\nCreate your (unfussy) content plan for the coming year.\n\nTake your big dreams and create a to-do list. Then plot out when you'll take action on these items.\n\nAquarius: The Water Bearer\n\nDates: Jan 20 - Feb 18\n\nMode + Element: Fixed Air\n\nWhat's my favorite invention?\n\nWhere would it be fun to push boundaries?\n\nIf I could write anything at all, what would that be?\n\nChoose a completely unrelated industry and go exploring. You never knew what you might find that would relate to your business or writing project.\n\nLook at your recent content. Did you ask readers to share? Add a CTA to your most recent articles and your next newsletter.\n\nI know this to be true...\n\nPisces: The Fish\n\nDates: Feb 19 - Mar 20\n\nMode + Element: Mutable Water\n\nI used to believe__________. And today I believe___________.\n\nSearch images of your favorite artist, make one piece your computer or phone's background.\n\nBring to mind the last time you were in the flow of writing. How did it feel? Where were you? What did you create?\n\nWhere does your inner writer need healing?\n\nPlan your dream writing retreat.\n\nSave this article to come back to throughout the year. You can also create reminders in your calendar as the sun changes signs to return to these and play with the prompts.\n\nIf you're a business owner and you love pairing astrology with business, this is something we weave into the Write Like a MOFO community - in our content planning, daily writing, and business goal planning.\n\nLike these writing prompts? Here's some more:\n\n15 simple and powerful writing prompts to help clear the gunk from your head\n\nWriting Prompts to Reflect on the Year (plus my personal lessons)\n\n15 Writing Prompts for End of Year Reflecting and Manifesting\n\n12 fun writing prompts to help craft a standout about page\n\n15 writing prompts for a sales page that does its job - sells!",
+      "reference_preview": "I love a good writing prompt. Sometimes I look at writing prompts, especially when they're in a prescribed format when I have to follow them in order, and they feel stifling.\n\nOr, I read a prompt, rea",
+      "fine_tuned": {
+        "response": "How to Write for Your Business Without Losing Your Mind - Astrology Edition\n\nThe astrological transits are calling. You've been feeling the nudge to write, and your business is begging you to get it out there.\n\nBut where do you start?\n\nYou have so much to say, but nothing's coming out. Maybe you're stuck on what topic to write about or how to make it sound interesting. This is especially true when you're trying to come up with fresh content for social media and your blog.\n\nHere are some astrology writing prompts to help you get started:\n\nHow do you want to feel?\n\nYou want to attract more clients, but how can you stand out? What sets you apart from others in your industry?\n\nWrite about what makes you unique. How does the sign of your business's moon impact its daily decisions?\n\nIs there a part of your personality that shows up when you're working on your passion project? What signs are influencing your creative process?\n\nWhat do people say about your work?\n\nDo clients describe your writing or editing as intuitive and insightful? Do they say it feels like you were meant to write this book or website copy?\n\nMaybe the moon is shining bright in Scorpio, so your writing has a depth that can't be ignored. The sign of your rising can influence how others see you - maybe the world sees you as confident, capable, and trustworthy.\n\nWhat's happening in your life right now?\n\nIf you're feeling stagnant or stuck, what planet might need to step up? Are you ready for some inspiration from Mercury in Leo, where your creativity is shining bright?\n\nWhen it comes to challenges, we want to know how the moon is supporting us. How can we work with the sign that's influencing our emotional state right now?\n\nIf you're feeling called to lead or guide others, what kind of energy do you need to bring in? How can you harness the power of Mars to fuel your fire and drive your passion projects forward?\n\nWhat does your business need to succeed?\n\nIs it a more strategic approach, like Virgo's practical, no-nonsense advice? Or maybe you need some creative brainstorming, like Mercury in Gemini's quick wit and clever ideas.\n\nLook at what signs are influencing your daily decisions. How can those same energies serve your business? What strengths or challenges will each sign bring?\n\nWhat can you manifest for your clients?\n\nDo you want to help them feel more confident or more connected? Are there specific themes that come up when you think about the kinds of people who need your expertise?\n\nWrite about how your strengths and passions can help make a positive impact on others. What kind of energy do they bring, and what signs are influencing their emotional state right now?\n\nWhat does success look like for you?\n\nWhen it comes to your business goals or personal vision board, what picture comes to mind? Are there specific themes that keep coming up - like abundance, creativity, or freedom?\n\nConsider how the sun is shining bright in a particular sign. What qualities will that bring to your business? How can you harness its energy to boost your results and fulfillment?\n\nWhat do you need to believe about yourself and your work?\n\nWhen it comes down to it, what matters most is not what's happening outside of you - but how you show up for yourself.\n\nDo you feel worthy of sharing your message with the world? What signs are influencing your emotional state right now? How can you trust that you're here to serve a purpose greater than yourself?\n\nHow do you want to connect with others through your writing?\n\nWhen you write about your business, what kind of energy do you want to bring in? Do you want to come across as authentic and relatable or confident and expert-like?\n\nConsider the sign of your sun. What does it say about how you show up for yourself? How can you use that same energy to connect with others through your writing?\n\nHow to get started:\n\n1. Choose a prompt above - any one will do!\n2. Look at what signs are influencing your emotions, decisions, or creative process right now.\n3. Ask yourself questions like, \"What kind of energy does this sign bring?\" or \"How can I harness its power?\"\n4. Let the answers guide you as you write.\n5. Share it with the world!",
+        "response_preview": "How to Write for Your Business Without Losing Your Mind - Astrology Edition\n\nThe astrological transits are calling. You've been feeling the nudge to write, and your business is begging you to get it o",
+        "style_metrics": {
+          "ref_avg_sent_len": 13.7,
+          "gen_avg_sent_len": 13.3,
+          "vocab_overlap": 0.2362,
+          "ref_word_count": 1346,
+          "gen_word_count": 744,
+          "ref_structural": {
+            "dashes_per_1k": 13.37,
+            "parens_per_1k": 2.97,
+            "questions_per_1k": 35.66,
+            "fragment_pct": 10.1
+          },
+          "gen_structural": {
+            "dashes_per_1k": 6.72,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 53.76,
+            "fragment_pct": 6.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4876,
+          "rouge2_f": 0.1344,
+          "rougeL_f": 0.159
+        },
+        "embedding": {
+          "ref_similarity": 0.8601,
+          "centroid_similarity": 0.8191
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "nudge",
+            "harness the power",
+            "passion projects",
+            "manifest",
+            "vision board",
+            "abundance"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "**Astrology Writing Prompts to Spark Your Creative Business Magic**\n\nI'm sipping on my morning coffee, gazing out at the backyard where our chickens are busily pecking at the dirt - it's going to be one of those days. You know, the ones where you need a little something extra to get your creative juices flowing? \n\nAs a writing coach for women entrepreneurs, I've found that astrology can be a potent tool for tapping into inspiration and sparking new ideas. Let's dive in and explore some cosmic prompts to fuel your creative business.\n\n**Your Sun Sign's Secret**\n\nWhat if you just... stopped trying to \"figure it out\" and let the universe guide you? Your sun sign, after all, holds secrets about your inner world - what if we drew on those energies for our writing?\n\nFor example, a fiery Leo might write about passion projects that set their heart ablaze. Meanwhile, an introspective Cancer might explore themes of family, home, or nurturing in their work.\n\n**Moon Phases and Your Creative Cycles**\n\nDo you know the different moon phases? I used to think they were just for... well, lunar enthusiasts. But trust me, as a writer and coach, understanding these cycles has helped me tap into my own creative rhythms.\n\nHere are some prompts inspired by each phase:\n\n- **New Moon**: Reflect on what you want to create or bring into your business - what seed do you want to plant?\n- **Waxing Crescent**: Envision your project growing, taking shape, and evolving. What kind of progress are you making?\n- **Full Moon**: Celebrate your accomplishments! Acknowledge the light you've brought in.\n- **Waning Gibbous**: Let go of what's no longer serving you. What can you release to make space for new ideas?\n\n**Your Rising Sign: The Cosmic Version of Yourself**\n\nThis is where things get really interesting - our rising sign, or ascendant, reveals how we present ourselves to the world. How might this influence your writing style and tone?\n\nFor instance, a fiery Sagittarius riser might write with an adventurous, expansive spirit, while a practical Taurus riser might focus on details and craftsmanship.\n\n**Mercury Retrograde: The Gift of Review**\n\nAh, Mercury retrograde - that notorious time when technology decides to malfunction (I'm looking at you, keyboard). But what if we saw this period as an opportunity for review?\n\nWhat projects have been simmering in the background? What themes or ideas need re-examination? Take some time to reflect and revise your writing.\n\n**The Cosmic Prompt: \"What If...\"**\n\nAnd finally, let's get creative with a good ol' fashioned \"what if\" prompt. What if you just wrote from a place of pure curiosity - without worrying about perfection or outcome?\n\nWhat if you allowed yourself to write freely, without editing or censoring? Trust me, some of your best work comes out when you're not trying too hard.\n\n**The Final Prompt: Reflect and Release**\n\nAs I wrap up this post, I want to leave you with one final question: What will you release today to make space for new ideas?\n\nWhether it's a project that's no longer serving you or an old habit holding you back, remember that sometimes the most powerful act is letting go.\n\nSo, which of these prompts has sparked your interest? Take a moment to reflect on how astrology can inform and inspire your writing.",
+        "response_preview": "**Astrology Writing Prompts to Spark Your Creative Business Magic**\n\nI'm sipping on my morning coffee, gazing out at the backyard where our chickens are busily pecking at the dirt - it's going to be o",
+        "style_metrics": {
+          "ref_avg_sent_len": 13.7,
+          "gen_avg_sent_len": 20.4,
+          "vocab_overlap": 0.1954,
+          "ref_word_count": 1346,
+          "gen_word_count": 554,
+          "ref_structural": {
+            "dashes_per_1k": 13.37,
+            "parens_per_1k": 2.97,
+            "questions_per_1k": 35.66,
+            "fragment_pct": 10.1
+          },
+          "gen_structural": {
+            "dashes_per_1k": 10.83,
+            "parens_per_1k": 1.81,
+            "questions_per_1k": 27.08,
+            "fragment_pct": 2.7
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3703,
+          "rouge2_f": 0.0695,
+          "rougeL_f": 0.1347
+        },
+        "embedding": {
+          "ref_similarity": 0.8688,
+          "centroid_similarity": 0.846
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "spark",
+            "creative business magic",
+            "tapping into",
+            "Let's dive in",
+            "fuel",
+            "let the universe guide you",
+            "energies",
+            "passion projects",
+            "seed do you want to plant",
+            "Envision",
+            "evolving",
+            "Acknowledge the light",
+            "Let go of what's no longer serving you",
+            "make space for",
+            "Cosmic Version",
+            "expansive spirit",
+            "Gift of Review",
+            "Cosmic Prompt",
+            "Reflect and Release"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 6,
+            "items": [
+              "morning coffee",
+              "backyard",
+              "chickens",
+              "writing coach for women entrepreneurs",
+              "lunar enthusiasts",
+              "keyboard"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"What if it was easy\"",
+      "reference": "I've been thinking a lot lately about the create-on-demand process that's a huge part of my work.\n\nMy clients rely on me to pull some clear and crisp writing out of my head and get it onto the page. And there's almost always a deadline.\n\nEven this blog for instance. I've been blogging consistently since I don't remember when. Usually, subscribers get a weekly email from me on Tuesday, occasionally Wednesday.\n\nAnd this week, the topic is also what I most needed to hear.\n\nWhat if it was easy?\n\nHave you ever been in the flow of writing and it just felt easy, natural, effortless. Dare I say, you were even having fun?\n\nMaybe you weren't having any kind of feelings at all. You just sat down and started writing, and it came out of you.\n\nYour energy was in the right place and it just fell out. Like it was waiting right there on your fingertips for the right opportunity for you to get out of your head for five minutes and just write.\n\nWhat if writing was easy?\n\nWhat would your blog look like if blogging was easy?\n\nWould you sit down to write each week and just let the words flow out of you? Would you go back and forth 90 billion times about what topic to write about?\n\nOr, could it just be easy?\n\nWhat would your newsletter look like if it was easy?\n\nWhat would a batch writing session look like if it was easy?\n\nWhat would you be drinking?\n\nWhat will you wear?\n\nWhere will you sit?\n\nWhat's your posture like?\n\nWhat's playing through your speakers?\n\nWhat essential oil is being infused into the air?\n\nWhat does your face look like? Crunched up or relaxed?\n\nWhat's all around you?\n\nYou see, when it's easy, it's faster. When it's easy, it feels good. When it's easy, it just works.\n\nEasy get's noticed. Not because you took the direct path, but because your energy was there. The energy you brought to the page was clean and open and ready to spill over.\n\nYour readers notice.\n\nThey notice the way you make them feel.\n\nSo why the hell shouldn't it be easy?\n\nThe next time you're stuck in a shit sandwich or staring down a task you just don't want to start before you begin, ask this question....\n\nWhat would it look like if it was easy?\n\nBegin there.",
+      "reference_preview": "I've been thinking a lot lately about the create-on-demand process that's a huge part of my work.\n\nMy clients rely on me to pull some clear and crisp writing out of my head and get it onto the page. A",
+      "fine_tuned": {
+        "response": "What if it was easy?\n\nIt's one of those questions that makes you pause.\n\nWhen I first started my business, I thought being an entrepreneur would be hard. Like super-hard. It wasn't going to feel good. I'd work long hours, make lots of money, and people would love me for it. But the more I got into it, the more I realized how much time and energy I was putting in - only to make a fraction of what I wanted.\n\nI felt like I was swimming upstream. And every step forward felt like two steps back.\n\nWhat if it wasn't that hard?\n\nWhat if instead of working 40+ hours a week for a salary, you could create a business that made money while you slept? That didn't require your constant attention and presence to be successful?\n\nWhat if you could focus on the work that lights you up - the work that makes you feel good - without worrying about making enough money or not having time?\n\nWhat if it was easy?\n\nFor me, what I realized after years of trial and error is that being an entrepreneur doesn't have to be hard. It can actually be quite fun.\n\nAnd here's the thing: most people who aren't entrepreneurs don't understand how easy it can be. They think you need a fancy degree or experience in your industry. They think you need a big bank account and a full-time team of employees.\n\nYou don't.\n\nAll you really need is:\n\nA clear idea of what you want to create\n\nThe willingness to take consistent action towards that goal\n\nTrusting yourself (and the process) every step of the way\n\nIt's easy when you have a clear vision, know your worth, and are taking actions that align with who you are.\n\nWhat if it was easy?\n\nHow would you feel? How would you show up in business? In life?\n\nIt starts with one question: what do I want to create?\n\nFrom there, the answers start rolling in. The rest is just a matter of taking action - trusting yourself every step of the way.\n\nEasy does it!",
+        "response_preview": "What if it was easy?\n\nIt's one of those questions that makes you pause.\n\nWhen I first started my business, I thought being an entrepreneur would be hard. Like super-hard. It wasn't going to feel good.",
+        "style_metrics": {
+          "ref_avg_sent_len": 11.6,
+          "gen_avg_sent_len": 14.1,
+          "vocab_overlap": 0.2126,
+          "ref_word_count": 402,
+          "gen_word_count": 354,
+          "ref_structural": {
+            "dashes_per_1k": 0.0,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 49.75,
+            "fragment_pct": 19.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 11.3,
+            "parens_per_1k": 2.82,
+            "questions_per_1k": 31.07,
+            "fragment_pct": 17.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4694,
+          "rouge2_f": 0.0767,
+          "rougeL_f": 0.1633
+        },
+        "embedding": {
+          "ref_similarity": 0.761,
+          "centroid_similarity": 0.7426
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "lights you up",
+            "know your worth",
+            "show up",
+            "align",
+            "the process",
+            "consistent action",
+            "clear vision"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "What if it was easy? Really, what if?\n\nI'm sitting here sipping my morning tea, feeling like I've finally hit my stride. My kids are still sleeping, the sun's shining in through the window, and for once, I don't have a million things vying for my attention.\n\nThis is where the magic happens, folks – when it feels easy. Not forced or coerced or \"because I should.\" Easy as pouring myself another cup of tea, or watching the light dance across the kitchen floor.\n\nWe're so used to pushing through, aren't we? To gritting our teeth and powering through because that's what we've been told is necessary. But what if it wasn't?\n\nWhat if showing up at your desk every morning felt like a gentle stroll rather than a marathon? What if writing came as naturally as breathing, without all the inner monologues about \"am I good enough?\" or \"will anyone even care?\"\n\nThis isn't some pie-in-the-sky fantasy. It's real life – and it's within reach.\n\nHere's what I know: when we let go of the need to force it, to will it into existence, that's exactly when the magic happens. When we trust our bodies and our minds enough to say, \"you know what? Today feels like a writing day,\" then watch out.\n\nJust that – not every single day, but some days. And those are the ones where the words flow like water, where the ideas come pouring in, and where you feel truly alive.\n\nSo I'll ask it again: what if it was easy?\n\nEvery single time I've let go of trying to control the outcome, the words have flowed better than ever before. Every time I've trusted my intuition over my \"shoulds,\" I've ended up with something beautiful.\n\nNot perfect – but beautiful.\n\nAnd that's what it's all about, isn't it? Beauty, not perfection.\n\nSo here's your assignment for today: take a deep breath and ask yourself – what if it was easy?\n\nNo pressure. No expectations. Just curiosity.\n\nWhat if the writing just happened?\n\nSound familiar?",
+        "response_preview": "What if it was easy? Really, what if?\n\nI'm sitting here sipping my morning tea, feeling like I've finally hit my stride. My kids are still sleeping, the sun's shining in through the window, and for on",
+        "style_metrics": {
+          "ref_avg_sent_len": 11.6,
+          "gen_avg_sent_len": 13.4,
+          "vocab_overlap": 0.2057,
+          "ref_word_count": 402,
+          "gen_word_count": 341,
+          "ref_structural": {
+            "dashes_per_1k": 0.0,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 49.75,
+            "fragment_pct": 19.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 14.66,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 38.12,
+            "fragment_pct": 18.8
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.445,
+          "rouge2_f": 0.0897,
+          "rougeL_f": 0.1611
+        },
+        "embedding": {
+          "ref_similarity": 0.7969,
+          "centroid_similarity": 0.7787
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "hit my stride",
+            "magic happens",
+            "will it into existence",
+            "truly alive",
+            "control the outcome",
+            "trusted my intuition",
+            "shoulds"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"Finding your way\"",
+      "reference": "It was at least a year ago when you had the inkling to quit your day job and try something different. Whether you're doing the same job, except as a freelancer, or switching careers completely, you're getting close to quitting time.\n\nI first got that little itch to start my own business in 2009 (eight years ago from this writing). My son was a year old, and I had just been laid off for the first time (turned out it would happen twice more). Except I had no ideas, so I got another job.\n\nAgain in 2011, while pregnant with my daughter, I came across a book on my lunch hour, called the Firestarter Sessions. It was all about finding work that you love. The kind of work you were meant to do.\n\nOh - this is a thing? I don't need to have a job? I can create work that's perfect for me? I had no idea.\n\nI dug into those worksheets like my life depended on it. I wasn't sure what to do. I started a food and lifestyle blog.\n\nFive years later, still brainstorming, still pouring over the worksheets, wondering what that work was that I was supposed to do, it finally hit me - I want to write. I want to write more for myself and others. I had written a book a few years prior; I wanted to do more. And I wanted to write for other people. I was doing in a corporate setting, but I needed more control over my time and the work I took on.\n\nMy point - keep trying different ideas. There's insight inside every action.\n\nHere's a list of all the things I tried to turn into a business:\n\nFood blogging\n\nCookbook writing\n\nCooking classes\n\nPrivate cooking lessons\n\nCustomized meal plans based on people's taste buds\n\nMinimalism coaching\n\nAccountability coaching\n\nIf I didn't try all these things, I might not have landed on what I'm doing today. The side hustle that turned into a profitable business and replaced my corporate income might have never happened, and I'd still be commuting three hours a day and rushing around like a frazzled mom trying to keep everything together.\n\nIf you're sitting there reading this and are thinking that you want to do something \"else,\" and you just don't know what that something else is just yet, just keep looking.\n\nReading some self-help books and doing some workbooks can help, but there are only so many online courses and experts you can listen to. You need to listen to the most important expert - you.\n\nTry one thing. Do it until it doesn't work anymore, or make tweaks and keep plugging on. Keep doing that until you find work that feels good.\n\nGet out of your head and off the couch, and out from behind the laptop. The only way you'll know is if you take action and give things a try. Hey, you might land on something that really lights your fire right away, or maybe it will take 30 tries. Maybe you'll never land on one thing; you'll land on doing a few things.",
+      "reference_preview": "It was at least a year ago when you had the inkling to quit your day job and try something different. Whether you're doing the same job, except as a freelancer, or switching careers completely, you're",
+      "fine_tuned": {
+        "response": "Finding Your Way\n\nYou're in a season of discovery, and you don't know what to do. You have a feeling that there's more for you than the life you're living right now - but how do you figure out what that is?\n\nThe problem is that finding your way can be scary. It requires stepping outside of your comfort zone and into uncertainty. And if you've been in your head, overthinking things, then I totally get it.\n\nI have a friend who's a great example of this. She was living the life she thought she should live - working a job, having two kids, being married to her high school sweetheart - but something felt off. Every time she'd talk about her \"day,\" she'd say things like, \"I'm so exhausted\" and \"Ugh, I hate my job.\"\n\nOne day, she had a conversation with her husband that went like this:\n\n\"I don't know what's wrong with me. I feel empty all the time. What am I even doing here?\"\n\nShe didn't have an answer - but she knew something needed to change.\n\nIt took her some time, but eventually, she started making changes. She started taking classes online (which turned into a full-time business), and then she decided to leave her job and start working from home.\n\nNow, it wasn't easy for her. There were days when she felt like hiding under the covers and not talking to anyone because she was so anxious about what other people would think of her new path. But here's the thing: she didn't let fear stop her.\n\nShe kept moving forward - one small step at a time, taking tiny actions that felt safe for her. And over time, something magical happened.\n\nHer business started growing. She found more purpose and meaning in her work. And she had more energy than ever before (she even started doing yoga again!).\n\nNow, I know what you're thinking: \"But Jacq, this is all so scary. What if it doesn't work out?\"\n\nHere's the thing: You don't have to have all the answers right now. In fact, you'll never have them all figured out - that's just not how life works.\n\nWhat you do need to know is this:\n\nYou're capable of finding your way\n\nAnd I believe you because you've been finding your way already. Maybe it hasn't always felt like it, but you've been making decisions and taking actions every single day. And if you were completely lost - then you wouldn't be here today.\n\nSo take a deep breath and trust that you're on the right path for you.\n\nWhat's holding you back from finding your way?\n\nYou might feel stuck in your current situation, or perhaps you feel like you don't even know what you want. The good news is that you can figure it out - but first, you have to let go of what you think you should be doing and start listening to what you actually want.\n\nHere's a suggestion: take some time this week to write about what's not working for you in your current life. What are the things that feel forced or empty? Then, ask yourself these questions:\n\nWhat do I love doing?\n\nWhere am I feeling stuck?\n\nWho can I talk to about my dreams and desires?\n\nAnd most importantly - what small step can I take today to move closer to where I want to be?\n\nYou don't have to have all the answers right now. Just start by taking one small action, and see where it takes you.\n\nAnd if you need some support along the way, come join me in my writing community - How Women Write. We're a safe space for women who are on a journey of discovery - and we're here to help you find your way too!",
+        "response_preview": "Finding Your Way\n\nYou're in a season of discovery, and you don't know what to do. You have a feeling that there's more for you than the life you're living right now - but how do you figure out what th",
+        "style_metrics": {
+          "ref_avg_sent_len": 17.8,
+          "gen_avg_sent_len": 17.7,
+          "vocab_overlap": 0.2767,
+          "ref_word_count": 524,
+          "gen_word_count": 637,
+          "ref_structural": {
+            "dashes_per_1k": 7.63,
+            "parens_per_1k": 3.82,
+            "questions_per_1k": 5.73,
+            "fragment_pct": 5.9
+          },
+          "gen_structural": {
+            "dashes_per_1k": 17.27,
+            "parens_per_1k": 3.14,
+            "questions_per_1k": 14.13,
+            "fragment_pct": 4.5
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4871,
+          "rouge2_f": 0.1119,
+          "rougeL_f": 0.1585
+        },
+        "embedding": {
+          "ref_similarity": 0.6897,
+          "centroid_similarity": 0.7642
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "season of discovery",
+            "finding your way",
+            "comfort zone",
+            "new path",
+            "moving forward",
+            "purpose and meaning",
+            "on the right path",
+            "holding you back",
+            "let go",
+            "small step"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 11,
+            "items": [
+              "Jacq",
+              "friend (as a specific person in an anecdote)",
+              "two kids",
+              "high school sweetheart",
+              "\"I'm so exhausted\"",
+              "\"Ugh, I hate my job\"",
+              "\"I don't know what's wrong with me. I feel empty all the time. What am I even doing here?\"",
+              "taking classes online",
+              "full-time business",
+              "working from home",
+              "doing yoga again"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "The perpetual question: where do I start? You've been staring at that blank page for what feels like an eternity, wondering how to coax those words out. And honestly, it's not about finding the perfect starting point – it's about showing up.\n\nI used to be a total planner. I'd spend hours pouring over my paper day planner, color-coding and making sure every minute was accounted for. But let me tell you, that didn't exactly translate to creativity. In fact, it usually left me feeling like I was suffocating under the weight of my own expectations.\n\nIt wasn't until I started writing from a place of intuition – following my gut, listening to my inner voice – that things really shifted. It's not about having a clear plan or knowing exactly what you're doing; it's about trusting the process.\n\nYou know how sometimes you're on a road trip and you don't even realize where you are until someone points out the sign? That's kinda like writing. You'll be cruising along, tapping away at your keyboard, when suddenly – BAM! – something amazing happens. A character reveals themselves, or a plot twist emerges from nowhere. It's those moments that remind us why we started writing in the first place.\n\nSo here's the thing: you don't have to know what you're doing. You just have to show up. And trust me, it's scary as hell. But also kind of liberating. I mean, who needs a five-year plan when you can write with reckless abandon?\n\nYou are not alone in this struggle. Every writer – yes, even the ones who seem like they've got their shit together – has been there. Elizabeth Gilbert talks about this in Big Magic; the idea that creativity is a muscle we must exercise regularly, lest it atrophy from disuse.\n\nSo what if you just... stopped trying to fix it? What if you let go of the need for perfection and simply wrote?\n\nEvery single time I've tried to force my writing into some semblance of order, I've ended up with a piece that's as dry as the Sahara desert. But when I surrender – when I let myself meander through the process without an agenda – that's when the magic happens.\n\nNot even close.",
+        "response_preview": "The perpetual question: where do I start? You've been staring at that blank page for what feels like an eternity, wondering how to coax those words out. And honestly, it's not about finding the perfec",
+        "style_metrics": {
+          "ref_avg_sent_len": 17.8,
+          "gen_avg_sent_len": 16.0,
+          "vocab_overlap": 0.225,
+          "ref_word_count": 524,
+          "gen_word_count": 377,
+          "ref_structural": {
+            "dashes_per_1k": 7.63,
+            "parens_per_1k": 3.82,
+            "questions_per_1k": 5.73,
+            "fragment_pct": 5.9
+          },
+          "gen_structural": {
+            "dashes_per_1k": 23.87,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 13.26,
+            "fragment_pct": 10.3
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4447,
+          "rouge2_f": 0.0818,
+          "rougeL_f": 0.1396
+        },
+        "embedding": {
+          "ref_similarity": 0.6979,
+          "centroid_similarity": 0.8305
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "showing up",
+            "shifted",
+            "trusting the process",
+            "surrender"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 5,
+            "items": [
+              "Elizabeth Gilbert",
+              "Big Magic",
+              "Sahara desert",
+              "paper day planner anecdote",
+              "five-year plan"
+            ]
+          },
+          "directness": 5
+        }
+      }
+    },
+    {
+      "prompt": "Write about why women should stop waiting for permission to write",
+      "reference": "Here's what nobody tells you about writing — you don't need permission.\n\nNot from your partner. Not from your kids. Not from that voice in your head that says you should be doing laundry instead.\n\nYou just need to sit down and do it.\n\nI know, I know. Easier said than done. But here's the thing — every woman I've coached, every single one, has said some version of \"I'll start writing when...\" When the kids are older. When work slows down. When I have something worth saying.\n\nScrew that.\n\nYou have something worth saying right now. Today. This minute.\n\nAnd I'm not talking about some grand literary masterpiece. I'm talking about the stuff that's been rattling around in your head at 2am. The stories you tell your best friend over wine. The observations that make you stop mid-walk and think — damn, that's something.\n\nThat's your writing. It already exists.\n\nSo why are you waiting? Who exactly is supposed to hand you a golden ticket that says \"You May Now Write\"? Because I'll tell you — that person doesn't exist. She never did.\n\nThe permission slip is yours to write. Always has been.\n\nStart messy. Start scared. Start with ten minutes before the house wakes up.\n\nJust start.",
+      "reference_preview": "Here's what nobody tells you about writing — you don't need permission.\n\nNot from your partner. Not from your kids. Not from that voice in your head that says you should be doing laundry instead.\n\nYou",
+      "fine_tuned": {
+        "response": "You're just going to sit there and wait for someone to tell you it's okay to start writing? It's okay to start showing up on the page, to let your words out into the world?\n\nNo one is going to give you permission. You have to be willing to take that leap yourself.\n\nMaybe you've been waiting because you feel like you're not good enough yet. Maybe you're worried about what others will think of your writing or if it's \"good\" enough for publication, or if anyone even cares.\n\nI know this feeling all too well. I was that girl who waited for permission to write for years - permission from a publisher, an editor, a mentor, or even just my family members.\n\nBut here's the thing: you're not waiting for permission because of what others think; you're doing it because you want to believe your words are important enough for others to read. You're holding yourself back because you don't trust that you have something valuable to share.\n\nThat's not a healthy or helpful way to write, and it's certainly not how women need to show up on the page. We've been silenced long enough; we don't need permission from anyone else to speak our truth.\n\nAnd for goodness' sake - we're not going to wait for someone to give us permission to share what needs to be said in this world. The world is too busy, and it's too late already. It's time to trust your words are important, and that you have something valuable to say.\n\nYou've been waiting long enough; now it's time to start writing.\n\nHow do I know this? Because I did it myself - and I'm still doing it today. With every sentence, with every word, with every blog post or email newsletter, I'm showing up on the page and speaking my truth. And you can too.\n\nIt's okay if your words aren't perfect; they never will be anyway. It's not about making sure everyone likes what we have to say; it's about sharing what needs to be said - no matter how messy or imperfect that may look.\n\nYou're going to write until you run out of breath, or your fingers are bleeding, or you fall asleep with a pen in hand. And then you'll get up and do it all again tomorrow, because every time you show up on the page, something beautiful happens. Something raw and real and honest - just like you.\n\nSo stop waiting for permission to write; start writing anyway.",
+        "response_preview": "You're just going to sit there and wait for someone to tell you it's okay to start writing? It's okay to start showing up on the page, to let your words out into the world?\n\nNo one is going to give yo",
+        "style_metrics": {
+          "ref_avg_sent_len": 8.7,
+          "gen_avg_sent_len": 19.3,
+          "vocab_overlap": 0.2529,
+          "ref_word_count": 209,
+          "gen_word_count": 423,
+          "ref_structural": {
+            "dashes_per_1k": 19.14,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 9.57,
+            "fragment_pct": 48.4
+          },
+          "gen_structural": {
+            "dashes_per_1k": 11.82,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 7.09,
+            "fragment_pct": 3.8
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.394,
+          "rouge2_f": 0.0875,
+          "rougeL_f": 0.1534
+        },
+        "embedding": {
+          "ref_similarity": 0.8705,
+          "centroid_similarity": 0.8134
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "show up on the page",
+            "take that leap",
+            "speak our truth",
+            "trust your words",
+            "valuable to share"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 4,
+            "items": [
+              "I was that girl who waited for permission to write for years",
+              "permission from a publisher, an editor, a mentor, or even just my family members",
+              "I did it myself - and I'm still doing it today",
+              "With every sentence, with every word, with every blog post or email newsletter"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "So you're waiting. Waiting for someone, anyone, to give you the green light to put pen to paper. Newsflash: no one's gonna show up at your doorstep with a badge and a clipboard saying \"You're good to go, girl!\" And even if they did, would that really be what you want? To have some outside force validating your creativity?\n\nThink about it: how many hours have we spent in meetings, conferences, or workshops, listening to well-meaning women tell us to \"trust our voice\" and \"follow our passion\"? Meanwhile, back at home, the inner critic is still whispering, \"But what if you're not good enough?\" \"What if nobody likes it?\"\n\nIt's like we're waiting for some magical permission slip to show up in the mail. And until that day comes (spoiler: it never will), we'll be stuck in this limbo of self-doubt and fear.\n\nHere's a little secret, though: writing is not about permission. It's about showing up. Every. Single. Day. Without expectation, without apology, without waiting for someone else to tell us it's okay.\n\nAnd I know what you're thinking: \"But Jacq, this sounds like just another pie-in-the-sky inspirational piece.\" Maybe it is. But hear me out. This isn't about being a \"real writer\" or producing some bestselling novel. It's about trusting that your words matter, even if nobody else does.\n\nWhen I was still working in corporate, I used to think that writing was this huge, daunting task. Like, what if nobody likes it? What if I'm not good enough? But then I started writing for myself – no deadlines, no audiences, just me and the page.\n\nAnd you know what happened? My words started flowing. And with them came a sense of freedom, of release, that I'd never felt before. I was writing because I had to, not because some editor or agent or friend told me to.\n\nSo let's make a pact right now: no more waiting for permission. No more second-guessing ourselves. We'll just show up – with our messy thoughts, our doubts, and our fears. And maybe, just maybe, that's when the real magic starts happening.\n\nWhat if you stopped waiting for permission to write? What would happen next?",
+        "response_preview": "So you're waiting. Waiting for someone, anyone, to give you the green light to put pen to paper. Newsflash: no one's gonna show up at your doorstep with a badge and a clipboard saying \"You're good to ",
+        "style_metrics": {
+          "ref_avg_sent_len": 8.7,
+          "gen_avg_sent_len": 13.4,
+          "vocab_overlap": 0.2166,
+          "ref_word_count": 209,
+          "gen_word_count": 364,
+          "ref_structural": {
+            "dashes_per_1k": 19.14,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 9.57,
+            "fragment_pct": 48.4
+          },
+          "gen_structural": {
+            "dashes_per_1k": 5.49,
+            "parens_per_1k": 2.75,
+            "questions_per_1k": 27.47,
+            "fragment_pct": 28.6
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3709,
+          "rouge2_f": 0.0565,
+          "rougeL_f": 0.1291
+        },
+        "embedding": {
+          "ref_similarity": 0.8514,
+          "centroid_similarity": 0.8344
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "trust our voice",
+            "follow our passion",
+            "inner critic",
+            "showing up"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 3,
+            "items": [
+              "Jacq",
+              "working in corporate",
+              "writing for myself – no deadlines, no audiences, just me and the page"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post about crisis comms",
+      "reference": "## things I learned from working in crisis communications for three years\n\nFrom 2009 until 2012 I worked for a major telecommunications company. BlackBerry, maybe you've heard of them? Back then, they were called RIM. Yes, I had RIM-job (had to).\n\nEven though most of us are wielding iPhones now... you know from the other fruit company (not me though, Android all the way because Apple was the enemy back in those BlueBerry days.\n\nBack in 2009 though, BlackBerry was in its heyday. My first job interviews them was the day after their private Van Halen concert. Well, shit, this company sounds pretty cool.\n\nI landed my RIM-job shortly after getting laid off for the first time from a Chicago-based management consulting company. I am grateful for everything the company did... like relocated our family of three at the time from Chicago to the Greater Toronto Area and made sure everything was smooth.\n\nThis was my first formal communications job. Sure, I had written tons up until this point. Proposals worth millions of dollars, emails worth even more, but they had rules and process, and it was there that I really started paying attention to word choice.\n\nThe experiences I had at BlackBerry serve me today. When you mess up and send the wrong thing to the wrong client when poo flies sideways, and you need to smooth it over.\n\nWhile I was working there, anytime the BlackBerry service would go down, for any wireless carrier in the world; it was my job to talk to the engineers, find out what happened, and turn around a perfectly polished statement. It had to happen usually within a day, and if it didn't, it could cost the company money.\n\nHere are ## key lessons that could serve you in your business:\n\nUse the language of possibility. For example, instead of saying, \"Customers couldn't surf the internet.\" You'd say, \"Customer might not have been able to use the internet.\" Do you see the difference?\n\nFocus on the positive. What did you learn from screwing up? In systems speak, we'd say something like, \"Now that we've identified this, we're working to add additional system components to make it stronger to avoid it happening in the future.\"\n\nDon't use the F-word. That would be failure. Ack! How dirty is the word failure? Use this word enough, such as calling yourself the F-word, or saying you feel like one. Keep saying that out loud enough, and people will start to believe it.\n\nKeep the blame. Sometimes BlackBerry service would go down, but it was a problem on a carrier's end. We wouldn't say, \"It's your fault bucko - piss off.\" Incorporating language of possibility and keeping it positive, we'd say something like, \"Users might have experienced problem using this feature for 10 minutes and we haven't determined the source of the problem.\"\n\nWhen you don't know something, say so. Never make something up. It's okay just to say you don't know.\n\nBe specific. Details matter. Don't say, \"I'm a screw-up\" say, \"I screwed that response up.\" Put the focus on the thing, NOT on you.\n\nDon't apologize. This is a tricky one, and if you've truly messed up, don't be an asshat - just say, \"I'm sorry.\" Instead, turn it around to be positive. Like, if you missed a deadline or something is taking longer to deliver than you promised, or you've taken two weeks to answer an email, try, \"Thank you for your patience.\" See the difference? Repeat after me, \"Thank. You. For. Your. Patience.\" Instead of placing focus on the F-up that you made, focus on them while you're complimenting them for their patients.\n\nKeep it short. Brevity is the key to my heart. When it comes to communicating a crisis, if you drone on and on, you're just going to make people angrier. Keep it simple, edit out extra words ruthlessly.\n\nProofread, proofread, proofread. When you're communicating a craptastic situation, it needs to be correct. I like to call this flawless execution. It's one of the handful of times in my life being a perfectionist really serves me well. Print it out, have a friend review it. At BlackBerry, at least five people touched each statement. An engineer to make sure we weren't talking out of our ass and to make sure we weren't sharing proprietary information, a peer, and two senior folks. It had to be on time, and it had to be right.\n\nWords always matter. They matter even more when poo is on the ceiling. Take",
+      "reference_preview": "## things I learned from working in crisis communications for three years\n\nFrom 2009 until 2012 I worked for a major telecommunications company. BlackBerry, maybe you've heard of them? Back then, they",
+      "fine_tuned": {
+        "response": "5 Crisis Communication Tips to Help You Hold Your Ground (And Save Your Reputation)\n\nAs someone who has been in more than one shit storm, I can tell you that when it comes to crisis communications - your response matters.\n\nThere are two ways to handle a crisis. The first is to hide under the bed and hope it goes away. The second is to stand up straight, look at what's happening, say something about it, and do what needs to be done to fix it.\n\nAnd if you're wondering why crisis communications isn't just a good idea - it's not - then ask yourself this: What if your brand or business can't get out of the news cycle? What if people keep talking about how bad you've been? What if you lose customers, and worse, employees?\n\nHere are five tips to help you handle a crisis.\n\nWhen shit hits the fan (and it will), say something right away. Don't wait for your team to come up with a plan - that takes time. You need to be out in front of this thing as soon as possible. It doesn't matter if it's not perfect, or even if you're not sure what happened.\n\nJust get ahead of the story and start talking about it. I don't care if your team is still scrambling to figure out what went wrong - you can (and should) talk. Say something like, \"We're aware there was an issue with [thing] and we're investigating/looking into it.\"\n\nYou might think that saying something before having all the facts will hurt your reputation more than good old silence. But if you keep quiet, you'll look like a bad actor trying to hide something.\n\nIf you don't say anything - at least not initially - people are going to fill in the blanks for you. And they won't be kind or accurate.\n\nThis is what happened during the 2013 Black Friday shopping mall shooting incident in New Jersey. A mother of two shot and killed three people, then herself. The police were slow to respond to questions about why there was a delay in how long it took them to arrive on the scene (it took around 20 minutes).\n\nIt wasn't until days later that they finally addressed questions from reporters and the public about what happened. And when they did, their responses came across as evasive - \"We're looking into this.\" \"The investigation is ongoing.\"\n\nIf you don't speak up immediately after a crisis, it looks like you have something to hide.\n\nIt's also important to be transparent in your communications during a crisis. This means giving people the facts and being honest about what happened, even if it hurts - especially when those facts are negative.\n\nOne example of this was how General Motors handled the ignition switch recall in 2014. The company had been aware of the problem since at least 2005 but didn't do anything about it until a couple of years later, after multiple deaths and injuries were reported.\n\nWhen the crisis hit the fan, GM issued a statement saying that they were \"sorry\" for what happened - but also said that they would cooperate fully with any investigation. They didn't try to hide behind corporate speak or spin their response.\n\nInstead, they immediately admitted fault and apologized for their actions.\n\nIt's always better to be honest in a crisis than to deny it altogether.\n\n4. Don't apologize if you don't need to.\n\nApologies can be helpful during a crisis - but only when they're genuine. If you say sorry just to placate people or make them go away, then that can come across as insincere and even worse.\n\nWhen there's been an actual mistake on your part (like ignoring something important), an apology is in order. But if it wasn't really your fault, don't apologize for something that isn't yours to own.\n\nYou could say something like this:\n\n\"I understand why you're upset. I'm upset too. This was a mistake and we should have done things differently.\"\n\nThis acknowledges the situation without going overboard with an apology.\n\n5. Use it as an opportunity to shine.\n\nA crisis is not only an opportunity to communicate what happened but also to show how you handle difficult situations - especially if there's been a mistake or failure on your part.\n\nIt's a chance for you to step up and take control of the situation. You can use the crisis as an opportunity to demonstrate leadership, integrity, and accountability.\n\nWhen General Motors recalled their cars due to ignition switch problems in 2014, they used it as an opportunity to show that they were committed to safety - even if it meant making a difficult decision. They said something like:\n\n\"We've made a commitment to our customers and employees that we will do everything possible to ensure this doesn't happen again.\"\n\nThis message came across as one of regret for what happened but also a promise to learn from the mistake.\n\nIt's always easier (and less painful) to communicate during a crisis than it is after you've had time to think about how to respond. When something happens, take a deep breath and speak up immediately.",
+        "response_preview": "5 Crisis Communication Tips to Help You Hold Your Ground (And Save Your Reputation)\n\nAs someone who has been in more than one shit storm, I can tell you that when it comes to crisis communications - y",
+        "style_metrics": {
+          "ref_avg_sent_len": 14.0,
+          "gen_avg_sent_len": 18.8,
+          "vocab_overlap": 0.2322,
+          "ref_word_count": 756,
+          "gen_word_count": 869,
+          "ref_structural": {
+            "dashes_per_1k": 2.65,
+            "parens_per_1k": 2.65,
+            "questions_per_1k": 6.61,
+            "fragment_pct": 26.1
+          },
+          "gen_structural": {
+            "dashes_per_1k": 14.96,
+            "parens_per_1k": 6.9,
+            "questions_per_1k": 3.45,
+            "fragment_pct": 5.6
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4896,
+          "rouge2_f": 0.094,
+          "rougeL_f": 0.1545
+        },
+        "embedding": {
+          "ref_similarity": 0.7971,
+          "centroid_similarity": 0.7084
+        },
+        "failure_modes": {
+          "buzzwords": [],
+          "generic_ai": false,
+          "specifics": {
+            "count": 13,
+            "items": [
+              "5",
+              "more than one shit storm",
+              "2013",
+              "Black Friday shopping mall shooting incident",
+              "New Jersey",
+              "mother of two",
+              "three people",
+              "20 minutes",
+              "General Motors",
+              "ignition switch recall",
+              "2014",
+              "2005",
+              "multiple deaths and injuries"
+            ]
+          },
+          "directness": 5
+        }
+      },
+      "baseline": {
+        "response": "Crisis Comms: When the Shit Hits the Fan - And How to Not Make it Worse\n\nI've had my fair share of crises as a writer, entrepreneur, and mom. From spilled wine on the laptop (not just metaphorically) to more serious stuff like a viral podcast interview gone wrong, I've learned that crisis comms is not just about damage control – it's about showing up with integrity.\n\nAnd let's be real, when shit hits the fan, you want to respond, not react. But how? Here are some hard-won lessons from my own messy experiences:\n\n- Don't try to spin or sugarcoat your way out of it. People can spot a fake apology from a mile away.\n- Acknowledge the pain and hurt you've caused – even if it's not what you intended.\n- Be honest, but also be clear: this is what happened, here's what we're doing about it, and this is how you can help.\n\nIt sounds simple, but trust me, it's not. When I messed up a big client project last year, my instinct was to send a hasty apology email – but then I deleted it because, honestly, it sounded insincere. Instead, I sat down with the client and had an honest conversation about what went wrong.\n\nAnd you know what? It turned out okay. In fact, it even led to a stronger working relationship in the end. But if I'd sent that initial email, who knows where things would've gone?\n\nSo here's my ask: when crisis comms strikes, take a deep breath and remember that you're not just responding to a crisis – you're being an example of how to show up with integrity.\n\nWhat if you just... stopped trying to control the narrative, and instead listened? What would happen if you acknowledged your own limitations and asked for help?\n\nNot even close to easy, I know. But it's worth it.",
+        "response_preview": "Crisis Comms: When the Shit Hits the Fan - And How to Not Make it Worse\n\nI've had my fair share of crises as a writer, entrepreneur, and mom. From spilled wine on the laptop (not just metaphorically) ",
+        "style_metrics": {
+          "ref_avg_sent_len": 14.0,
+          "gen_avg_sent_len": 18.9,
+          "vocab_overlap": 0.1951,
+          "ref_word_count": 756,
+          "gen_word_count": 315,
+          "ref_structural": {
+            "dashes_per_1k": 2.65,
+            "parens_per_1k": 2.65,
+            "questions_per_1k": 6.61,
+            "fragment_pct": 26.1
+          },
+          "gen_structural": {
+            "dashes_per_1k": 15.87,
+            "parens_per_1k": 3.17,
+            "questions_per_1k": 15.87,
+            "fragment_pct": 23.8
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3489,
+          "rouge2_f": 0.0468,
+          "rougeL_f": 0.1259
+        },
+        "embedding": {
+          "ref_similarity": 0.7935,
+          "centroid_similarity": 0.7791
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "showing up with integrity",
+            "respond, not react",
+            "control the narrative"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 5,
+            "items": [
+              "spilled wine on the laptop",
+              "viral podcast interview gone wrong",
+              "last year",
+              "a big client project",
+              "sat down with the client"
+            ]
+          },
+          "directness": 5
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"Writing with astrology - days of the week\"",
+      "reference": "Days of the week\n\n\"Sunday Funday\"\n\n\"Monday Blues\"\n\n\"Friday I'm in Love\"\n\nYou've likely heard one of these expressions for some of our favorite (and not-so-favorite) days. Maybe you even have a love-hate relationship with some of the days.\n\nSpending thirteen years in the corporate world, I learned that you should work hard Monday through Friday, then take the weekend completely off. And it's also totally okay to party hard on Thursday if it's been a particularly stressful week.\n\nWhen I first started my business and went full-time in 2017, I followed this advice too, without even pausing to consider why.\n\nWhat if I wanted to work on a weekend?\n\nWhat if I didn't want to work on Monday?\n\nSure, in my management consulting and crisis communication days, I'd often end up working on a weekend, resentfully tapping away on the company laptop while an early spring day in Chicago taunted me through the open patio doors. \"Can't go outside and play. Busy working.\"\n\nAs a full-time entrepreneur, I also used to force myself to close my laptop for the weekend to give my brain a rest, without even pausing to think, do I actually need a rest, or am I only taking one because someone told me it was a good idea? What if I had a brilliant idea? Would I wait until Monday morning and hope the enthusiasm was still there? Or, worse, would I get to Monday and completely forget?\n\nThere's also the \"Sunday Scaries\" - the idea that Sundays are hard to enjoy because you spend the whole day dreading Monday, when you have to go to a job you hate.\n\nWell, even when I fixed the job part to create work I loved, there was still this unnatural flow I was trying to force my creativity to fit into.\n\nIf you've ever felt that your tasks didn't quite align with the days of the week, there's a good chance you were forcing something to fit, too.\n\nWhen I learned that a luminary rules each day of the week, it started making sense to me that I could use each day for different things.\n\nNow, just like I teach in my writing community, the planets and luminaries don't control us, and we never blame things on them. They provide a certain energetic quality, a flavor, a soundtrack, and we can choose to tap into that for more flow - or not. I prefer to work with the rhythm of the day, while paying attention to my own.\n\nHere are the days of the week in English and French paired with their planets. You'll recognize some planets in here.\n\nSunday/dimanche - the sun's day, the sun being the brightest light in the sky.\n\nMonday/lundi - the moon's day, second brightest light.\n\nTuesday/mardi - Mars, the dimmest of all the planets.\n\nWednesday/mercredi - Mercury - (the rest aren't ordered by brightness, but by the astronomical objects they honor).\n\nThursday/jeudi - Jupiter\n\nFriday/vendredi - Venus\n\nSaturday/samdhi - Saturn\n\nWhat's \"your\" day of the week?\n\nDo you have a favorite day of the week?\n\nSee if you can find out what day you were born on. Simply do a web search for \"What day of the week was [your birthdate and year]?\"\n\nI Googled mine and discovered I was born on a Monday. It is no wonder that when I worked in the corporate world, I was not a fan. But once I worked for myself and could create my own schedule, I became a big fan. Monday might be my favorite day of the week now.\n\nUsing the days of the week to structure our business & writing tasks\n\nMake the most of each day by syncing your writing and editing with the planet that rules it. It can be a fun way to get things done more effectively. Knowing what the astrological vibe is for the day helps you plan when to tackle tasks for the best outcome.\n\nI love working with planetary energy instead of fighting against it to create more ease and natural movement. It's also a fun way to create variety - something my Libra sun craves. Give me balance and harmony!\n\nMonday (lundi in French) - the moon.\n\nSets the tone for the rest of the week - how do you want the rest of the week to go? Plan your week by looking at the next six days and their ruling planet.\n\nFlow with the day - there's no prescription except what you want to do.\n\nMaybe you'll have a \"flow day.\" Travel to a nearby downtown (the cuter the better), begin your day at a cafe, then find a new spot for lunch with some shop hopping or sitting on a park bench in between. No agenda, no rules, no list of things you \"must write.\"\n\nCan you block your calendar on Mondays to do whatever you want? If you're a business owner, can you schedule meetings to start on Tuesday?\n\nNurture yourself and ease into your week with movement that feels good and enjoyable food, and write wherever and whenever you like today.\n\nStart the day with a journaling session following some writing prompts based on the current moon phase (again, a Google search will tell you the current phase): New moon - what seeds do I want to plant? Waxing moon - what am I building? Full moon - what has me satisfied? Waning moon - what needs to go to make space?\n\nLook up what zodiac sign the moon is in today and use this to align with what, where, and how you write or edit.\n\nTuesday (mardi in French) - Mars.\n\nMars is the planet of action and energy - plan to get some stuff done! Maybe you made your list on Monday, so you're raring to go this Tuesday morning. Use this fire to tackle lots of things on your list.\n\nMove that Mars energy with a powerful movement session or workout.\n\nTake a risk with your writing project - write a bold blog and say the thing that scares you in your book chapter.\n\nTake inspired, forward-focused action with your writing project or new offer in your business.\n\nMake key decisions on your writing project, and even look at the bigger picture - to your body of work and career.\n\nFocus on writing the thing that has you feeling fired up and passionate.\n\nUse the energy to find your drive, focus, and follow through to make your dreams a reality.\n\nWednesday (mercredi in French) - Mercury.\n\nMercury is the messenger planet of communication, curiosity, and creativity - hello, perfect day for writing!\n\nGet clear on your writing projects and tasks for the day with a fast pen-to-paper journaling session or give Prayer Pages a try.\n\nRevisit your plans for the week and the month ahead. Do they still fit?\n\nGet social - whether you attend a networking event or get chatty on social media, share a post, listen, and then leave some thoughtful comments.\n\nSince Mercury is associated with practicality and cleverness, write the challenging piece that requires a hefty dose of mental energy - the tricky email, the sensitive blog, or the chapter that requires just a little more brain power. Potentially add coffee.\n\nTry setting deadlines for Wednesdays - smack dab in the middle of the week, it's productive and gives you some buffer before and after.\n\nDevote time to tackling your email inbox. Try to touch each email only once. Only open it when you're ready to reply and deal with it.\n\nTake meetings and flex those communication muscles since Mercury is all about socializing.\n\nWrite in a busy place - a local cafe, library, or co-working space.\n\nSchedule your podcast recording sessions or interviews for today.\n\nSent pitches for speaking engagements and workshop facilitation.\n\nThursday (jeudi in French) - Jupiter.\n\nJupiter is the planet of luck, good things, and growth, making it the perfect time to learn new things and expand your consciousness. So crack open that book you've been meaning to dip into, try writing something new just for fun, or finish that online course.\n\nEnjoy a fun and fast brainstorming session to outline a new offer, your book, blog, or even to spark a new business.\n\nDo a guided visualization, seeing your finished project out in the world, thriving and changing lives (we've got a great one with more to come inside the Intuitive Writing Collective!\n\nGet curious about those around you, talk to your barista. Ask questions to help yourself learn. And then shut up and listen.\n\nIf you teach in-person or online workshops or masterclasses, try hosting one on a Thursday.\n\nTrust that every word you write or edit today is made of GOLD.\n\nWith the abundance and expansion energy, use this to be productive toward working on the tasks that align with your big goals.\n\nAs we wind down the working week, Thursday's energy allows us to be productive and take care of little details that might be lingering from the beginning of the week.\n\nThe good vibes serve as a reminder to express gratitude - what have you learned this week? What did you accomplish? Who supported you that you'd love to thank? Write a positive review for a local business or a book you read. Send the glowing testimonial without being asked.\n\nFocus on expansive writing projects - the book, blog, website copy, or signature program launch. Save the boring writing for another day.\n\nStart and end the day with a list of things you're grateful for.\n\nFriday (vendredi in French) - Venus.\n\nAnother day (in addition to Mondays) to block your calendar and do what you love. Or maybe you'll schedule the things you love for Fridays.\n\nAlso, a great day to connect with others and relax - so not the focused vibe of Wednesday and Mercury, but for fun and a light coffee chat.\n\nGet intimate in your writing project - express yourself, love, and write about potentially vulnerable topics. You can always edit later if you decide not to publish.\n\nMake art, spend time in nature, play at the page with some writing you might not normally explore.\n\nTap into some fresh inspiration for your writing project. Sit with your writing project and ask it, \"What do you need?\"\n\nExpand on and continue to work on your creative writing project, trusting it's expanding with every tweak you make.\n\nTidy up and wrap up loose ends, slate ideas for another time on your parking lot list (this is a list of things that don't fit into your current priorities, but you might want to tackle later).\n\nSpend a few extra minutes pampering yourself and beautifying your face and your writing space for some feel-good flow today.\n\nTry to slide anything strenuous to another day, like Tuesday or Wednesday.\n\nSaturday (samedi in French) - Saturn.\n\nSaturn is a disciplined, organized, structured, and responsible planet - plan your writing for the week ahead and clear out your desk and digital clutter.\n\nGet organized in the kitchen and around the house to help you roll into the rest of the week feeling balanced and grounded.\n\nCatch up on things you didn't finish, that won't feel good to flow with on Monday, or schedule them to happen when the energy is ripe.\n\nPlan your writing for the coming week, maybe you'll try time blocking, getting some documents prepared and set up, updating your 12-week plan (community members, you have a template for this), calendar, and paper planner.\n\nSaturn is great at being a taskmaster. Just think about how much more fun Sunday and Monday will be when you focus and get it done on Saturday!\n\nListen to a podcast about writing while you run errands or do some batch cooking, or cleaning/\n\nSunday (dimanche in French) - the Sun.\n\nSunday Funday! Need I say more?\n\nUse the day to nurture your vitality and enjoy yourself.\n\nGet outside, relax, play, be in nature, enjoy time at home with people you love, and enjoy the day doing things that warm your heart.\n\nGo within and do some soul work - journaling, meditating, healing.\n\nCelebrate, connect, and keep your schedule light.\n\nIf you want to write today, go for it - just make sure it's heart-warming and feels good.\n\nRead a book, listen to music, relax, rest, and connect with friends.\n\nUsing the days of the week gives us a light structure to be able to flow with the things we're already doing.\n\nSure, you could just buckle up and get things done every day, but see if having a little more of a guardrail around your time and energy helps you stay focused and get more done.\n\nRemember, these are simply suggestions. Always notice how your body is responding. We're not going to force ourselves to do \"Tuesday things\" if our lives call for something else. You might not yet be at a place where your schedule allows this much freedom. I certainly had a lot of restrictions around my time in the past, and I've worked hard to give myself more flexibility in how and when I work, write, and connect.",
+      "reference_preview": "Days of the week\n\n\"Sunday Funday\"\n\n\"Monday Blues\"\n\n\"Friday I'm in Love\"\n\nYou've likely heard one of these expressions for some of our favorite (and not-so-favorite) days. Maybe you even have a love-ha",
+      "fine_tuned": {
+        "response": "When you're trying to make sense of your creative process, it can feel like everything is out of order. You wonder if you'll ever find your rhythm and get into flow. And then, someone suggests looking at your birth chart for answers.\n\nI've been practicing astrology on and off for years. I don't go all in - no daily horoscopes or full moon ceremonies here. But I do enjoy using it as a tool to help me understand myself better. And when it comes to my writing process, it's given me some interesting insights.\n\nOne of the simplest ways to use astrology is by looking at your birth chart for information on days of the week and what they mean for you. Now, before you think this is just something woo-woo writers do, know that there are some practical implications here.\n\nSo how does it work?\n\nEvery day of the week is associated with a specific planet in astrology. And by looking at which planets are active on each day, we can get clues about what energy is working for us - and what might be holding us back.\n\nHere's a quick rundown:\n\nMonday (Moon) - emotional, intuitive, receptive\n\nIf you're writing during this time, your words will feel like they're coming from a place of deep feeling. It's the perfect day to tap into your intuition - so listen to that inner voice! If you've been struggling with feelings or emotions in your work, Monday is a great time to explore those.\n\nTuesday (Mars) - energetic, action-oriented, passionate\n\nOn Tuesday, you're going to be energized and ready to take action. This is the day for planning, strategy, and getting things done. If you've been stuck on a writing project or feeling like you need to \"get moving\" - this is your day.\n\nWednesday (Mercury) - communicative, intellectual, versatile\n\nIf you're writing during Wednesday, expect that your words will be clear, concise, and direct. You'll have the ability to communicate complex ideas in an easy-to-understand way. This day is perfect for editing or revising existing work - especially if you need help making sense of some information.\n\nThursday (Jupiter) - expansive, optimistic, philosophical\n\nOn Thursday, your writing will feel big and expansive. It's a great time to write about topics that feel important, like values or themes in your life. If you've been stuck on something that feels too hard or complex - this is your day.\n\nFriday (Venus) - sensual, creative, social\n\nIf you're writing during Friday, expect it to be a sensual experience. You'll want to play with words, use rhythm and cadence, and maybe even add some sensory details to bring your story to life. This day is perfect for revising your language or working on creative projects.\n\nSaturday (Saturn) - serious, responsible, practical\n\nOn Saturday, you're going to be feeling the weight of responsibility. It's a great time to tackle that big writing project that feels important but maybe even a little scary. If you've been putting off something because it feels too hard or overwhelming - this is your day.\n\nSunday (Sun) - sunny, optimistic, inspiring\n\nIf you're writing on Sunday, expect that your words will feel warm and inviting. You'll be naturally inclined to write about things that bring you joy, like creativity, inspiration, or personal growth. This day is perfect for freewriting or exploring new ideas.\n\nOf course, this is a super simplified overview - but I hope it helps give you a starting point! By considering the energy of each day and how it impacts your writing process, you can create a more intentional approach to your creative work.\n\nAnd remember - these are just guidelines. Ultimately, it's up to you to show up, do the work, and trust that whatever comes out will be what it needs to be.\n\nSo, which days feel most natural for you? And how might this inform your writing practice?\n\nHere are some questions to get you thinking:\n\nWhat day of the week feels like a good starting point for your next big project?\n\nWhich planets in your birth chart give you a nudge or push you to take action?\n\nDo any specific days of the week feel challenging, and if so - what might be holding you back?",
+        "response_preview": "When you're trying to make sense of your creative process, it can feel like everything is out of order. You wonder if you'll ever find your rhythm and get into flow. And then, someone suggests looking",
+        "style_metrics": {
+          "ref_avg_sent_len": 18.4,
+          "gen_avg_sent_len": 20.0,
+          "vocab_overlap": 0.2275,
+          "ref_word_count": 2193,
+          "gen_word_count": 713,
+          "ref_structural": {
+            "dashes_per_1k": 17.78,
+            "parens_per_1k": 6.84,
+            "questions_per_1k": 10.03,
+            "fragment_pct": 4.3
+          },
+          "gen_structural": {
+            "dashes_per_1k": 23.84,
+            "parens_per_1k": 9.82,
+            "questions_per_1k": 8.42,
+            "fragment_pct": 0.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3862,
+          "rouge2_f": 0.1057,
+          "rougeL_f": 0.1356
+        },
+        "embedding": {
+          "ref_similarity": 0.0,
+          "centroid_similarity": 0.7966
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "get into flow",
+            "tap into your intuition"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 1,
+            "items": [
+              "I've been practicing astrology on and off for years. I don't go all in - no daily horoscopes or full moon ceremonies here. But I do enjoy using it as a tool to help me understand myself better. And when it comes to my writing process, it's given me some interesting insights."
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "**How Your Birth Day Shapes Your Writing Flow**\n\nHey there, writers! Today I want to talk about something that's been on my mind lately: how our birth day affects our writing flow. You know, those astrologers who swear by planetary positions and zodiac signs? Yeah, they're onto something.\n\nI've always been fascinated by the way our individual days of the week can impact our creativity, productivity, and overall vibe. So let's dive into it.\n\n**Monday: The \"Get Back to It\" Day**\n\nMondays are for getting back on track, am I right? You've got your morning coffee, you're opening up those laptop screens – it's time to tackle that looming deadline or finally start writing that novel. But here's the thing: Mondays can also feel like a bit of a drag. Your mind is still in weekend mode, and you might be feeling a little... stuck.\n\nSo what do you do? Well, I always say: just show up. Write something – anything – even if it feels forced. Trust me, those words will get the creative juices flowing, and before you know it, you'll be in the zone.\n\n**Tuesday: The \"Tackle That Big Project\" Day**\n\nTuesdays are for tackling big projects, don't @ me. It's like the universe is saying, \"Okay, got your coffee? Good. Now let's crush this writing challenge!\" Tuesdays can feel a bit more energized than Mondays – you're getting into the swing of things.\n\nBut here's where it gets interesting: if you're a creative type, Tuesday might be a day to work on something entirely new and different from what you usually do. Maybe try your hand at poetry or short stories? The possibilities are endless!\n\n**Wednesday: The \"Rest and Recharge\" Day**\n\nAh, Wednesdays. Those hump days when we all just want to go back to bed with a cup of tea and a good book. I get it. Your mind is tired from the mental gymnastics of writing, and you're craving some downtime.\n\nSo here's what I do: I take a break. I step away from my desk and engage in something that brings me joy – yoga, reading, taking a walk outside. You can't pour from an empty cup, after all!\n\n**Thursday: The \"Connect with Others\" Day**\n\nThursdays are for connecting with others, whether it's through online writing groups or in-person meetups. We're talking about collaboration, feedback, and community – the good stuff.\n\nIf you're feeling stuck or unsure about your writing direction, Thursdays can be a great day to seek out advice from fellow writers. Or better yet: offer some support yourself!\n\n**Friday: The \"Finish Strong\" Day**\n\nFridays are for wrapping up those projects and putting them to bed. You know, that satisfying feeling when you've finally completed what felt like an impossible task? Yeah, it's real.\n\nAnd honestly? Fridays can also feel a bit... bittersweet. Like, we're almost done with this writing project, but then what? What's next?\n\n**The Weekend: The \"Dream and Scheme\" Days**\n\nSaturday and Sunday are for daydreaming – or should I say, night-dreaming? You know how sometimes you'll wake up from a dream feeling inspired, only to realize it was just your brain's way of processing all the creative energy building up inside?\n\nThose weekend days are perfect for brainstorming new ideas, exploring different writing styles, and letting your imagination run wild. So don't be afraid to take risks and try something entirely new – you never know where it might lead!\n\n**So, What Does This All Mean?**\n\nUltimately, our birth day can influence how we approach writing, but it's not a hard-and-fast rule. You do you, and find what works best for your creative flow.\n\nBut here's the thing: acknowledging the energies at play – whether that's through astrology or otherwise – can help us tap into our inner rhythms and become more intuitive writers. And isn't that what writing is all about?\n\nSo go ahead, experiment with this \"writing with astrology\" approach, and see how it affects your creative process. Who knows? You might just discover a new love for Mondays...",
+        "response_preview": "**How Your Birth Day Shapes Your Writing Flow**\n\nHey there, writers! Today I want to talk about something that's been on my mind lately: how our birth day affects our writing flow. You know, those ast",
+        "style_metrics": {
+          "ref_avg_sent_len": 18.4,
+          "gen_avg_sent_len": 16.5,
+          "vocab_overlap": 0.213,
+          "ref_word_count": 2193,
+          "gen_word_count": 674,
+          "ref_structural": {
+            "dashes_per_1k": 17.78,
+            "parens_per_1k": 6.84,
+            "questions_per_1k": 10.03,
+            "fragment_pct": 4.3
+          },
+          "gen_structural": {
+            "dashes_per_1k": 14.84,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 20.77,
+            "fragment_pct": 18.5
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3621,
+          "rouge2_f": 0.0749,
+          "rougeL_f": 0.1182
+        },
+        "embedding": {
+          "ref_similarity": 0.0,
+          "centroid_similarity": 0.8545
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "dive into",
+            "show up"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      }
+    }
+  ]
+}

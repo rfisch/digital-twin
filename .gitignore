@@ -38,8 +38,31 @@ Thumbs.db
 .env
 .env.local
 
+# OAuth credentials
+credentials/
+
 # Data (raw source material — do not commit)
 data/raw/
 
+# Feedback / edit tracking
+data/feedback/
+
 # Training data (regenerable from scripts)
 data/training/
+
+# Processed data (regenerable from pipeline)
+data/processed/
+
+# Scheduled posts (runtime state)
+data/scheduled_posts.json
+
+# SSL certs (self-signed, local only)
+certs/
+
+# Storybook build output
+storybook-static/
+
+# Next.js
+web/.next/
+web/node_modules/
+fused_model/

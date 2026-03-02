@@ -3,11 +3,12 @@
 Usage:
     python app/cli.py blog "Write about morning routines"
     python app/cli.py email "Follow up with a client" --recipient "Sarah"
+    python app/cli.py email_reply "paste email text here" --sender-name "Tejal" --sender-email "tejal@bewelltherapy.me" --goal "secure a meeting"
     python app/cli.py copywriting "Product launch announcement"
     python app/cli.py freeform "Write a reflection on creativity"
 
 Options:
-    --model         Model to use (default: jacq:8b)
+    --model         Model to use (default: jacq-v6:8b)
     --temperature   Generation temperature (default: 0.7)
     --no-rag        Disable RAG context retrieval
     --max-tokens    Maximum response tokens (default: 2048)
@@ -35,7 +36,7 @@ def main():
         help="Type of writing to generate",
     )
     parser.add_argument("topic", help="The topic or writing request")
-    parser.add_argument("--model", default="jacq:8b", help="Model to use")
+    parser.add_argument("--model", default="jacq-v6:8b", help="Model to use")
     parser.add_argument("--temperature", type=float, default=0.7)
     parser.add_argument("--max-tokens", type=int, default=2048)
     parser.add_argument("--no-rag", action="store_true", help="Disable RAG context")
@@ -44,6 +45,13 @@ def main():
     parser.add_argument("--recipient", default="")
     parser.add_argument("--purpose", default="")
     parser.add_argument("--email-type", default="professional")
+
+    # Email reply-specific options
+    parser.add_argument("--received-email", default="",
+                        help="The email text to reply to (alternative to positional topic)")
+    parser.add_argument("--sender-name", default="", help="Name of the person who sent the email")
+    parser.add_argument("--sender-email", default="", help="Email address of the sender")
+    parser.add_argument("--goal", default="", help="Goal for the reply (e.g. 'secure a meeting')")
 
     # Copywriting-specific options
     parser.add_argument("--medium", default="")
@@ -72,6 +80,11 @@ def main():
             audience=args.audience,
             message=args.message,
             tone=args.tone,
+            received_email=args.received_email or args.topic,
+            sender_name=args.sender_name,
+            sender_email=args.sender_email,
+            goal=args.goal,
+            tone_notes=args.tone,
         )
 
         print(result)

@@ -1,0 +1,1123 @@
+{
+  "config": {
+    "model": "jacq-v6:8b",
+    "baseline": "llama3.1:8b",
+    "use_rag": false,
+    "n_examples": 10,
+    "skip_perplexity": false,
+    "skip_failure_modes": false
+  },
+  "perplexity": {
+    "baseline": {
+      "loss": 2.6981,
+      "perplexity": 14.85,
+      "num_examples": 58
+    }
+  },
+  "examples": [
+    {
+      "prompt": "Write about a moment from your childhood where you felt belittled or criticized by an authority figure, and how that experience has impacted your self-perception and behavior as an adult.",
+      "reference": "Imagine you're in seventh grade English class, thinking you did a great job on your latest essay. You're feeling sassy as the teacher starts passing out the stack of graded papers, anticipating she'll show it off to the class as a mighty fine example. But then she returns your paper to your desk, no eye contact, dropping it face down.\n\n\"Oh, she just didn't want me to show off my grade,\" you think as you lift up a corner to peek, searching for a grade.\n\nIf the grade was anything lower than an A+, it gives you the instant sense that you didn't do well enough. You think your work wasn't good enough; you're not good enough. You draw all these conclusions in a flash.\n\nThe red pen of doom scribbled all over our hard work, with arrows, circles, and X's all over it. Then comes the next writing assignment, and we feel even worse than last time. We start writing and wonder, what's the point? The teacher is going to hate it anyway.\n\nThis example might be a walk in the bookstore compared to your experience. I've heard other stories of damage that teachers caused - for example, teachers who hold their students to the same impossible standards they hold themselves to.\n\nTeachers pass down their same rejection wounds onto students, and it's sad.\n\nWe internalize that perfectionism is a good thing and we started pointing to it as our weakness in job interviews as a way to stand out.\n\nTake years of this bullshit in the classroom, and when you start a business and go to publish your website or very first blog post, email newsletter, or social post, it's no wonder you want to crawl into a hole and cry.\n\nThe red pen is meant to help us grow and show us where we need to improve. There are certainly shitty, unsympathetic teachers who bruise with comments, but there are some who are truly trying to encourage. For this supportive teacher, the red pen is a good thing.\n\nFor every shitty English teacher out there, my optimistic side tells me there are at least three more supportive and encouraging ones whose red pen is meant to improve and stretch you in your writing ability. And perhaps writing coaches like me, who will nudge you to keep writing and share your work over and over.\n\nIf you're feeling apprehensive about who you share your work with and when - go slowly. Make sure you find someone you trust.\n\nWho to share your drafts with\n\nWhen I host public writing marathons with live copy feedback in a group setting, many people join because they want fresh eyes on some copy they've been overthinking. And it's surprised me how many people email me afterward saying they were too scared to share.\n\nFor this purpose, I often ask a few clients and writing community members to come to the public sessions and go first so they can show the new folks that it's a warm, friendly, and supportive space. I'm not your seventh grade English teacher and only use red pens to draw little hearts and butterflies. I can also tell you that I've never seen any piece of writing that was truly hopeless.\n\nHere are some thoughts on who to share your work with:\n\n•In a business mastermind or small friend group with someone who understands you and your audience.\n\n•If you need a first dose of support and unconditional love, then ask a friend or family member who you know will deliver just that before you go down the road of asking for feedback from anyone else.\n\n•Ask a writing coach who you've seen in action online or someone who has come recommended by someone you trust. When receiving a recommendation, ask them how the coach delivered feedback and determine if this is what you're looking for.\n\n•Please be mindful of sharing with people who have something to sell you. I've watched too many tentative business owners drop a link to some writing they decide to share in a Facebook group only to have a bunch of people vying for business tear it apart, thinking they're doing them a service, only to pitch them later.\n\nWhen to share & when to hold off\n\nWhen I was writing Unfussy Life, I asked for feedback from too many people too soon. I tried to time it with what I thought would be the final review from my editor. It turned out the book would change a lot from that point. This was also before the book decided it wanted to be a memoir. Much of the feedback I received from very early readers was good but didn't end up being useful because I changed the manuscript so much.",
+      "reference_preview": "Imagine you're in seventh grade English class, thinking you did a great job on your latest essay. You're feeling sassy as the teacher starts passing out the stack of graded papers, anticipating she'll",
+      "fine_tuned": {
+        "response": "I was in my early teens when I started taking dance lessons at the local studio. It was a place for young girls to grow up and learn about movement, music, and performance.\n\nMy instructor, Ms. Thompson, was the first person I'd ever met who made me feel like I didn't belong. She was strict, demanding, and seemed to take pleasure in making us look and sound bad.\n\nI remember one specific class when we were working on a choreographed routine for an upcoming recital. It was supposed to be our big show off - the time where we'd get to shine. But Ms. Thompson had other ideas.\n\nAs I was trying my best to follow along, she came up behind me and started tapping her foot. \"What are you doing?\" she asked, her voice dripping with disdain. \"Your arms aren't long enough for this move.\"\n\nI felt a flush rise to my cheeks as all eyes were on me. The other girls in the class seemed embarrassed too - they didn't know what to do.\n\nMs. Thompson continued to criticize me - my posture, my hand positioning, even how I was breathing. She made it sound like I was so fundamentally flawed that there was no way I could ever be good at dance.\n\nI felt small, invisible, and utterly unimportant in the eyes of this authority figure. It wasn't just her words that cut deep; it was also how she said them - with such condescension, such superiority.\n\nFrom then on, I didn't want to perform anymore. I stopped going to class and eventually dropped out of dance altogether. The only thing left for me to do was beat myself up over not being good enough.\n\nThat experience has stuck with me into adulthood. It's influenced how I view my own abilities - especially when it comes to performing in front of others or taking risks. For a long time, I let fear and self-doubt dictate what I could and couldn't do.\n\nIt wasn't until I started reading about intuitive writing that things began to shift for me. Elizabeth Gilbert's words on embracing perfectionism and letting go of the need for control resonated deeply. It made sense that my perfectionist tendencies were actually keeping me stuck - in fear, uncertainty, and self-criticism.\n\nAnd so, as an adult writer, I've come to realize that even when others try to make me feel small or like I don't belong, it's not true. My voice matters, what I have to say is valuable, and my unique perspective has worth.\n\nOf course, there will be times in the future when I'll doubt myself - but it won't be because I'm fundamentally flawed; it'll be because I've temporarily forgotten how capable I am. When those moments come up, I can look back at Ms. Thompson and remember that even though she didn't believe in me then, I do now.\n\nAnd that's what matters most to me - not the opinions of others but being true to myself and staying grounded in my own worth.",
+        "response_preview": "I was in my early teens when I started taking dance lessons at the local studio. It was a place for young girls to grow up and learn about movement, music, and performance.\n\nMy instructor, Ms. Thompso",
+        "style_metrics": {
+          "ref_avg_sent_len": 23.0,
+          "gen_avg_sent_len": 19.2,
+          "vocab_overlap": 0.2057,
+          "ref_word_count": 797,
+          "gen_word_count": 511,
+          "ref_structural": {
+            "dashes_per_1k": 2.51,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 1.25,
+            "fragment_pct": 0.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 15.66,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 1.96,
+            "fragment_pct": 14.3
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3887,
+          "rouge2_f": 0.0522,
+          "rougeL_f": 0.1251
+        },
+        "embedding": {
+          "ref_similarity": 0.7005,
+          "centroid_similarity": 0.718
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "resonated deeply",
+            "shift",
+            "stuck",
+            "grounded"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 5,
+            "items": [
+              "Ms. Thompson",
+              "Elizabeth Gilbert",
+              "early teens",
+              "intuitive writing",
+              "a choreographed routine for an upcoming recital"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "And I still remember that day - the smell of fresh-cut grass, the sound of my mom's voice, and the sting of her words.\n\nI was around 8 years old, trying to draw a picture of our family cat for the local pet store's \"Pet of the Month\" contest. My mom, a talented artist herself, came over to take a look at my work - or so I thought. But instead of praise or encouragement, she let out a low, disbelieving sigh.\n\n\"You can do better than this,\" she said, her voice dripping with disappointment. \"This doesn't even look like Whiskers.\"\n\nI felt my face burning as I stared at the scribbles on the page. What did it mean? Wasn't it supposed to be okay to make mistakes and try new things? But in that moment, all I heard was \"You're not good enough.\" Not just at drawing, but at being seen.\n\nAs an adult, I realize now that my mom's criticism wasn't about the drawing itself - it was about her own expectations of me. And in that moment, those expectations became mine too.\n\nFor years after, every time I put pen to paper (or fingers on keys), I felt a twinge of self-doubt. What if I'm not good enough? What if no one likes what I write? It's like having a voice whispering in my ear, \"You're not worthy.\"\n\nBut here's the thing: that voice isn't just about writing - it's about life itself. It's about every time we take a risk, share our ideas, or put ourselves out there. And if we let those voices win, we'll never write (or live) on purpose.\n\nNow, as I coach women writers and help them navigate their own creative journeys, I see this pattern repeating itself - the fear of not being good enough, the fear of failure. But I also see a glimmer of hope: when they start to trust themselves, their voices, and their unique perspectives.\n\nIt's like Julia Cameron says in The Artist's Way: \"The biggest lie that we are told is that our art isn't good enough.\" But what if we just... stopped trying to fix it? What if we saw our imperfections as a strength, not a weakness?\n\nThat's the journey I'm on - one of self-trust and embracing my own imperfect voice. And I hope you'll join me.\n\nSo, I ask you: when was the last time someone belittled or criticized you? How did it make you feel, and what did you learn from that experience?",
+        "response_preview": "And I still remember that day - the smell of fresh-cut grass, the sound of my mom's voice, and the sting of her words.\n\nI was around 8 years old, trying to draw a picture of our family cat for the loc",
+        "style_metrics": {
+          "ref_avg_sent_len": 23.0,
+          "gen_avg_sent_len": 17.9,
+          "vocab_overlap": 0.2165,
+          "ref_word_count": 797,
+          "gen_word_count": 422,
+          "ref_structural": {
+            "dashes_per_1k": 2.51,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 1.25,
+            "fragment_pct": 0.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 14.22,
+            "parens_per_1k": 4.74,
+            "questions_per_1k": 18.96,
+            "fragment_pct": 3.3
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3962,
+          "rouge2_f": 0.051,
+          "rougeL_f": 0.1209
+        },
+        "embedding": {
+          "ref_similarity": 0.7196,
+          "centroid_similarity": 0.7825
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "journey",
+            "navigate",
+            "on purpose",
+            "self-trust",
+            "embrace",
+            "coach"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 6,
+            "items": [
+              "8 years old",
+              "Whiskers",
+              "local pet store's \"Pet of the Month\" contest",
+              "my mom",
+              "Julia Cameron",
+              "The Artist's Way"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"Language with meaning\"",
+      "reference": "\" Inclusive language when hosting women's circles? These circles and my yoga classes are geared toward the female physiology, menstrual cycle, and cultural/social/patriarchal influence in women's lives. I want to include someone who is non-binary or someone that identifies as a woman in the group. I had a man sign up for the circle I led last week at the yoga studio and am totally open to men learning about cycles and this work and also want to make it a safe place for women to share and sometimes when you add a male that changes the dynamic.\"\n\nWhat I want to say ... if this is a circle for women, then say it's for women. If men want to learn about menstrual cycles to support the women in their lives, then ask yourself if you want that dynamic in the room. And if it's just for women then say that.\n\nan amazing opportunity to shine light.\n\nTo me it feels, if her work is focused on the patriarchal influence in women's lives than using the inclusive language actually does not align with her values 💁‍♀️So there is discord there.\n\nIf someone is working with women, I feel it is a responsibility to hold space for them in the most sacred way possible. And the point, you wrote. Speak with clarity and enforce those boundaries.\n\nSo probably, it's something she needs to reflect for herself that, 'Wait, why am I trying to participate in erasing the very people, and sacredness of women I serve?'\n\nAnd perhaps share more prompts that come to you because this is some sloppy word soup going on with her question.\n\nWord soup\n\nPandering\n\nErasing women\n\nI will not erase women with my writing\n\nSo many People trying to 'fit in' and modify their authenticity and truth🙏",
+      "reference_preview": "\" Inclusive language when hosting women's circles? These circles and my yoga classes are geared toward the female physiology, menstrual cycle, and cultural/social/patriarchal influence in women's live",
+      "fine_tuned": {
+        "response": "You know how you can be in a room full of people and yet feel utterly alone? Even if someone is right next to you, you're still sitting there feeling like, Why am I the only one who feels this way?\n\nYou can sit in silence with someone for 30 minutes and not say a word. You can have your eyes locked on theirs, but it's like there's no connection between you.\n\nIn these moments, it becomes clear that meaning is something we create - or don't create - between two people. It takes more than just words to connect with each other.\n\nLanguage without meaning can be hollow and empty. We've all been in those situations where someone says something, but we feel like they're speaking a completely different language than us.\n\nBut it's not the words that make them meaningless. It's what's behind them - or not behind them.\n\nThe same is true for writing. When you sit down to write, you can use all the right words in all the right order and still have nothing meaningful to say. You can write a whole book of perfect sentences, but if it doesn't mean anything to anyone - including you - then what's the point?\n\nWhen I coach writers on their books, one thing I ask them is: Are you writing because you want to communicate something? Or are you writing because you need to get your thoughts out? The second question is a common trap for most writers. They write because they have a lot of ideas floating around in their heads and need an outlet.\n\nBut if you're not careful, that's all it will be - an outlet for your thoughts. Not necessarily a way for you to communicate something meaningful to others.\n\nAnd that's where the problem lies. We have more writers than ever today. But do we have more people who write with meaning? Probably not.\n\nMost of us are writing because we want to get things out, but aren't really thinking about what we want to say or who our message is for. We're so busy writing that we forget why we started in the first place - to communicate something.\n\nAnd when you stop and think about it, that's why language feels empty sometimes. It's not because of the words themselves - it's because there isn't any meaning behind them.\n\nFor example, let's say someone is telling you how amazing they are all day long. Every conversation starts with them declaring their greatness to you. It gets old after a while because there's no meaning behind what they're saying. They're just repeating the same thing over and over again without really sharing anything of substance or depth.\n\nThe opposite is also true - someone can say very little, but if it means something, then that's powerful language. A single sentence could be all you need to make a point.\n\nLanguage isn't about how many words you use, though. It's about the meaning behind what you're saying. And when you put your attention on creating meaning and not just writing for the sake of writing, that's when real connection happens - with yourself and others.\n\nSo if you feel like language is empty sometimes, then ask yourself: Am I speaking from a place of meaning or not? Are my words filled with substance or are they simply words?\n\nAnd if your answer is \"not,\" don't worry. We can work together to create some real connection behind what we say - both on the page and in life.\n\nIn fact, let's start by asking yourself this one question: What do you really want to say?",
+        "response_preview": "You know how you can be in a room full of people and yet feel utterly alone? Even if someone is right next to you, you're still sitting there feeling like, Why am I the only one who feels this way?\n\nY",
+        "style_metrics": {
+          "ref_avg_sent_len": 22.3,
+          "gen_avg_sent_len": 17.2,
+          "vocab_overlap": 0.2212,
+          "ref_word_count": 301,
+          "gen_word_count": 611,
+          "ref_structural": {
+            "dashes_per_1k": 0.0,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 6.64,
+            "fragment_pct": 0.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 18.0,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 14.73,
+            "fragment_pct": 2.4
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3898,
+          "rouge2_f": 0.0619,
+          "rougeL_f": 0.1363
+        },
+        "embedding": {
+          "ref_similarity": 0.5912,
+          "centroid_similarity": 0.7755
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "real connection",
+            "common trap",
+            "coach",
+            "outlet"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 1,
+            "items": [
+              "30 minutes"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "**How Women Write**\n\nLanguage with Meaning\n\nOr, why your words need to sound like you.\n\nYou know that feeling when you're writing and everything feels forced? Like, you're trying to squeeze into someone else's mold of what \"good writing\" is supposed to be?\n\nI've been there. Hell, I still go there sometimes. But here's the thing: language with meaning doesn't come from following a formula. It comes from living in your own skin.\n\nYou see, most writing advice tells you to write like a journalist or a professor – detached, objective, and polished. And yeah, that's fine for some things. But when it comes to writing that truly resonates, you need to let go of all that stuff.\n\nWrite with the same messy, imperfect language you use in real life. Write with your own voice, not someone else's.\n\nWhat if you just... stopped trying to fix it? You know, those pesky commas and semicolons that make you go \"ummm, is this right?\" Just let it be. Your words are going to sound like a real person – not a robot trying to write a novel.\n\nI'm not saying your writing won't improve with practice. Of course it will! But what I am saying is that true language with meaning comes from being brave enough to show up as yourself on the page.\n\nNot even close, by the way, to being some idealized version of what you think you should be. Just you – in all your glorious, imperfect self.\n\nI'm reminded of a conversation I had with a writer friend recently. She was struggling with her writing voice, feeling like she needed to \"sound more polished\" or \"more professional.\" And I said, \"Listen, just write like you're talking to me over coffee.\"\n\nEasy peasy, right? But the truth is, it's not easy at all. It takes a lot of courage to be vulnerable on the page. To let your words sound like you – with all their quirks and flaws.\n\nSo here's the challenge: try writing without editing as you go. Just let the words flow out onto the page. You can always go back and tidy things up later, but for now... just let it be.\n\nAnd see what happens when you write with meaning. When your words sound like a real person – not some fabricated ideal. See how that feels.\n\nWhat's the one thing holding you back from writing with true authenticity?",
+        "response_preview": "**How Women Write**\n\nLanguage with Meaning\n\nOr, why your words need to sound like you.\n\nYou know that feeling when you're writing and everything feels forced? Like, you're trying to squeeze into someo",
+        "style_metrics": {
+          "ref_avg_sent_len": 22.3,
+          "gen_avg_sent_len": 14.1,
+          "vocab_overlap": 0.2,
+          "ref_word_count": 301,
+          "gen_word_count": 405,
+          "ref_structural": {
+            "dashes_per_1k": 0.0,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 6.64,
+            "fragment_pct": 0.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 12.35,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 14.81,
+            "fragment_pct": 16.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3817,
+          "rouge2_f": 0.0361,
+          "rougeL_f": 0.1438
+        },
+        "embedding": {
+          "ref_similarity": 0.5737,
+          "centroid_similarity": 0.8047
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "show up as",
+            "resonate",
+            "authenticity",
+            "vulnerable",
+            "flow",
+            "glorious, imperfect self",
+            "holding you back"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 1,
+            "items": [
+              "conversation with a writer friend"
+            ]
+          },
+          "directness": 5
+        }
+      }
+    },
+    {
+      "prompt": "Describe the benefits of being part of a writing community for entrepreneurs who want to grow their business through writing.",
+      "reference": "Some members opt in for coaching so they get feedback on their writing. But they also learn by listening to the feedback others receive. They learn more than they ever realized they needed to know. And the feedback is fast. Writers come to a session with a blank page, and with focused writing time, they can press pause on outside distractions and get the input or encouragement they need to keep moving.\n\n3. Online courses can only take you so far.\n\nEveryone in the community knows they need to do the work to make writing a habit and practice getting better. Sit down, write, publish, tweak, repeat. Alone on your couch in front of your laptop, devouring all the freebies and $199 courses on the planet can only take you so far. Action is the best and most effective way to make progress in your growing business. Intuitive writers know this.\n\n4. Dedicated writing time.\n\nSome members tell me that they only write for their business during our writing sessions. I plan the writing I'm doing in my business and on my books around these sessions. I'll look at the calendar for the upcoming week and jot down what I'll write or edit during those sessions in my paper planner. I prefer to focus on tasks that tap into my most creative energy when writing in the community, which supports the high vibes there.\n\n5. Accountability.\n\nWhen it's time to sit down and write a blog post or website copy, it can be too easy to click away from your Google Doc and wander off into social media land to procrastinate. When you're on a live call with a bunch of other creatives who are sitting down to focus and do the work, and you're going to report back on what you've accomplished, you can bet that you'll get your writing done.\n\n6. Variety of businesses.\n\nThe Intuitive Writing School Community has grown intentionally at an organic pace. It's a community where members are focused on their work and less on talking about not writing. Members who have been working on their writing for years are filled with wisdom to help newer members. It's so much better than looking to one leader to provide feedback to everyone. The perspective that comes from the variety of industries and the owners themselves helps give every member a fresh perspective. And it's not something you can get inside of any free online group full of randos and whoever else the group owner lets in. Hearing from a variety of people what they're working on unlocks creativity we didn't know we had.\n\nSometimes we have to write things that feel uncomfortable. With the diversity of the group, safely discussing some of the snippets while we write together allows us to gain different perspectives before we hit publish, so our words can become even more powerful.\n\n7. Creative containers.\n\nGive creatives wide open space, and it's easy for us to get overwhelmed and clam up. Give us some boundaries, and we know what we can do. The creative container can give writers the support they need to put one word after another.\n\n8. Connection.\n\nWriting can feel lonely. Writing together eases that feeling of Am I the only one who's having a hard time with this? Hearing from others that you're not alone can give you enough comfort to keep going and get through it. When everyone is together yet working on their own things - it feels like team writing, and everyone supports each other's goals.\n\n9. Group consciousness.\n\nBe mindful of who's leading you in any setting. Do you align with this leader? Do you feel good when they're leading - are they supportive and encouraging? Does your style vibe with theirs? There's something truly magical when a bunch of creatives come together for a common goal. We feel this medicine so strongly when we're all writing together during a call. And some still feel the power and love of the community behind them when they're not logged into a writing session and know there are big-hearted people who share similar challenges and goals and are all working on something important to them. Alone, together, but not lonely.",
+      "reference_preview": "Some members opt in for coaching so they get feedback on their writing. But they also learn by listening to the feedback others receive. They learn more than they ever realized they needed to know. An",
+      "fine_tuned": {
+        "response": "Being part of a writing community can be a total game-changer for entrepreneurs who want to grow their businesses by focusing on writing.\n\nThe first benefit is that you'll get real talk, no sugarcoating feedback - which is super helpful in getting your work out there and into the world where it can do some good. I've had so many clients come to me with their websites, blogs, or social media content who have never actually asked for feedback on what they're writing. It's like they're just throwing something up there and seeing if anyone will even notice.\n\nYou'll get genuine support from people in the community who are also working on getting their work out into the world. And you can trust that this is stuff they've been through too, so it's coming from a place of knowing, not guessing - which means you're going to get real feedback and advice.\n\nAnd I know it might sound silly, but having people to hold space for your writing and creative journey with is incredibly powerful. It keeps you accountable and motivated to keep showing up on the page - especially when it's hard work that requires putting yourself out there in a vulnerable way.\n\nYou'll also get connections and relationships from being part of this community. The more you put yourself out into the world, the more people you'll meet and connect with who can be valuable partners for you.\n\nAnd finally, you'll have a safe space to practice your writing skills without fear of judgment or rejection - which is really important when you're just starting out as an entrepreneur because you're probably going to make mistakes along the way. And it's okay. It's all part of learning and growing.\n\nYou get to grow with people who are genuinely invested in helping you succeed, and that's incredibly powerful.",
+        "response_preview": "Being part of a writing community can be a total game-changer for entrepreneurs who want to grow their businesses by focusing on writing.\n\nThe first benefit is that you'll get real talk, no sugarcoati",
+        "style_metrics": {
+          "ref_avg_sent_len": 14.8,
+          "gen_avg_sent_len": 25.0,
+          "vocab_overlap": 0.2129,
+          "ref_word_count": 705,
+          "gen_word_count": 309,
+          "ref_structural": {
+            "dashes_per_1k": 2.84,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 5.67,
+            "fragment_pct": 27.8
+          },
+          "gen_structural": {
+            "dashes_per_1k": 12.94,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 0.0,
+            "fragment_pct": 7.1
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4267,
+          "rouge2_f": 0.0935,
+          "rougeL_f": 0.1486
+        },
+        "embedding": {
+          "ref_similarity": 0.8526,
+          "centroid_similarity": 0.8375
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "game-changer",
+            "real talk",
+            "no sugarcoating",
+            "get your work out there",
+            "hold space",
+            "creative journey",
+            "showing up",
+            "vulnerable way",
+            "safe space",
+            "incredibly powerful"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 1,
+            "items": [
+              "I've had so many clients come to me with their websites, blogs, or social media content who have never actually asked for feedback on what they're writing."
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "And let's get real, having a tribe that gets you is everything.\n\nAs an entrepreneur who wants to grow your business through writing, joining a writing community can be a total game-changer. For one, it's like finding your people - the ones who understand the struggle of putting words on paper, and the joy of seeing them come to life.\n\nYou'll get support, accountability, and feedback from writers who are going through similar journeys. It's not just about sharing your work (although that's a big part of it), but also about getting guidance on how to navigate the writing process - the good stuff and the bad.\n\nOne of my favorite things about being part of a writing community is the sense of belonging. You're no longer alone in your writing endeavors, trying to figure everything out by yourself. You've got a team of writers who are cheering you on, sharing their own struggles and successes, and offering advice when you need it most.\n\nAnd let's not forget about the networking opportunities - you never know who might be in that community with you. Maybe someone who's an expert in your niche, or maybe someone who's been where you are and can offer valuable insights.\n\nHere's the thing: writing is hard. It's a lonely process, especially when you're trying to build a business around it. But being part of a writing community makes it so much more manageable. You'll be inspired by others' work, motivated by their progress, and encouraged to keep pushing forward even when it gets tough.\n\nSo what are you waiting for? Find your tribe, join a writing community, and watch your writing (and business) grow in ways you never thought possible.\n\nWhat if you just... stopped trying to figure everything out on your own, and leaned into the support of others instead?\n\nHow's that going to feel when you finally start making progress with your writing?",
+        "response_preview": "And let's get real, having a tribe that gets you is everything.\n\nAs an entrepreneur who wants to grow your business through writing, joining a writing community can be a total game-changer. For one, i",
+        "style_metrics": {
+          "ref_avg_sent_len": 14.8,
+          "gen_avg_sent_len": 20.9,
+          "vocab_overlap": 0.1966,
+          "ref_word_count": 705,
+          "gen_word_count": 320,
+          "ref_structural": {
+            "dashes_per_1k": 2.84,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 5.67,
+            "fragment_pct": 27.8
+          },
+          "gen_structural": {
+            "dashes_per_1k": 9.38,
+            "parens_per_1k": 6.25,
+            "questions_per_1k": 9.38,
+            "fragment_pct": 5.3
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4155,
+          "rouge2_f": 0.0681,
+          "rougeL_f": 0.136
+        },
+        "embedding": {
+          "ref_similarity": 0.8148,
+          "centroid_similarity": 0.8117
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "tribe",
+            "game-changer",
+            "finding your people",
+            "journey",
+            "navigate",
+            "sense of belonging",
+            "niche",
+            "valuable insights",
+            "lean into the support"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write from the perspective of an adult reflecting on their most memorable experiences with younger siblings during family vacations or travel, focusing on the moments when they proved themselves capable of managing chaos.",
+      "reference": "Next time, I dare you. Watch the damn sunset. And if you must take a picture - take a quick few, then tuck your phone away so you can be there. You can post it later.\n\nThere's no prize for being the most social\n\nA few years ago, I traveled to Toronto from Chicago to celebrate Jen's thirtieth birthday. In case you're wondering, I'm the older and much wiser sibling.\n\nRyan missed out on all the fun since he had a big-ass motorcycle rally to attend. Hundreds of bearded, leather-clad men drinking beer and eating fried food off floppy paper plates - no thank you. This meant I was flying solo with the kids. For a moment, I considered Benadryl to knock them out on the flight, but that stuff can sometimes produce the opposite effect of what you're hoping for.\n\nCrazy, wired kids packed into an aluminum tube at thirty thousand feet? Nope! I opted for being armed with new toys, enough snacks to feed all the other passengers and the crew, and, most importantly, a calm mind. When we sat down, a flight attendant approached me, grabbed my arm with the grip of death, crouched down, and said, \"Listen, I'm a parent, and I know this is going to be terrible.\"\n\nI raised an eyebrow. What I wanted to say was, Dude! Shut up! No, it's not! What I did manage to say through a forced smile was, \"Thank you.\" The kids were happy, and it was only my thoughts about the event that would make it terrible. I'd show him.\n\nThe sixty-minute flight was great, and the kids were content. We landed, I shot a message to my dad (my ride), and put my phone in my pocket so I'd have easy access later. We deplaned and got in line for inspection by Canadian immigration. Patting my pockets, I noticed my phone was missing. We were in a room with doors that locked both in front of and behind me. There was literally no turning back - we were trapped.\n\nI approached an airline attendee before speaking to the immigration officer, and after he made a few phone calls to the gate, he said he regretted informing me that the plane I was on had just pulled away from the gate and I'd have to notify the lost and found.\n\nFrustrated and baffled, I muttered the words, \"Well, this couldn't possibly be any worse.\"\n\nAs soon as those words left my mouth, I felt like a real tool. The kids quickly tuned into my negative, anxious energy and started whining and getting antsy.\n\nShut up, Jacq. You're supposed to be the example, the person your kids look to in any situation to know that everything is okay.\n\nThis is when I shifted my attitude, thanked the man for his help, and decided I'd make the most of being phone-free for the next week.\n\nI was generally with family during our whole trip, so the need to contact anyone never became an issue. But I'll tell you what I didn't do: text Ryan randomly throughout the day, check my Facebook feed, read email and newsletters, browse pictures on Instagram, or tweet random musings.\n\nAfter a few phoneless days, I noticed something. As I was out at the park, out for dinner, or hanging around the house, I realized just how many people were on their phones all the time. It took me losing my phone to even notice.\n\nWhile others were staring at their teeny screens - waiting for something to happen, working, or searching for a dopamine hit - I closed my eyes and tuned into the sights and sounds of what was going on around me. And it felt good.\n\nTurns out, losing my phone led to the greatest part of the weekend. Extra bonding with my kids and my family, who I didn't get to see often after our move to the US. When we lived in Toronto, we'd pop over for dinner on Sunday night, or go out for a meal on a weeknight, whereas now we visit for an entire week or weekend. The time is more focused and intentional when you know you're not going to spend time with these people again for at least a few months. Even better if that time is phone-free.\n\nThat phone-free week taught me some essential lessons in smartphone sanity and spurred me to create some new boundaries:\n\nStop wishing I was somewhere else. I was exactly where I needed to be.\n\nMinimize social media to a few times daily.\n\nPhone-free when hanging out with the kids (this one's still a practice).",
+      "reference_preview": "Next time, I dare you. Watch the damn sunset. And if you must take a picture - take a quick few, then tuck your phone away so you can be there. You can post it later.\n\nThere's no prize for being the m",
+      "fine_tuned": {
+        "response": "We spent 10 days in Europe when I was 17 and my little sister was 6. It was one of those trips where you pack more than enough clothes for every situation because you never know what will happen.\n\nOn our third day, we were getting ready to leave the hotel to go on a guided tour of Rome. My mom had been frantically packing snacks, water bottles, and sunscreen into her backpack while my dad was charging his phone in the room next door. I was trying to get dressed while helping with breakfast and making sure that everyone had their tickets.\n\nMy sister woke up feeling sick. She didn't want to go on the tour because she wasn't feeling well. My mom tried to make her feel better, but nothing seemed to be working. In a moment of panic, my mom asked me if I could help take care of her while we were out. I felt a wave of anxiety wash over me.\n\nI quickly got into action - I gave my sister some water and made sure she was comfortable, then grabbed everything we needed for the day: sunscreen, sunglasses, snacks, extra clothes, our tickets and maps. I put all this stuff in her backpack along with her favorite toys and stuffed animals to make her feel a little better.\n\nMy dad asked me how I knew what to do. I told him that mom had shown me once before how to pack everything for the kids so she wouldn't have to carry it all herself.\n\nIt was my first time taking care of someone when they were sick, and I felt like I'd become an adult overnight. When we got back to the hotel, I helped her get settled in bed and gave mom some space. She thanked me for helping out and told me how proud she was of me for stepping up.\n\nAfter that experience, my parents started trusting me with more responsibilities during our family vacations. They knew I could handle things when they were chaotic.\n\nI remember one time, we were on a beach vacation in Florida - I had to keep an eye on my little sister and get her ready for bed while the adults were busy having dinner at a restaurant nearby. She was playing in the waves and got swept away by a strong current. I panicked and ran into the water after her.\n\nI managed to grab her and pull her back to shore where we both collapsed on the sand, exhausted but relieved that she was okay. My parents were shocked when they heard what happened - they didn't know how to react or what to do first.\n\nThey asked me if I wanted to tell them more about it later, which I did. They listened and thanked me for looking out for my sister. It turned into a story we would tell for years to come about the time she got swept away by the waves.\n\nIn that moment, something shifted inside of me - I felt like I had earned my place as an older sibling. My parents started giving me more responsibilities on our family vacations and trips - they trusted me with making sure everyone was safe and accounted for.\n\nIt wasn't always easy, but it was good practice for being a responsible adult. And even though we were often tired at the end of each day, I felt proud of what I could accomplish when given the chance.\n\nThis experience has shaped my parenting style to this day - I try to give my kids as much autonomy and freedom as possible while also keeping them safe. It's not always easy, but it helps them learn how to problem-solve and think for themselves.\n\nI remember a conversation with my mom about our first trip together. She said that she had been worried about me taking care of everyone by myself - especially when my sister got sick in Rome. I asked her if she was proud of me then.\n\nShe told me that she always knew I could do it, and that's why we started giving me more responsibilities on trips. I felt a sense of pride knowing that she believed in me.",
+        "response_preview": "We spent 10 days in Europe when I was 17 and my little sister was 6. It was one of those trips where you pack more than enough clothes for every situation because you never know what will happen.\n\nOn ",
+        "style_metrics": {
+          "ref_avg_sent_len": 18.2,
+          "gen_avg_sent_len": 20.6,
+          "vocab_overlap": 0.222,
+          "ref_word_count": 776,
+          "gen_word_count": 713,
+          "ref_structural": {
+            "dashes_per_1k": 6.44,
+            "parens_per_1k": 2.58,
+            "questions_per_1k": 1.29,
+            "fragment_pct": 14.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 9.82,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 0.0,
+            "fragment_pct": 0.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4749,
+          "rouge2_f": 0.0675,
+          "rougeL_f": 0.1402
+        },
+        "embedding": {
+          "ref_similarity": 0.7118,
+          "centroid_similarity": 0.6954
+        },
+        "failure_modes": {
+          "buzzwords": [],
+          "generic_ai": false,
+          "specifics": {
+            "count": 25,
+            "items": [
+              "Europe",
+              "Rome",
+              "Florida",
+              "10 days",
+              "17",
+              "6",
+              "third day",
+              "snacks",
+              "water bottles",
+              "sunscreen",
+              "phone",
+              "tickets",
+              "sunglasses",
+              "extra clothes",
+              "maps",
+              "favorite toys",
+              "stuffed animals",
+              "sister getting sick before Rome tour",
+              "narrator packing sister's bag for tour",
+              "dad asking how narrator knew what to do",
+              "mom's praise for stepping up",
+              "sister getting swept away by current in Florida",
+              "narrator rescuing sister from current",
+              "parents' shock and subsequent listening after rescue",
+              "story of rescue becoming a family legend"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "And I still remember those summer road trips with my little brother – our parents' sanity-testing adventures that somehow became our own rite of passage.\n\nEvery single time we'd get lost in some rural nowhere, I'd freak out, but he'd just shrug and say, \"Don't worry, I got this.\" And then he'd pull out his trusty map (which was basically a crayon-drawn mess) and somehow navigate us back on track. Hell, it was like having our own personal GPS – minus the satellite signal.\n\nThose were the moments when my brother proved himself to be more than just a pesky little sibling – he was my partner in crime, my co-pilot in the chaos of family travel. We'd spend hours arguing over who got to control the air conditioning or which music station to listen to (he always chose the one with more Kidz Bop), but when push came to shove, we worked together like a well-oiled machine.\n\nI remember this one time in particular – we were stuck in some crummy rest stop diner during a torrential downpour. Our mom was stressing out about getting to our destination on time, and my dad was trying to fix the air conditioning (which, spoiler alert, wasn't going to happen). My brother, who couldn't have been more than 10 at the time, took charge. He started making small talk with the waitress, ordering us all burgers and fries like he owned the place.\n\nJust that – his calm, matter-of-fact demeanor in the midst of our family's meltdown – it was like a switch had flipped inside me. I realized that maybe, just maybe, we were all capable of navigating this crazy thing called life together.\n\nAnd when we finally made it to our destination, drenched and exhausted but somehow also exhilarated, my brother turned to me with this huge grin on his face and said, \"See? Told you I could do it.\" Screw the family vacation – that moment was what stuck with me all these years. What if you just let your little sibling take the reins for once and saw how capable they are of handling chaos?",
+        "response_preview": "And I still remember those summer road trips with my little brother – our parents' sanity-testing adventures that somehow became our own rite of passage.\n\nEvery single time we'd get lost in some rural",
+        "style_metrics": {
+          "ref_avg_sent_len": 18.2,
+          "gen_avg_sent_len": 25.8,
+          "vocab_overlap": 0.167,
+          "ref_word_count": 776,
+          "gen_word_count": 357,
+          "ref_structural": {
+            "dashes_per_1k": 6.44,
+            "parens_per_1k": 2.58,
+            "questions_per_1k": 1.29,
+            "fragment_pct": 14.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 19.61,
+            "parens_per_1k": 8.4,
+            "questions_per_1k": 5.6,
+            "fragment_pct": 0.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3494,
+          "rouge2_f": 0.0397,
+          "rougeL_f": 0.1188
+        },
+        "embedding": {
+          "ref_similarity": 0.7393,
+          "centroid_similarity": 0.6852
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "rite of passage",
+            "take the reins"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 6,
+            "items": [
+              "crayon-drawn map",
+              "Kidz Bop",
+              "10 (brother's age)",
+              "torrential downpour",
+              "burgers and fries",
+              "air conditioning"
+            ]
+          },
+          "directness": 5
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"advice detox\"",
+      "reference": "You get a really cool idea when you're in the shower.\n\nAwesome! Before you even scribble a note down or pop open a spreadsheet, you're on Facebook posting it in a group of 12,000 other business owners asking, \"Is this a good idea?\"\n\nYou're met with after this is a slew of comments from beautiful and probably well-meaning strangers with a mixed bag of encouragement and head-scratching:\n\nGreat idea! Do it!\n\nThe market is saturated - how are you going to compete?\n\nMy cousins, friends, sister-in-law tried that, and it was a ton of work, are you ready for that?\n\nSo-and-so is doing that now; you should check it out!\n\nHere are 46 books on the topic you should read first.\n\nNow you're spinning. You have so much research to do, and books to read, and you need to check out the similar offers, and competition and oh-my-gourd this is going to be way too much work, and you're so not ready.\n\nSo you quit.\n\nWhoah?! What happened here?\n\nWhat happens when you share your creative and big beautiful ideas before they're ready?\n\nWhat could happen if you stopped seeking advice for one week, or even one month? Or at the very least, waiting until your idea was ready to see the light of day.\n\nDo you know someone who immediately gets an idea and then shares it right away? Maybe to validate the idea to give them the courage to take the first step.\n\nWhat if you had a fun new idea and instead just let it sit. Schedule an hour in the coming week to do nothing other than just thinking about it. A completely blank hour, no noise, no distraction - just you and your idea hanging out.\n\nThe problem with sharing your ideas before they're ready is that a well-meaning idea receiver could squash your concept and then you stop pursuing it when it may have been something that you should have pursued.\n\nOr, someone with great intentions may steer you in a direction that they would have headed - which may not be the best direction for you and your unique gifts.\n\nThis isn't to say we should never seek advice from anyone, ever again.\n\nBe mindful who you seek advice from. Do you want business advice from your dad who believes you should focus on climbing the corporate ladder? Do you want advice on your book topic from your mother who wouldn't be part of your target audience?\n\nBefore you ask for advice, consider:\n\nAre you ready for advice?\n\nWhat specifically do you want advice on?\n\nWhose opinion would you like on your idea?\n\nDo those people fully understand you and your business?\n\nDo the advice-givers know your biggest business goals and dreams?\n\nHow many book ideas, businesses, and big dreams get squashed because they were shared too early?\n\nMaybe you would have accomplished more on your idea before getting advice. You may have let the idea soak in just enough to solidify your idea just a little bit more so that when you receive advice, you'd know what advice to keep and what to ignore.\n\nThe next time you're about to ask for advice, pause and ask yourself, \"Am I ready for advice?\"\n\nMaybe you'd start a project. Maybe you'd finish one.",
+      "reference_preview": "You get a really cool idea when you're in the shower.\n\nAwesome! Before you even scribble a note down or pop open a spreadsheet, you're on Facebook posting it in a group of 12,000 other business owners",
+      "fine_tuned": {
+        "response": "Advice Detox: How to Stop Second-Guessing and Start Your Own Voice\n\nI love advice. In fact, I think it's an amazing way to learn. But there's a problem - we're taking in too much of it.\n\nAnd not the good kind.\n\nWe're swallowing advice like vitamin pills, sometimes without even realizing it's happening. It starts with someone telling us what we need to do or how to be better - and then we start listening.\n\nBut here's the thing: advice is only good if you're asking for it in the first place.\n\nWhen I wrote my book about intuitive writing, I included a whole section on trusting your own voice over other people's. It was one of those things that I knew would resonate with readers - and boy, did it ever.\n\nAnd I know why. Because we've all been there at some point or another: stuck in someone else's advice loop without even realizing it. We're taking their words as gospel, trying to fit into their mold, and wondering why we feel like crap.\n\nWhat if you just... stopped asking for advice? Just stopped seeking out the next piece of guidance?\n\nThat doesn't mean you won't ask questions or seek help when you need it. It means that before you take someone else's input, you're going to tune in - really tune in - and see what your own voice has to say.\n\nIt sounds simple. And it is. But it takes practice. Which is why I'm calling this a detox - not just an advice detox, but a second-guessing detox as well.\n\nWhat does that look like?\n\nWell, let me show you how it looks for me.\n\nI've been in the writing business long enough to know that there are lots of \"experts\" out there who will tell you exactly what you need to do - and why. And I'm sure they mean well. But I'm not interested in following their advice. What I am interested in is doing my own work.\n\nMy advice detox started a few years ago when I realized that every time someone told me something was \"good enough\" or when I should stop trying, it felt like someone had put a wet blanket over my writing. That's when I knew it was time to try on my own voice for size.\n\nAnd you can do the same.\n\nIt starts with simply being aware of how much advice - and second-guising - is happening in your day-to-day life. Do you find yourself constantly seeking out others' opinions? Are you overthinking every move you make?\n\nOnce you become more aware, it's time to start tuning into your own voice. This means spending some quiet time with yourself (which I know can be hard for many people), listening, and being patient.\n\nIt might feel silly at first - talking to yourself! But trust me, if you do nothing else, start having conversations with yourself. Ask questions, get curious, and listen to your answers.\n\nAnd here's the most important part: it means taking action on your own advice.\n\nIf I had a dollar for every time someone told me to \"just write,\" or \"do what feels good,\" I'd be rich by now. And you know why? Because they were right all along - but only if I was listening to them and not just repeating their words back like a parrot.\n\nSo how can you start your own advice detox?\n\nFirst, take notice of who you're listening to. Are there people in your life who are always telling you what to do or saying things like \"you should\" or \"don't\"? And then ask yourself if that feels right for you.\n\nNext, pay attention to the internal chatter that's driving your decisions. Do you find yourself constantly second-guessing? Are you overthinking every move?\n\nThen, tune in - really tune in - and listen to what your own voice has to say.\n\nFinally, stop asking people questions like \"what should I do?\" or \"how can I fix this?\" Start asking yourself instead.\n\nYou might be surprised at how much clarity comes when you start listening to your own voice. And not because you're ignoring others or being selfish - but because you finally know what you truly want and need.\n\nAnd if anyone gives you any crap for it (and they probably will), just remind them that you're detoxing from advice.",
+        "response_preview": "Advice Detox: How to Stop Second-Guessing and Start Your Own Voice\n\nI love advice. In fact, I think it's an amazing way to learn. But there's a problem - we're taking in too much of it.\n\nAnd not the g",
+        "style_metrics": {
+          "ref_avg_sent_len": 16.2,
+          "gen_avg_sent_len": 15.7,
+          "vocab_overlap": 0.257,
+          "ref_word_count": 549,
+          "gen_word_count": 732,
+          "ref_structural": {
+            "dashes_per_1k": 5.46,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 30.97,
+            "fragment_pct": 17.9
+          },
+          "gen_structural": {
+            "dashes_per_1k": 19.13,
+            "parens_per_1k": 2.73,
+            "questions_per_1k": 16.39,
+            "fragment_pct": 12.5
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4841,
+          "rouge2_f": 0.0894,
+          "rougeL_f": 0.1513
+        },
+        "embedding": {
+          "ref_similarity": 0.7107,
+          "centroid_similarity": 0.8157
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "detox",
+            "tune in",
+            "resonate",
+            "advice loop"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 3,
+            "items": [
+              "my book about intuitive writing",
+              "My advice detox started a few years ago when I realized that every time someone told me something was 'good enough' or when I should stop trying, it felt like someone had put a wet blanket over my writing.",
+              "If I had a dollar for every time someone told me to 'just write,' or 'do what feels good,' I'd be rich by now."
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "Advice Detox\n\nI'm calling it: we need an advice detox. Like, stat.\n\nYou know what I mean - all those voices in our heads telling us how to write better, live better, be better? It's exhausting just thinking about it. The constant stream of \"you shoulds\" and \"you coulds\" has got to go.\n\nSo here's the deal: we're going to stop listening to other people's advice for a hot second. Just you, your writing (or whatever it is you're trying to figure out), and some quiet space to breathe.\n\nNot even close to easy, I know. We've been trained to seek outside validation our whole lives. But trust me, it's time to tune in to what your own voice is saying.\n\nWhat if you just stopped trying to fix everything all at once? What if instead of Googling \"how to write a novel\" or \"how to be more productive,\" you just started writing for the sake of writing?\n\nNot because it's going to change your life overnight (although, let's be real, sometimes it does). But because it feels good. Because it's yours.\n\nSo here's my prescription: for the next 30 days, I want you to swear off outside advice. No books on writing or self-improvement, no YouTube tutorials or podcast interviews. Just your own two feet (and brain) on the ground.\n\nAnd when those voices start whispering \"you should be doing this\" or \"you could do that,\" just tell them thanks but no thanks.\n\nYou're enough, as you are, right now.",
+        "response_preview": "Advice Detox\n\nI'm calling it: we need an advice detox. Like, stat.\n\nYou know what I mean - all those voices in our heads telling us how to write better, live better, be better? It's exhausting just th",
+        "style_metrics": {
+          "ref_avg_sent_len": 16.2,
+          "gen_avg_sent_len": 16.0,
+          "vocab_overlap": 0.2147,
+          "ref_word_count": 549,
+          "gen_word_count": 251,
+          "ref_structural": {
+            "dashes_per_1k": 5.46,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 30.97,
+            "fragment_pct": 17.9
+          },
+          "gen_structural": {
+            "dashes_per_1k": 3.98,
+            "parens_per_1k": 11.95,
+            "questions_per_1k": 11.95,
+            "fragment_pct": 10.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3645,
+          "rouge2_f": 0.0529,
+          "rougeL_f": 0.1367
+        },
+        "embedding": {
+          "ref_similarity": 0.7291,
+          "centroid_similarity": 0.8237
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "detox",
+            "validation",
+            "productive",
+            "tune in",
+            "prescription",
+            "self-improvement",
+            "enough"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 3,
+            "items": [
+              "Googling",
+              "30 days",
+              "YouTube"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post titled \"the one question trick to knowing when your work is _done_\"",
+      "reference": "You're revisiting your brand new offer page for the tenth time. You wonder if it's long enough, short enough, funny enough, smart enough, or even if it sounds like you.\n\nWhile you're writing a little voice pops into your head.\n\nThis has been done before.\n\nWho's even going to buy this thing, come to this event, or like what I make?\n\nWhat if I put it out there and people hate it?\n\nWorse, what if I put it out there and I hear crickets?\n\nWhat if it sucks and no one wants it?\n\nWhat if it's amazing and people go crazy for it?\n\nWe all get this. And with practice, you'll be able to silence the mental chatter - for a while.\n\nYes, for a while. I'm not sure if it ever actually goes away. And maybe that's a good thing. Maybe the noise is a perfect reminder for us to check in to see if we want it bad enough.\n\nPerhaps it's saying, \"Hey, it's me, are you SURE you want this?\"\n\nYou answer, \"Yes, I do, thank you for asking. Bye!\"\n\nAnd then you get to keep going.\n\nDo you know how many times I've come close to NOT publishing a weekly blog post because I think it sucks? Or it's not good enough?\n\nAlmost every week.\n\nAnd those times that I ask this one simple question and then I know what I need to do--I hit publish.\n\nHere's the one question to ask yourself when you're nervous to send, publish, go live?\n\nIs this helpful?\n\nIf it might help just one person get some new insight or take another step forward, then it's time for me to stop fussing with it and just get it out there.\n\nNotice the question isn't, \"Is it perfect?\" \"Is it prolific?\" \"Is it brilliant?\"\n\nThe question takes the focus completely off of me and puts it onto the reader.\n\nWill what I'm writing, sharing, selling, giving away help someone?\n\nIf the answer is yes, then you know what to do. Get it out there!",
+      "reference_preview": "You're revisiting your brand new offer page for the tenth time. You wonder if it's long enough, short enough, funny enough, smart enough, or even if it sounds like you.\n\nWhile you're writing a little ",
+      "fine_tuned": {
+        "response": "The One Question Trick To Knowing When Your Work Is Done\n\nYou've written for hours. You've revised, edited, and perfected (or so you thought). But now it's time to ask yourself: is this thing done yet?\n\nThere are a million ways to know if your work is finished, but most of them require too much thinking - which can lead to overthinking.\n\nHere's the trick:\n\nAsk yourself, \"Is this the best I can do?\"\n\nNot \"is it good enough?\" Not \"will people like it?\" Not \"am i proud of myself for doing it?\" But, \"is this the best I can do?\"\n\nThis one question gets right past all the noise that you've been hearing in your head. You know the noise - it's the stuff that makes you doubt yourself and wonder if you're good enough.\n\nThe answer to this question requires absolute honesty. And when you tell yourself the truth, something shifts inside of you. It might feel like a weight has been lifted off your shoulders, or maybe you just let out a big sigh.\n\nWhatever happens in your body, it's going to be a feeling that signals one thing: you're done.\n\nYou see, \"the best I can do\" isn't necessarily the same as perfection (and if you think about it too much, you might get stuck in the land of perfectionism). This is more about surrendering. Surrendering your ego's need to control the outcome and simply letting go.\n\nSo when you ask yourself this question, pay attention to what happens next. Do you feel a sense of completion? A weight lifting off your shoulders? A feeling that it's time to move on?\n\nIf so - done!\n\nYou might wonder how this works if you have a perfectionist personality type (I sure do). Well, here's the thing: perfectionism is often a mask for fear. And when you're able to let go of fear and truly ask yourself if you've given your best effort, that's when you can finally say it's done.\n\nThe one question trick works like this:\n\nYou write something (and think it's good enough) - not done\n\nYou revisit the work after a day or two, and with fresh eyes, you see some new ideas to add in - still not done\n\nYou take your time to review it again, and then ask yourself: \"Is this the best I can do?\" - and when you say yes, you're done.\n\nThe one question trick is simple. It's a way of knowing when you've given something your all (even if that \"all\" isn't perfect). And trust me, every time I put it into practice, I feel like a weight has been lifted off my shoulders. And as soon as I start telling others about their work - I'm doing the same thing!\n\nSo how does this one question trick work for you?",
+        "response_preview": "The One Question Trick To Knowing When Your Work Is Done\n\nYou've written for hours. You've revised, edited, and perfected (or so you thought). But now it's time to ask yourself: is this thing done yet",
+        "style_metrics": {
+          "ref_avg_sent_len": 13.0,
+          "gen_avg_sent_len": 17.6,
+          "vocab_overlap": 0.2867,
+          "ref_word_count": 343,
+          "gen_word_count": 474,
+          "ref_structural": {
+            "dashes_per_1k": 2.92,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 40.82,
+            "fragment_pct": 24.2
+          },
+          "gen_structural": {
+            "dashes_per_1k": 14.77,
+            "parens_per_1k": 10.55,
+            "questions_per_1k": 23.21,
+            "fragment_pct": 3.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.5012,
+          "rouge2_f": 0.1108,
+          "rougeL_f": 0.1906
+        },
+        "embedding": {
+          "ref_similarity": 0.7633,
+          "centroid_similarity": 0.7667
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "ego",
+            "surrendering",
+            "perfectionism",
+            "mask for fear"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "The eternal conundrum: how do we know when our work is done? When can we finally put down the pen, close the laptop, and say, \"Finito\"?\n\nI'll let you in on a little secret. It's not about meeting some arbitrary deadline or completing a certain number of words. No, no. That's just procrastination by another name.\n\nThe truth is, knowing when your work is done requires more than just logic and reason. It requires... intuition.\n\nNow, I know what you're thinking: \"But Jacq, I'm not exactly the intuitive type.\" Ah, don't worry about that. Intuition is like a muscle – it can be developed with practice. And I've got a trick to help you get started.\n\nIt's simple, really. Ask yourself this one question:\n\n\"Would I still be working on this if I had all the time and money in the world?\"\n\nPause for a moment. Think about it. Would you? Or would you let go?\n\nHere's what this question does: it separates your desire to finish something from your actual need to keep tweaking and perfecting. When we're driven by perfectionism, we can get stuck in an endless loop of revisions and edits. But when we ask ourselves if we'd still be working on it with all the time and resources in the world, suddenly our priorities shift.\n\nWe start to see that \"done\" doesn't have to mean perfect. It just means... finished.\n\nNot even close to perfect, but good enough.\n\nSound familiar?\n\nI've seen this play out time and time again with my clients – women who are struggling to let go of their work because they're convinced it's not quite right yet. But when we ask ourselves that one question, the answer is almost always... no.\n\nWe wouldn't still be working on it if we had all the time and money in the world. So why are we doing it now?\n\nJust that. It's just that simple.\n\nSo next time you're staring at your work, wondering if it's really done, ask yourself: would I still be working on this if I had all the time and money in the world? And trust me, the answer will set you free.\n\nWhat if you just... stopped trying to fix it?\n\nNow go forth and finish something today.",
+        "response_preview": "The eternal conundrum: how do we know when our work is done? When can we finally put down the pen, close the laptop, and say, \"Finito\"?\n\nI'll let you in on a little secret. It's not about meeting some",
+        "style_metrics": {
+          "ref_avg_sent_len": 13.0,
+          "gen_avg_sent_len": 13.3,
+          "vocab_overlap": 0.25,
+          "ref_word_count": 343,
+          "gen_word_count": 378,
+          "ref_structural": {
+            "dashes_per_1k": 2.92,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 40.82,
+            "fragment_pct": 24.2
+          },
+          "gen_structural": {
+            "dashes_per_1k": 5.29,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 23.81,
+            "fragment_pct": 33.3
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4715,
+          "rouge2_f": 0.0983,
+          "rougeL_f": 0.1669
+        },
+        "embedding": {
+          "ref_similarity": 0.7038,
+          "centroid_similarity": 0.7784
+        },
+        "failure_modes": {
+          "buzzwords": [],
+          "generic_ai": false,
+          "specifics": {
+            "count": 1,
+            "items": [
+              "Jacq"
+            ]
+          },
+          "directness": 5
+        }
+      }
+    },
+    {
+      "prompt": "Write a blog post about getting serious",
+      "reference": "Are you serious about starting a business?\n\nI spent about seven years thinking about starting a business. I spent most of this time on my couch, a pillow and a laptop on my lap, wine, and chocolate to my left.\n\nI had spent so much time talking about all my business ideas even I was sick of listening to myself.\n\nIt wasn't until I got serious that things started to change and I started creating momentum and growth.\n\nFor me, getting serious meant:\n\nListening to podcasts about starting a business, then putting them all aside to do the work\n\nGoing to a writing workshop to give me the push I needed to start (and finish) my first mini book\n\nSneaking off to Starbucks on Saturday mornings to work on my book\n\nBlogging all the time - I started by writing a blog post a day to get into the habit. Now, I blog every single week. Some of my old blogs were great, some not-so-great.\n\nSetting a date to quit my corporate job and writing my resignation letter\n\nReading dozens of books about copywriting and marketing\n\nEmailing approximately 100 of my friends and family to tell them about my goals and ask for help - be that an intro to someone who needed me, or just a high five\n\nWorking for a handful of people for free or for strategic trades to get valuable experience and testimonials.\n\nBlocking time on my calendar every day to write, and showing up for those appointments\n\nHaving in person and virtual coffee (or wine) dates with business owners and just learning more about what people do in their work\n\nPitching guest blog post ideas to dozens of other bloggers, mostly getting ignored\n\nCanceling events because no one signed up\n\nSaying out loud, \"I'm a writer\" instead of, \"I wish I could be a writer.\"\n\nOnce I decided to take my dream seriously - and put in a serious amount of work - a lot of things happened quickly and the momentum (and continual work) keeps it going.\n\nIn a little over a year, I was making half of my corporate salary on the side. Within a year and a half of getting serious about my business, I left my corporate job. After 12 months of being a business owner, I came within 75% of my corporate salary - AND I was working about half the time. Considering the dollars per hour, I was making more. Today a little over a year later, I'm on track to exceed my corporate income, still working 20-30 hours per week and loving my life so much more.\n\nIt's all too easy to sit around and wait for a big break to come along. A viral blog post, a sold-out event, perfect client, a million dollars to magically land in your bank account, or some other magical, mystical thing to change the course of their career and life.\n\nIt's not until I buckled up, got off the couch and took action, did the ducks start to line up and everything started to change. And, it changed everything.",
+      "reference_preview": "Are you serious about starting a business?\n\nI spent about seven years thinking about starting a business. I spent most of this time on my couch, a pillow and a laptop on my lap, wine, and chocolate to",
+      "fine_tuned": {
+        "response": "Getting Serious. Like, Really Serious.\n\nI'm going to say something that might upset you. And then I'm going to tell you to do it anyway.\n\nThis is for anyone who has ever said they wanted to write a book but hasn't done anything about it - or started one only to give up on it, or not finished editing it, or haven't even begun yet.\n\nIt's for the people who say things like \"I want to start my own business\" and then don't. Or they talk about starting a blog, but when you ask them what they're writing about, they have no idea.\n\nIt's also for those who are serious - really serious - about making change in their lives. But every time they get close to taking action, something gets in the way.\n\nYou know why? Because getting serious means being uncomfortable.\n\nIt means having hard conversations with yourself and others.\n\nIt means putting yourself out there (even if you're terrified).\n\nAnd it means taking responsibility for your life and your decisions.\n\nBeing serious isn't about being perfect. It's about showing up, day after day. Even when it sucks.\n\nThe other thing that gets in the way of getting serious is fear - specifically, the fear of failure or not being good enough.\n\nWhat if you're completely wrong?\n\nWhat if you fail?\n\nWhat if you suck?\n\nWell, here's what happens: you don't try at all.\n\nAnd then you wonder why your life isn't changing. You feel stuck and frustrated and maybe even a little resentful.\n\nYou have to be serious about showing up for yourself - every day. And it doesn't matter how small or insignificant your actions may seem.\n\nIf you want to write that book, start writing one sentence a day. Or do 10 minutes of writing a day. That's serious. Not \"I'm going to write my entire book in one sitting\" (that's not serious) - but consistent effort every single day.\n\nIf you want to start your own business, show up and put yourself out there. Even if it feels scary or uncomfortable.\n\nAnd if you're writing a blog and don't know what you're going to write about yet, that's okay. Show up with an empty page and see where the words take you.\n\nThe only thing more uncomfortable than taking action is doing nothing - or being in limbo and feeling stuck.\n\nSo here's your assignment: show up. Just do it. Don't think too much about it. Just start showing up and put yourself out there.\n\nIt won't be easy. But it will be worth it.\n\nWill you take the first step?",
+        "response_preview": "Getting Serious. Like, Really Serious.\n\nI'm going to say something that might upset you. And then I'm going to tell you to do it anyway.\n\nThis is for anyone who has ever said they wanted to write a bo",
+        "style_metrics": {
+          "ref_avg_sent_len": 29.1,
+          "gen_avg_sent_len": 12.5,
+          "vocab_overlap": 0.25,
+          "ref_word_count": 518,
+          "gen_word_count": 437,
+          "ref_structural": {
+            "dashes_per_1k": 9.65,
+            "parens_per_1k": 5.79,
+            "questions_per_1k": 1.93,
+            "fragment_pct": 5.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 16.02,
+            "parens_per_1k": 4.58,
+            "questions_per_1k": 11.44,
+            "fragment_pct": 21.4
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3865,
+          "rouge2_f": 0.0697,
+          "rougeL_f": 0.137
+        },
+        "embedding": {
+          "ref_similarity": 0.7983,
+          "centroid_similarity": 0.8667
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "show up",
+            "take action",
+            "put yourself out there",
+            "take responsibility",
+            "consistent effort",
+            "take the first step"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 5
+        }
+      },
+      "baseline": {
+        "response": "Getting Serious: When \"Just Good Enough\" Isn't\n\nI woke up this morning to the sound of my kids arguing over whose turn it is to play with the tablet. My husband, bless him, got out of bed and settled it while I poured myself a cup of coffee. As I sat on the porch watching the sun rise, I realized that getting serious about writing – or anything, really – isn't just about carving out an hour in the morning (although, let's be real, that doesn't hurt).\n\nIt's not even about having a \"creative space\" or an \"inspiring view.\" Although, I do have to admit that our backyard is pretty darn lovely this time of year. But when it comes down to it, getting serious means making it a priority. Every single day.\n\nWe women are notorious for putting others first – our families, our friends, our social media followers (yes, really). And while that's often necessary, it can also be our downfall when it comes to pursuing our own creative dreams. So how do we get from \"I'll try\" to actually doing the work?\n\nHere's a secret: it starts with trust.\n\nNot just trusting ourselves, but trusting the process. Trusting that even if we don't know what we're doing (which is often), we can figure it out as we go along. Trusting that our writing will be messy and imperfect at first – but that's okay. We can always edit.\n\nSo I started my day with a 30-minute yoga session, followed by a cup of tea and a few pages of morning pages. My journal is filled with scribbled notes on writing, life, and everything in between. It's not pretty, but it's real.\n\nAnd that's what getting serious about our creative pursuits really means: being willing to be real, even when it's hard. Even when we'd rather hide behind a façade of perfection or pretend like we have all the answers. No more \"I'll try\" or \"Maybe I can do this.\" It's time to get real.\n\nSo what if you just stopped trying to fix it – your writing, your art, your life? What if instead, you simply showed up and let things unfold as they will?\n\nFor me, getting serious about writing means embracing the mess. The uncertainty. The not-knowing. And for you... well, that's for you to figure out.\n\nBut here's one thing I'm certain of: when we get serious – really serious – our creative work becomes something more than just \"hobby\" or \"side hustle.\" It becomes a part of who we are.\n\nAnd isn't that what it's all about in the end?\n\nWhat if your creativity is calling you to be seen, heard, and felt?",
+        "response_preview": "Getting Serious: When \"Just Good Enough\" Isn't\n\nI woke up this morning to the sound of my kids arguing over whose turn it is to play with the tablet. My husband, bless him, got out of bed and settled ",
+        "style_metrics": {
+          "ref_avg_sent_len": 29.1,
+          "gen_avg_sent_len": 17.4,
+          "vocab_overlap": 0.1867,
+          "ref_word_count": 518,
+          "gen_word_count": 450,
+          "ref_structural": {
+            "dashes_per_1k": 9.65,
+            "parens_per_1k": 5.79,
+            "questions_per_1k": 1.93,
+            "fragment_pct": 5.0
+          },
+          "gen_structural": {
+            "dashes_per_1k": 15.56,
+            "parens_per_1k": 6.67,
+            "questions_per_1k": 11.11,
+            "fragment_pct": 15.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3633,
+          "rouge2_f": 0.0506,
+          "rougeL_f": 0.1393
+        },
+        "embedding": {
+          "ref_similarity": 0.7615,
+          "centroid_similarity": 0.8806
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "trusting the process",
+            "showed up"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 10,
+            "items": [
+              "my kids",
+              "the tablet",
+              "my husband",
+              "a cup of coffee",
+              "the porch",
+              "our backyard",
+              "30-minute yoga session",
+              "a cup of tea",
+              "morning pages",
+              "my journal"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write about homeschooling and creativity",
+      "reference": "One thing nobody tells you about homeschooling — it will completely change how you think about creativity.\n\nBefore we started, I thought creativity was something you scheduled. Art class on Tuesday. Music on Thursday. Creative writing when there's time — which, let's be honest, there never was.\n\nBut when you homeschool, everything blurs. And at first, that terrified me.\n\nWhere's the structure? Where's the curriculum? What if I'm ruining my kids?\n\nTurns out — the blur is the point.\n\nMy daughter writes stories at the kitchen table while I edit client copy. My son builds elaborate worlds out of cardboard and duct tape while I'm on a coaching call. They see me work. They see me struggle with words. They see me close my laptop and say, \"I need a break — let's go check on the chickens.\"\n\nAnd something amazing happens — they learn that creativity isn't a subject. It's a way of being.\n\nIs it messy? God, yes. There are days where nothing goes as planned and the house looks like a craft store exploded. Days where I wonder if we should just send them to regular school and be done with it.\n\nBut then my kid says something so damn insightful about a book she's reading, and I think — oh. This is working.\n\nNot perfectly. But really.\n\nThat's enough for me.",
+      "reference_preview": "One thing nobody tells you about homeschooling — it will completely change how you think about creativity.\n\nBefore we started, I thought creativity was something you scheduled. Art class on Tuesday. M",
+      "fine_tuned": {
+        "response": "We're going to talk about something that might be a little polarizing for parents of young kids - and that's homeschooling. Now, I know what you're thinking. You might think it's all sunshine and rainbows with your kid as the teacher. And while there are many benefits to homeschooling, including more control over curriculum, one-on-one attention, and flexibility in scheduling, it can also be a heavy responsibility.\n\nFirst of all, let me tell you that I come from a family where both parents worked outside the home. We were not privileged enough to have either parent stay at home or afford private school. My husband and I decided to homeschool our kids because we wanted more control over their education, but it wasn't until later on that we realized what was really important - giving them freedom.\n\nFreedom is something kids don't get much of in the traditional school system. They're often stuck inside with strict schedules and little time for creativity. And while I know some parents are worried about not having enough structure or routine, I can tell you from experience, giving my kids free rein has been one of the best decisions we ever made.\n\nNow, before you start thinking that I'm a complete hippie who's abandoning all sense of discipline and order, let me say that our kids have always had routines and responsibilities. But these routines are flexible and work for them, not against them. They can choose when to do their schoolwork, and what they want to focus on - if anything at all.\n\nAnd here's the thing - giving kids freedom doesn't mean you're failing as a parent. It means you trust them to figure out how to learn and grow. And it shows. Because now that my kids are older, I see just how much more confident and self-motivated they've become.\n\nIt isn't always easy for me either. Sometimes, when I'm feeling overwhelmed with schoolwork or other responsibilities, I have to remind myself why we started homeschooling in the first place - to give our kids freedom.\n\nFreedom is a gift that can be given to children, but it requires us as parents to get out of their way and trust them to make good choices. It's not always easy, but when you're able to let go of needing control over every detail, something magical happens.\n\nAnd then there are the creative benefits. When kids have more freedom to explore and discover, they become naturally curious about learning and want to learn. This curiosity can lead to some amazing discoveries and new interests that we never would have expected. And as parents, it's a gift to see our children grow into their passions and talents.\n\nOne of my favorite things about homeschooling is the time I get to spend with my kids while they're doing their schoolwork - even if it means sitting right next to them and getting in on the fun too! When we can choose what we want to focus on, life feels so much more joyful and carefree. And that's what I think learning should feel like.\n\nIt's not about giving your kid a head start or an advantage over their peers. It's about trusting them to figure out how to learn in the way that works best for them. And it's about giving yourself permission to enjoy this journey with them, not just sitting back and waiting for them to grow up.\n\nSo if you're considering homeschooling - whether you have a kid who needs more flexibility or just want to give your child the freedom to explore their passions - I say go for it!",
+        "response_preview": "We're going to talk about something that might be a little polarizing for parents of young kids - and that's homeschooling. Now, I know what you're thinking. You might think it's all sunshine and rain",
+        "style_metrics": {
+          "ref_avg_sent_len": 10.1,
+          "gen_avg_sent_len": 21.5,
+          "vocab_overlap": 0.2157,
+          "ref_word_count": 225,
+          "gen_word_count": 609,
+          "ref_structural": {
+            "dashes_per_1k": 26.67,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 17.78,
+            "fragment_pct": 40.7
+          },
+          "gen_structural": {
+            "dashes_per_1k": 13.14,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 0.0,
+            "fragment_pct": 3.1
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3543,
+          "rouge2_f": 0.0537,
+          "rougeL_f": 0.1352
+        },
+        "embedding": {
+          "ref_similarity": 0.814,
+          "centroid_similarity": 0.6942
+        },
+        "failure_modes": {
+          "buzzwords": [],
+          "generic_ai": false,
+          "specifics": {
+            "count": 8,
+            "items": [
+              "Author's parents both worked outside the home",
+              "Author's family could not afford a stay-at-home parent or private school",
+              "Author and husband decided to homeschool their kids",
+              "Their kids were given 'free rein'",
+              "Their kids have flexible routines and responsibilities",
+              "Their kids are now older and more confident/self-motivated",
+              "Author sometimes feels overwhelmed with schoolwork or other responsibilities",
+              "Author enjoys spending time with kids during schoolwork, even sitting right next to them"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "The sweet chaos of homeschooling. It's like trying to contain a wildflower - you know it's gonna bloom, but you have no idea where.\n\nI used to think that structure was the key to productivity. You know, wake up at 5am, hit the gym, then crunch numbers till noon. But after switching from corporate life to homeschooling my kids, I realized: who am I kidding? My creativity's not in a spreadsheet, it's in the messy, beautiful chaos of our backyard.\n\nDon't get me wrong - some days are like trying to herd cats while simultaneously solving world hunger. But those are the days when I remember why I left the corporate world behind. When we're stuck on a math problem or debating the finer points of Shakespearean sonnets, it's easy to feel overwhelmed.\n\nBut here's the thing: this is where the magic happens. In the midst of the messy, imperfect process, my kids and I stumble upon something - anything - that sparks our curiosity. Maybe it's an impromptu dance party to understand a tricky concept or a hasty sketch to visualize an idea. Whatever it is, we dive in with reckless abandon.\n\nAnd you know what? It works. My kids are learning to think creatively, to trust their instincts and take risks. They're not worried about getting the \"right\" answer; they're too busy exploring the world around them. And I'm right there with them - pencil in hand, scribbling notes in my paper planner as we go.\n\nIt's like Julia Cameron said: \"The Artist's Way is not a program for creating artists, but rather an invitation to become one.\" Homeschooling isn't about recreating the traditional classroom; it's about inviting creativity into our lives. And trust me, it shows up when you least expect it - in the most delightful, messy ways.\n\nSo if you're feeling stuck or struggling to find your creative flow, try this: grab a cup of coffee (or tea, or wine... we won't judge), and take a walk outside with your kids. Forget about schedules and deadlines; just show up to the moment. You never know what might bloom.\n\nWhat if you just let go of perfection and allowed yourself to get messy?",
+        "response_preview": "The sweet chaos of homeschooling. It's like trying to contain a wildflower - you know it's gonna bloom, but you have no idea where.\n\nI used to think that structure was the key to productivity. You kno",
+        "style_metrics": {
+          "ref_avg_sent_len": 10.1,
+          "gen_avg_sent_len": 17.8,
+          "vocab_overlap": 0.1893,
+          "ref_word_count": 225,
+          "gen_word_count": 367,
+          "ref_structural": {
+            "dashes_per_1k": 26.67,
+            "parens_per_1k": 0.0,
+            "questions_per_1k": 17.78,
+            "fragment_pct": 40.7
+          },
+          "gen_structural": {
+            "dashes_per_1k": 16.35,
+            "parens_per_1k": 2.72,
+            "questions_per_1k": 8.17,
+            "fragment_pct": 7.7
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4039,
+          "rouge2_f": 0.0428,
+          "rougeL_f": 0.1346
+        },
+        "embedding": {
+          "ref_similarity": 0.8768,
+          "centroid_similarity": 0.7787
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "dive in",
+            "creative flow",
+            "show up to the moment",
+            "let go of perfection",
+            "get messy"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 12,
+            "items": [
+              "5am",
+              "noon",
+              "our backyard",
+              "math problem",
+              "Shakespearean sonnets",
+              "pencil",
+              "paper planner",
+              "Julia Cameron",
+              "The Artist's Way",
+              "cup of coffee",
+              "tea",
+              "wine"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write about doing nothing is a decision. when it's time to move on._ for the blog",
+      "reference": "Leveling up. Upleveling. Rising up. Onward.\n\nI just threw a lot of jargon at you.\n\nAs a change management consultant, I used to focus solely on big company changes. I'd take a close look at what a change in software meant to all the employees.\n\nWill this affect how they do their job?\n\nWill this make their life easier or harder?\n\nHow will people react? Will they hate their life?\n\nIs this even possible?\n\nQuick definition: Change management is like taking a stick and making sure a change happens. Stick beatings come in the form of communication, positioning, and high-fives. Disclaimer: I don't use actual sticks on clients.\n\nMy job was to figure out how to make change suck less for a specific group of people. They needed to learn a new skill pretty quickly, throw out their old ways, and start being productive - like yesterday.\n\nMost change is good. I mean, why would we even bother trying to make a change in our personal or professional life if the change was going to make our lives worse?\n\nWhen you know you're stuck, and you need a change, but aren't sure what to do next. What do you do?\n\nYour brain might be telling you that you suck at this point.\n\nWhen I was ready to quit my job and dive into freelance writing full time, I wrestled with limiting thoughts all the time.\n\nStaying at my job is easier\n\nI know what I need to do every day\n\nI know how much money I'm going to make every two weeks\n\nNo change required.\n\nBut then, I'd wonder if I was just too accepting. I wasn't challenging myself. I knew I could do more. Do something different. Something that had more meaning. But doing nothing was easier. Back to Starbucks for my second almond milk latte of the day.\n\nSometimes you need to take the emotion out of it and just leap.\n\nI was worried about it being too hard, and I'd fail.\n\nI'd just tell my brain to shut up. My gut would continue nagging me, and I couldn't put it off any longer.\n\nWhat if I could also play the part of the change management expert in my life change?\n\nLet's look at the example of me quitting my job to write full time:\n\nWho would the change affect? Hubby, kids, and me.\n\nWould they be negatively affected? We'd lose almost half of our total household income. Ouch.\n\nWhat are the positives? I'm less of a stress bag and can do more work I enjoy. The kids could sleep for an extra hour and be able to relax at home at the end of their school day instead of trotting to after-school care.\n\nWhat does the change mean for me? I'd have to get out there and find my own clients. If I don't make enough money, I'll have to eat cat food and never have a Starbucks pumpkin spice latte ever again. Oh, and we'd also probably file bankruptcy.\n\nHere's what I did to make the change happen and lessen the pain for the \"stakeholders\" - my family in this case:\n\nI grew my business on the side for more than a year, so I could set up systems to make my business run well when I started doing it full time\n\nI started new habits like blogging every single week and sending a helpful email to my email subscribers every Tuesday (sometimes on Wednesday)\n\nI did as much work on the side as I could and socked my extra income in savings. I'd use this to invest back in my business. Like a new website, a new logo, business cards, and subscriptions (this one is my fave)\n\nI self-published a book\n\nI started telling everyone I knew, planting seeds for future freelance writing and editing work, and also to keep me honest. I was getting really sick of talking about doing it. The more I talked about it, the more seriously I took the change and had to make it happen. I didn't want to be a schlep that was all talk and no action.\n\nI prepared the kids by working from home more. They'd get used to the new behavior of seeing me at home, but not being fully \"available\" all the time to cut up another apple, or make another cheese-free grilled cheese sandwich.\n\nI put a date on our family calendar so we could mentally prepare.\n\nDo you know what life would have been like if I didn't do any of this upfront, make my life suck less work? I would have sat down at my desk on day one and been totally overwhelmed - what do I do first?\n\nSometimes a big decision isn't really that big. Sometimes if you do leap, a net will appear. Sometimes if you pour a glass of wine, some salty caramel chocolate appears. It's magical.\n\nAnd sometimes, when you have a nagging feeling and get sick to death of talking about doing the thing, taking the leap, making the change, you just gotta grab some lady balls (preferably your own) and do it.\n\nYou're a doer. Be a doer. Lady balls optional.",
+      "reference_preview": "Leveling up. Upleveling. Rising up. Onward.\n\nI just threw a lot of jargon at you.\n\nAs a change management consultant, I used to focus solely on big company changes. I'd take a close look at what a cha",
+      "fine_tuned": {
+        "response": "When you're in the middle of your project, book, business, whatever - and you feel like you've got momentum going, but then you just... stop.\n\nYou might call it procrastination, or burnout, or creative block - because we don't usually talk about doing nothing as a decision. But what if I told you that sometimes, it's exactly that?\n\nIt's time to move on.\n\nWhen you're in the middle of something and you start feeling like you've got to push through to get it done, but really, you just want to stop - this can be a sign that you need to surrender. You need to let go.\n\nNot because you're afraid or lazy, but because sometimes, what's next is better than finishing what's in front of you right now.\n\nYou might have been thinking you need to finish the project. Finish the book. Get it out there before anyone else does - that kind of thing.\n\nBut when you look at the facts - and I mean really look at them - often, your mind isn't on fire about finishing this thing. You're not bursting with excitement. And if you are, then you might have some unfinished business to clear up first.\n\nSo what do you do?\n\nYou stop.\n\nAnd that's a decision.\n\nIt takes courage to say no to something, especially when you've invested time and energy into it. But sometimes, the best way to move forward is to stop where you are.\n\nThis isn't about being stuck or uncertain - it's actually about clarity of purpose. You're choosing not to do something because it's holding you back from something else that's more important to you right now.\n\nAnd when you make this decision, and you choose to do nothing (for a little while), you might be surprised at how clear your mind becomes. How energized you feel. And how much better you're able to focus on what really matters - because you've stopped doing something that's not serving you.\n\nSo the next time you find yourself feeling like it's time to move on, but you just can't seem to push through to get it done - consider choosing nothing.\n\nIt might be exactly what your project (or business or book) needs.",
+        "response_preview": "When you're in the middle of your project, book, business, whatever - and you feel like you've got momentum going, but then you just... stop.\n\nYou might call it procrastination, or burnout, or creativ",
+        "style_metrics": {
+          "ref_avg_sent_len": 15.0,
+          "gen_avg_sent_len": 17.8,
+          "vocab_overlap": 0.1978,
+          "ref_word_count": 867,
+          "gen_word_count": 373,
+          "ref_structural": {
+            "dashes_per_1k": 3.46,
+            "parens_per_1k": 3.46,
+            "questions_per_1k": 16.15,
+            "fragment_pct": 25.4
+          },
+          "gen_structural": {
+            "dashes_per_1k": 24.13,
+            "parens_per_1k": 5.36,
+            "questions_per_1k": 5.36,
+            "fragment_pct": 19.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.3372,
+          "rouge2_f": 0.0782,
+          "rougeL_f": 0.1249
+        },
+        "embedding": {
+          "ref_similarity": 0.7058,
+          "centroid_similarity": 0.8011
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "momentum",
+            "surrender",
+            "let go",
+            "clarity of purpose",
+            "not serving you"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 0,
+            "items": []
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "Doing Nothing is a Decision - When It's Time to Move On.\n\nWe're sold a bill of goods that busyness is the ultimate badge of honor. That if we're not constantly \"doing\" something, we're failing in some way. But what happens when you decide to do nothing? Not just take a break or practice self-care, but truly do nothing?\n\nIt's not for everyone, and honestly, it can be downright scary. What will others think? Will you lose momentum on your projects? Will you become complacent? The answer is... maybe. But what if I told you that doing nothing can actually be a powerful decision in itself? One that requires a level of self-trust and courage we often don't associate with \"doing\" much of anything.\n\nI've spent years trying to hustle my way through life, pushing myself to the limit on projects, family, work, and everything in between. And let me tell you - it was exhausting. Not just physically, but emotionally too. I felt like I was constantly running on a hamster wheel, getting nowhere fast.\n\nBut one day, I hit a wall. And by that, I mean I crashed hard into the realization that I had no idea what I was doing anymore. My family was tired of my constant presence (read: absence), and my creative well was dry. I felt like I'd lost myself in the chaos of it all.\n\nSo, I made a decision - to do nothing. Not just for a day or a week, but for an entire month. I cleared my schedule, shut off my phone notifications, and let everyone know that I needed some space. And you know what? It was terrifying at first. But also kind of... liberating?\n\nFor the first time in years, I felt like I had permission to just be. To not have a plan or an agenda or a deadline looming over me. It was strange, but also oddly familiar - like coming home after being away for too long.\n\nNow, don't get me wrong - it's not always easy to do nothing. There are days when the anxiety creeps in and you start wondering if you're just being lazy or wasting time. But that's where self-trust comes in. Trusting yourself to know what you need, even when it looks like everyone else is telling you otherwise.\n\nSo, how do you know when it's time to move on? When the doing has become a habit rather than a choice? Here's a question for you: What would happen if you gave up trying to be productive just for the sake of being productive? What if you decided that your worth wasn't tied to what you accomplished, but to how you showed up in each moment?\n\nThat's where I want to leave you today - with a sense of possibility and a gentle reminder that doing nothing is, indeed, a decision. One that requires courage and trust in yourself, but also offers the potential for renewal, rest, and rebirth.\n\nWhat if you just... stopped trying to fix it?",
+        "response_preview": "Doing Nothing is a Decision - When It's Time to Move On.\n\nWe're sold a bill of goods that busyness is the ultimate badge of honor. That if we're not constantly \"doing\" something, we're failing in some",
+        "style_metrics": {
+          "ref_avg_sent_len": 15.0,
+          "gen_avg_sent_len": 15.1,
+          "vocab_overlap": 0.2,
+          "ref_word_count": 867,
+          "gen_word_count": 508,
+          "ref_structural": {
+            "dashes_per_1k": 3.46,
+            "parens_per_1k": 3.46,
+            "questions_per_1k": 16.15,
+            "fragment_pct": 25.4
+          },
+          "gen_structural": {
+            "dashes_per_1k": 11.81,
+            "parens_per_1k": 1.97,
+            "questions_per_1k": 25.59,
+            "fragment_pct": 18.6
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4526,
+          "rouge2_f": 0.0737,
+          "rougeL_f": 0.1443
+        },
+        "embedding": {
+          "ref_similarity": 0.7293,
+          "centroid_similarity": 0.7752
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "self-care",
+            "self-trust",
+            "hustle",
+            "showed up",
+            "renewal",
+            "rebirth"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 4,
+            "items": [
+              "spent years trying to hustle",
+              "My family was tired of my constant presence (read: absence)",
+              "my creative well was dry",
+              "for an entire month"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    },
+    {
+      "prompt": "Write about a personal introduction from the author of a book that promises to help readers overcome their struggles with writing and find joy in the process.",
+      "reference": "I'll be your personal writing coach on this journey, and I'm excited to guide you.\n\nMy goal: To help you fall in love with your writing - by starting today to take small, imperfect actions without knowing entirely how the finished product will look. And to have a whole lot of fucking fun while doing it.\n\nWho's this well-adjusted author dishing all this writing advice?\n\nHey, I'm Jacqueline Fisch. Most people call me Jacq (sounds like Jack but spelled fancy and French - neither of which I am). Then there's Jacq-of-all-trades - I am also not that. In fact, I gave the middle finger to my corporate job when a middle manager told me I had to expand my focus beyond writing to learning some boring software in the name of \"well-roundedness.\"\n\nSometimes I say I'm an intuitive writing coach and founder of The Intuitive Writing School. Sometimes I say I'm a copywriter, author, and copy coach. My clients tell me I'm a mind reader, and so much more than a writer. They call me a miracle worker and life saver. You can decide for yourself. What you call me doesn't really matter.\n\nI wrote this book because I believe that what you're here to say matters. I want to help you - to write more, to write when you're procrastinating, and to start and finish those writing projects.\n\nWriting will change your life by helping you hear your inner voice, connecting you to yourself in a noisy world, and offering a safe space to show you where you're going next. And when it does, writing becomes a lifeline - it begins to support you.\n\nWe're going to demystify the muse and bust some myths. The healing and transformational tool that is writing isn't reserved only for the elite, the naturally talented, or those with degrees from Ivy League schools. Writing is for everyone. I'm sharing this advice with you as someone who did not attend an Ivy League school and had no formal education in writing or editing. I may have been born with a natural ability to write, but I've honed it over thirteen years in the corporate world and almost a decade of writing for myself and others.\n\nI hold a three-year marketing degree from a technical school in Ontario. It wasn't my education (or lack thereof) that opened doors - it was my tenacity and willingness to be visible, take action, play, experiment, and surrender.\n\nI've spent twenty years writing in a professional capacity. Writing proposals, crisis communications, and communications plans for big corporations, and now earning a full-time living as a copywriter, writing coach, and community leader for businesses.\n\nToday I help writers make progress on their passion projects, because even the pros need a guide, and I help creative business owners sound more authentic in their writing. Because we buy from people we like and trust, we want to write like people we'd like and trust.\n\n* * *\n\nThe book you're holding in your hands is my third self-published book. The first was a mini-book that I cranked out in three months; the second, Unfussy Life: An Intuitive Approach to Navigating Change, took three-and-a-half years - a book that spent half of its gestation time sitting in a folder.\n\nI jumped into writing this book, Intuitive Writing, after more than a decade of self-development work and twenty years of writing in a business setting, but only having \"writer\" attached to my title for the past eight. My challenge to myself was to write it by following all the advice I regularly give my clients and that I'm laying out within its pages.\n\nIf you're already scratching your head, well, take a breath and buckle up - we'll get there together, one page at a time.\n\nHow to use this book\n\nUse this book to get started. This is the most important thing. Take just one step - today. As your writing coach on this journey, I share lots of tips. These tips aren't going to tell you what to do. That's part of the problem. The authoritarian upbringing many of us received only taught us to look to others for how to act. You're going to learn how to use, and trust, your intuition to write, not sit there while a teacher at the front of the room gives orders.\n\nStart writing on your big or small project right now - as soon as you finish reading this chapter.\n\nOr read the entire book through to the end and then start writing.\n\nOr write as you read the book. Any of these options will work.",
+      "reference_preview": "I'll be your personal writing coach on this journey, and I'm excited to guide you.\n\nMy goal: To help you fall in love with your writing - by starting today to take small, imperfect actions without kno",
+      "fine_tuned": {
+        "response": "I'm so glad you're here.\n\nThis book, my latest baby, is one I wrote for myself first - and then realized maybe others could use it too.\n\nMy name is Jacqueline Fisch (that's me), and I've been helping people write their stuff on purpose for many years now. It started when I was a corporate professional who felt like she had something to say but didn't know how to say it.\n\nI'd spent 15 years in the business world - working as a marketing executive, managing teams, leading big projects. And while I loved what I did and my people, I always felt like I wasn't really using my words to do anything meaningful. I was saying things, but they weren't mine.\n\nIt was only when I made some changes - left the corporate world for entrepreneurship, started my own writing business, and began writing on purpose - that I found a sense of flow and joy in my work that I'd never experienced before.\n\nAnd then, something shifted inside me. I realized that I wasn't alone in my struggles with writing. So many people feel stuck, blocked, or just plain overwhelmed by the process.\n\nThese are things you might be experiencing right now - feeling like your words aren't yours, wanting to quit, or maybe even getting mad at yourself for not having more to say. And if that's the case, then I want you to know that it's okay.\n\nYou're not broken or stupid or lacking talent. What you need is help - and a fresh perspective on what writing really means.\n\nFor me, writing isn't about putting words on paper; it's about showing up (fully) to tell your story. It's about being brave enough to share your truth in a way that feels authentic and honest. And sometimes, it means taking a big leap into the unknown.\n\nThat's what this book is all about - helping you find joy and flow in writing by getting clear on why you're writing in the first place. What matters most to you? Why are you sharing your words with anyone?\n\nBy exploring questions like these together, we'll uncover some new ideas about what it means to be a writer. And when we get to the other side of that journey, I promise you'll feel more confident, clear, and connected than ever before.\n\nSound familiar?",
+        "response_preview": "I'm so glad you're here.\n\nThis book, my latest baby, is one I wrote for myself first - and then realized maybe others could use it too.\n\nMy name is Jacqueline Fisch (that's me), and I've been helping ",
+        "style_metrics": {
+          "ref_avg_sent_len": 19.4,
+          "gen_avg_sent_len": 19.4,
+          "vocab_overlap": 0.2478,
+          "ref_word_count": 772,
+          "gen_word_count": 394,
+          "ref_structural": {
+            "dashes_per_1k": 12.95,
+            "parens_per_1k": 2.59,
+            "questions_per_1k": 1.3,
+            "fragment_pct": 4.3
+          },
+          "gen_structural": {
+            "dashes_per_1k": 17.77,
+            "parens_per_1k": 5.08,
+            "questions_per_1k": 7.61,
+            "fragment_pct": 4.2
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4594,
+          "rouge2_f": 0.093,
+          "rougeL_f": 0.1426
+        },
+        "embedding": {
+          "ref_similarity": 0.8545,
+          "centroid_similarity": 0.8731
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "on purpose",
+            "flow",
+            "shifted",
+            "perspective",
+            "showing up",
+            "share your truth",
+            "authentic",
+            "leap",
+            "getting clear",
+            "uncover",
+            "journey"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 8,
+            "items": [
+              "Jacqueline Fisch",
+              "15 years",
+              "corporate professional",
+              "marketing executive",
+              "managing teams",
+              "leading big projects",
+              "left the corporate world for entrepreneurship",
+              "started my own writing business"
+            ]
+          },
+          "directness": 4
+        }
+      },
+      "baseline": {
+        "response": "The agony and the ecstasy of writing – we've all been there, right? And if you're reading this, chances are you're stuck in the middle of that mess, wondering how to escape.\n\nI remember when I first started writing seriously. It was a few years ago now, after I'd left my corporate job and decided to pursue my passion for storytelling full-time. At first, it was exhilarating – the blank page staring back at me like a dare, the words flowing out of me like wine from a tap (which, let's be real, is still one of my favorite metaphors for creativity). But as time went on, I hit a wall. My ideas started to feel stale, my sentences clunky, and my inner editor just wouldn't shut up.\n\nAnd then I discovered the concept of \"intuitive writing.\" It was like a breath of fresh air – finally, someone (in this case, Elizabeth Gilbert) was talking about writing as a flow, not a slog. As someone who'd always been more of a \"think it through\" kind of person, I was skeptical at first. But the more I practiced intuitive writing, the more my words started to feel like they were coming from somewhere deeper inside me.\n\nThat's when I knew I had to share this with other writers – women in particular, who often struggle with self-doubt and perfectionism. So here I am, writing these words to you now – a collection of stories, insights, and practical tips on how to tap into your own intuitive voice and find joy in the process.\n\nSo what if you just... stopped trying to fix it? What if instead of analyzing every sentence and word choice, you let go and trusted that your inner wisdom would guide you?\n\nThat's what this book is about – embracing the unknown, letting go of control, and finding freedom in the flow. And I'm not just talking about writing here; I'm talking about living.\n\nLet's get real for a second: writing isn't always easy (or fun). But with the right mindset and tools, it can be an incredible journey of self-discovery and growth. So come along with me on this one – let's dive into the world of intuitive writing together and see where it takes us.",
+        "response_preview": "The agony and the ecstasy of writing – we've all been there, right? And if you're reading this, chances are you're stuck in the middle of that mess, wondering how to escape.\n\nI remember when I first s",
+        "style_metrics": {
+          "ref_avg_sent_len": 19.4,
+          "gen_avg_sent_len": 22.5,
+          "vocab_overlap": 0.2178,
+          "ref_word_count": 772,
+          "gen_word_count": 379,
+          "ref_structural": {
+            "dashes_per_1k": 12.95,
+            "parens_per_1k": 2.59,
+            "questions_per_1k": 1.3,
+            "fragment_pct": 4.3
+          },
+          "gen_structural": {
+            "dashes_per_1k": 18.47,
+            "parens_per_1k": 7.92,
+            "questions_per_1k": 7.92,
+            "fragment_pct": 0.0
+          }
+        },
+        "rouge": {
+          "rouge1_f": 0.4229,
+          "rouge2_f": 0.0726,
+          "rougeL_f": 0.1314
+        },
+        "embedding": {
+          "ref_similarity": 0.8034,
+          "centroid_similarity": 0.8477
+        },
+        "failure_modes": {
+          "buzzwords": [
+            "flow",
+            "tap into",
+            "inner wisdom",
+            "embracing the unknown",
+            "letting go of control",
+            "finding freedom",
+            "mindset",
+            "journey",
+            "self-discovery",
+            "growth",
+            "dive into"
+          ],
+          "generic_ai": false,
+          "specifics": {
+            "count": 4,
+            "items": [
+              "Elizabeth Gilbert",
+              "left my corporate job and decided to pursue my passion for storytelling full-time",
+              "words flowing out of me like wine from a tap",
+              "my ideas started to feel stale, my sentences clunky, and my inner editor just wouldn't shut up"
+            ]
+          },
+          "directness": 4
+        }
+      }
+    }
+  ]
+}

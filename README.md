@@ -19,8 +19,8 @@ source .venv/bin/activate
 # Run the CLI
 python app/cli.py blog "Write about morning routines"
 
-# Run the web UI
-python app/web.py
+# Run the web UI (FastAPI + Next.js)
+make dev
 ```
 
 ## Data Pipeline
