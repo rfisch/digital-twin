@@ -1,0 +1,328 @@
+[2026-03-05 16:20:35] Starting FastAPI on port 8000...
+[2026-03-05 16:20:35] Starting Next.js on port 7860...
+[2026-03-05 16:20:35] Services started (API PID=18582, Web PID=18584).
+
+> web@0.1.0 dev
+> next dev --port 7860 --experimental-https-key ../certs/localhost-key.pem --experimental-https-cert ../certs/localhost.pem
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://10.0.0.1:7860
+
+✓ Starting...
+✓ Ready in 1389ms
+INFO:     Started server process [18582]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+[2026-03-05 16:24:17] Services stopped.
+[2026-03-05 16:24:17] Starting FastAPI on port 8000...
+[2026-03-05 16:24:17] Starting Next.js on port 7860...
+[2026-03-05 16:24:17] Services started (API PID=18779, Web PID=18781).
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18582]
+
+> web@0.1.0 dev
+> next dev --port 7860 --experimental-https-key ../certs/localhost-key.pem --experimental-https-cert ../certs/localhost.pem
+
+[?25h
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://10.0.0.1:7860
+
+✓ Starting...
+✓ Ready in 293ms
+INFO:     Started server process [18779]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ GET / 200 in 1182ms (compile: 1075ms, render: 108ms)
+⚠ Cross origin request detected from 192.168.200.195 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+INFO:     192.168.200.195:52397 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52397 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52400 - "OPTIONS /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52400 - "GET /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52403 - "OPTIONS /api/generate/linkedin HTTP/1.1" 200 OK
+Starting Ollama server...
+INFO:     192.168.200.195:52403 - "POST /api/generate/linkedin HTTP/1.1" 500 Internal Server Error
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18779]
+[2026-03-05 16:28:52] Services stopped.
+[2026-03-05 16:28:52] Starting FastAPI on port 8000...
+[2026-03-05 16:28:52] Starting Next.js on port 7860...
+[2026-03-05 16:28:52] Services started (API PID=19084, Web PID=19086).
+[?25h
+
+> web@0.1.0 dev
+> next dev --port 7860 --experimental-https-key ../certs/localhost-key.pem --experimental-https-cert ../certs/localhost.pem
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://10.0.0.1:7860
+
+✓ Starting...
+✓ Ready in 301ms
+⚠ Cross origin request detected from 192.168.200.195 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 531ms (compile: 411ms, render: 120ms)
+INFO:     Started server process [19084]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2026-03-05 16:31:59] Services stopped.
+INFO:     Shutting down
+[2026-03-05 16:31:59] Starting FastAPI on port 8000...
+[2026-03-05 16:31:59] Starting Next.js on port 7860...
+[2026-03-05 16:31:59] Services started (API PID=19323, Web PID=19325).
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19084]
+
+> web@0.1.0 dev
+> next dev --port 7860 --experimental-https-key ../certs/localhost-key.pem --experimental-https-cert ../certs/localhost.pem
+
+[?25h
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://10.0.0.1:7860
+
+✓ Starting...
+✓ Ready in 318ms
+⚠ Cross origin request detected from 192.168.200.195 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 565ms (compile: 441ms, render: 124ms)
+INFO:     Started server process [19323]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ GET / 200 in 49ms (compile: 7ms, render: 42ms)
+INFO:     192.168.200.195:52506 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52506 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52509 - "OPTIONS /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52509 - "GET /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.195:52512 - "OPTIONS /api/generate/linkedin HTTP/1.1" 200 OK
+Starting Ollama server...
+Ollama server ready.
+INFO:     192.168.200.195:52513 - "POST /api/generate/linkedin HTTP/1.1" 200 OK
+INFO:     Shutting down
+[2026-03-09 16:33:17] Services stopped.
+INFO:     Waiting for application shutdown.
+[?25h
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19323]
+[2026-03-11 11:42:05] Starting FastAPI on port 8000...
+[2026-03-11 11:42:05] Starting Next.js on port 7860...
+[2026-03-11 11:42:05] Services started (API PID=71467, Web PID=71469).
+
+> web@0.1.0 dev
+> next dev --port 7860 --experimental-https-key ../certs/localhost-key.pem --experimental-https-cert ../certs/localhost.pem
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://10.0.0.1:7860
+
+✓ Starting...
+✓ Ready in 1601ms
+INFO:     Started server process [71467]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+[2026-03-11 11:44:08] Services stopped.
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71467]
+[?25h
+[2026-03-11 11:44:12] Starting FastAPI on port 8000...
+[2026-03-11 11:44:12] Starting Next.js on port 7860...
+[2026-03-11 11:44:12] Services started (API PID=71899, Web PID=71901).
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://0.0.0.0:7860
+
+✓ Starting...
+✓ Ready in 299ms
+INFO:     Started server process [71899]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ GET / 200 in 1167ms (compile: 1053ms, render: 114ms)
+INFO:     127.0.0.1:65116 - "GET /api/status HTTP/1.1" 200 OK
+ GET / 200 in 40ms (compile: 6ms, render: 35ms)
+⚠ Cross origin request detected from 192.168.200.187 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+INFO:     192.168.200.189:53757 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.189:53757 - "GET /api/status HTTP/1.1" 200 OK
+ GET / 200 in 24ms (compile: 1082µs, render: 23ms)
+ GET /apple-touch-icon.png 404 in 316ms (compile: 287ms, render: 29ms)
+ GET /apple-touch-icon-precomposed.png 404 in 313ms (compile: 301ms, render: 11ms)
+ GET / 200 in 21ms (compile: 1661µs, render: 19ms)
+INFO:     192.168.200.81:59110 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59110 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59111 - "OPTIONS /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59111 - "GET /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59113 - "OPTIONS /api/generate/linkedin HTTP/1.1" 200 OK
+Starting Ollama server...
+Ollama server ready.
+INFO:     192.168.200.81:59113 - "POST /api/generate/linkedin HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59139 - "OPTIONS /api/feedback HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59140 - "POST /api/feedback HTTP/1.1" 200 OK
+ GET / 200 in 42ms (compile: 6ms, render: 36ms)
+⚠ Cross origin request detected from twin.home to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+INFO:     192.168.200.189:50217 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.189:50217 - "GET /api/status HTTP/1.1" 200 OK
+ HEAD / 200 in 23ms (compile: 1834µs, render: 21ms)
+ GET / 200 in 20ms (compile: 1400µs, render: 19ms)
+INFO:     192.168.200.187:50487 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.187:50487 - "GET /api/status HTTP/1.1" 200 OK
+ GET / 200 in 29ms (compile: 3ms, render: 25ms)
+INFO:     192.168.200.189:54248 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.189:54248 - "GET /api/status HTTP/1.1" 200 OK
+ GET / 200 in 42ms (compile: 4ms, render: 38ms)
+INFO:     192.168.200.187:50719 - "GET /api/status HTTP/1.1" 200 OK
+ GET / 200 in 19ms (compile: 1141µs, render: 18ms)
+INFO:     192.168.200.81:59509 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.81:59509 - "GET /api/status HTTP/1.1" 200 OK
+ GET / 200 in 43ms (compile: 4ms, render: 39ms)
+INFO:     192.168.200.81:61300 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61301 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61301 - "OPTIONS /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61302 - "GET /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61302 - "OPTIONS /api/analytics/blog-posts?days=90&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61303 - "GET /api/analytics/blog-posts?days=90&limit=20 HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61308 - "OPTIONS /api/generate/linkedin HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61308 - "POST /api/generate/linkedin HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61311 - "POST /api/generate/linkedin HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61317 - "OPTIONS /api/generate HTTP/1.1" 200 OK
+INFO:     192.168.200.81:61317 - "POST /api/generate HTTP/1.1" 200 OK
+[?25h
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71899]
+[2026-03-18 08:55:13] Starting FastAPI on port 8000...
+[2026-03-18 08:55:13] Starting Next.js on port 7860...
+[2026-03-18 08:55:13] Starting Caddy reverse proxy (port 80 -> 7860)...
+{"level":"info","ts":1773838513.904932,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773838513.9051049,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773838513.9051101,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773838513.905113,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773838513.907112,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"warn","ts":1773838513.907924,"logger":"http.auto_https","msg":"server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server","server_name":"srv0","http_port":80}
+{"level":"info","ts":1773838513.908229,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x7bb1712e7380"}
+{"level":"warn","ts":1773838513.909289,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773838513.909297,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773838513.909309,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773838513.910151,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773838513.910156,"msg":"serving initial configuration"}
+Successfully started Caddy (pid=41598) - Caddy is running in the background
+{"level":"info","ts":1773838513.916318,"logger":"tls","msg":"cleaning storage unit","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy"}
+[2026-03-18 08:55:13] Services started (API PID=41590, Web PID=41592, Caddy PID=41598).
+{"level":"info","ts":1773838513.922101,"logger":"tls","msg":"finished cleaning storage units"}
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://0.0.0.0:7860
+
+✓ Starting...
+✓ Ready in 885ms
+INFO:     Started server process [41590]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ GET / 200 in 1464ms (compile: 1344ms, render: 119ms)
+⚠ Cross origin request detected from 192.168.200.195 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+INFO:     192.168.200.104:56135 - "OPTIONS /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.104:56135 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [41590]
+[2026-03-18 08:55:58] Services stopped.
+[?25h
+{"level":"info","ts":1773838700.1048179,"logger":"admin.api","msg":"received request","method":"POST","host":"localhost:2019","uri":"/stop","remote_ip":"127.0.0.1","remote_port":"56280","headers":{"Accept-Encoding":["gzip"],"Content-Length":["0"],"Origin":["http://localhost:2019"],"User-Agent":["Go-http-client/1.1"]}}
+{"level":"warn","ts":1773838700.104863,"logger":"admin.api","msg":"exiting; byeee!! 👋"}
+{"level":"info","ts":1773838700.104885,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"error","ts":1773838700.105294,"logger":"admin.api","msg":"cleaning up PID file:","pidfile":"/Volumes/Code/jacq/digital-twin/logs/caddy.pid","error":"remove /Volumes/Code/jacq/digital-twin/logs/caddy.pid: no such file or directory"}
+{"level":"info","ts":1773838700.1056151,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"error","ts":1773838700.105628,"logger":"admin.api","msg":"unclean shutdown","exit_code":3}
+[2026-03-18 10:39:27] Starting FastAPI on port 8000...
+[2026-03-18 10:39:27] Starting Next.js on port 7860...
+/Volumes/Code/jacq/digital-twin/scripts/service.sh: line 45: npx: command not found
+[2026-03-18 10:39:27] Services started (API PID=48773, Web PID=48775).
+INFO:     Started server process [48773]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2026-03-18 10:39:41] Services stopped.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48773]
+[2026-03-18 10:40:34] Starting FastAPI on port 8000...
+[2026-03-18 10:40:34] Starting Next.js on port 7860...
+/Volumes/Code/jacq/digital-twin/scripts/service.sh: line 45: npx: command not found
+[2026-03-18 10:40:35] Services started (API PID=48929, Web PID=48931).
+INFO:     Started server process [48929]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+[2026-03-18 10:41:06] Services stopped.
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48929]
+[2026-03-18 10:43:14] Starting FastAPI on port 8000...
+[2026-03-18 10:43:14] Starting Next.js on port 7860...
+[2026-03-18 10:43:14] Services started (API PID=49201, Web PID=49203).
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://0.0.0.0:7860
+
+✓ Starting...
+✓ Ready in 468ms
+INFO:     Started server process [49201]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ GET / 200 in 1215ms (compile: 1100ms, render: 116ms)
+⚠ Cross origin request detected from 192.168.200.195 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+✓ Compiled in 395ms
+INFO:     Shutting down
+[2026-03-18 10:44:24] Services stopped.
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [49201]
+[?25h
+[2026-03-18 10:44:54] Starting FastAPI on port 8000...
+[2026-03-18 10:44:54] Starting Next.js on port 7860...
+[2026-03-18 10:44:54] Services started (API PID=49460, Web PID=49462).
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:7860
+- Network:       http://0.0.0.0:7860
+
+✓ Starting...
+✓ Ready in 296ms
+INFO:     Started server process [49460]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ GET / 200 in 355ms (compile: 241ms, render: 114ms)
+⚠ Cross origin request detected from 192.168.200.195 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+INFO:     192.168.200.104:0 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     192.168.200.104:0 - "GET /api/analytics/blog-posts?days=30&limit=20 HTTP/1.1" 200 OK
+Starting Ollama server...
+Ollama server ready.
+INFO:     192.168.200.104:0 - "POST /api/generate/linkedin HTTP/1.1" 200 OK

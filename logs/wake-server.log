@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Volumes/Code/jacq/digital-twin/scripts/wake_server.py", line 184, in <module>
+    main()
+  File "/Volumes/Code/jacq/digital-twin/scripts/wake_server.py", line 177, in main
+    server = http.server.HTTPServer(("0.0.0.0", PORT), WakeHandler)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ryanfisch/.pyenv/versions/3.12.8/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/Users/ryanfisch/.pyenv/versions/3.12.8/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/Users/ryanfisch/.pyenv/versions/3.12.8/lib/python3.12/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 48] Address already in use

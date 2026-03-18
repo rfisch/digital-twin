@@ -1,0 +1,248 @@
+{"level":"info","ts":1773841964.7800498,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773841964.7801301,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773841964.780138,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773841964.780142,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773841964.781876,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"info","ts":1773841964.7819772,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x3effd37da900"}
+{"level":"info","ts":1773841964.782814,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773841964.782845,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773841964.782851,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"warn","ts":1773841964.7831109,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773841964.783126,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773841964.783131,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773841964.783169,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773841964.7832792,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773841964.7833128,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773841964.78336,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773841964.783365,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"info","ts":1773841964.7911859,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773928364.7911801,"try_again_in":86399.999999583}
+{"level":"info","ts":1773841964.79133,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"warn","ts":1773841964.79142,"logger":"pki.ca.local","msg":"installing root certificate (you might be prompted for password)","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773841964.7916281,"msg":"not NSS security databases found"}
+{"level":"info","ts":1773841964.7916338,"msg":"define JAVA_HOME environment variable to use the Java trust"}
+{"level":"error","ts":1773841964.814358,"logger":"pki.ca.local","msg":"failed to install root certificate","error":"failed to execute sudo: exit status 1","certificate_file":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773841964.814613,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773841964.814621,"msg":"serving initial configuration"}
+{"level":"warn","ts":1773841967.732108,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"info","ts":1773841967.821066,"logger":"admin.api","msg":"received request","method":"POST","host":"localhost:2019","uri":"/stop","remote_ip":"127.0.0.1","remote_port":"56700","headers":{"Accept-Encoding":["gzip"],"Content-Length":["0"],"Origin":["http://localhost:2019"],"User-Agent":["Go-http-client/1.1"]}}
+{"level":"warn","ts":1773841967.821116,"logger":"admin.api","msg":"exiting; byeee!! 👋"}
+{"level":"info","ts":1773841967.821146,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773841967.822525,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773841967.822548,"logger":"admin.api","msg":"shutdown complete","exit_code":0}
+{"level":"info","ts":1773842170.6145868,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773842170.614629,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773842170.614635,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773842170.614638,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773842170.616538,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//127.0.0.1:2019","//localhost:2019","//[::1]:2019"]}
+{"level":"info","ts":1773842170.6166852,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x1ea26a178500"}
+{"level":"info","ts":1773842170.616988,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773842170.6169999,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773842170.617006,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"warn","ts":1773842170.621996,"logger":"pki.ca.local","msg":"installing root certificate (you might be prompted for password)","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773842170.6222908,"msg":"warning: \"certutil\" is not available, install \"certutil\" with \"brew install nss\" and try again"}
+{"level":"info","ts":1773842170.6223,"msg":"define JAVA_HOME environment variable to use the Java trust"}
+{"level":"error","ts":1773842170.64062,"logger":"pki.ca.local","msg":"failed to install root certificate","error":"failed to execute sudo: exit status 1","certificate_file":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773842170.640924,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773842170.641118,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773842170.641166,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773842170.641233,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773842170.6412659,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773842170.641272,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773842170.641275,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773842170.641279,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"info","ts":1773842170.641442,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773842170.641448,"msg":"serving initial configuration"}
+{"level":"info","ts":1773842170.649288,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773928570.64928,"try_again_in":86399.999999791}
+{"level":"info","ts":1773842170.649411,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"warn","ts":1773842173.0891001,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"info","ts":1773842186.783084,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1773842186.7832792,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1773842186.7834601,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773842186.7843132,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773842186.784461,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1773842188.95796,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773842188.957997,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773842188.958003,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773842188.958007,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773842188.9595351,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"info","ts":1773842188.959636,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x490cc5ba9b80"}
+{"level":"info","ts":1773842188.9598458,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773842188.9598532,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773842188.959858,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"info","ts":1773842188.960029,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773842188.960126,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773842188.960164,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773842188.960169,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773842188.9601731,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773842188.960205,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773842188.9602509,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773842188.960256,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"warn","ts":1773842188.9652731,"logger":"pki.ca.local","msg":"installing root certificate (you might be prompted for password)","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773842188.966194,"msg":"warning: \"certutil\" is not available, install \"certutil\" with \"brew install nss\" and try again"}
+{"level":"info","ts":1773842188.966205,"msg":"define JAVA_HOME environment variable to use the Java trust"}
+{"level":"info","ts":1773842188.966239,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773928588.966235,"try_again_in":86399.999999666}
+{"level":"info","ts":1773842188.966372,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"error","ts":1773842188.982132,"logger":"pki.ca.local","msg":"failed to install root certificate","error":"failed to execute sudo: exit status 1","certificate_file":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773842188.982324,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773842188.982335,"msg":"serving initial configuration"}
+{"level":"warn","ts":1773842193.858606,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"info","ts":1773843587.071885,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1773843587.0720708,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1773843587.072246,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773843587.07284,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773843587.072912,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1773843587.225902,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773843587.225945,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773843587.225955,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773843587.225962,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773843587.227637,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"info","ts":1773843587.227744,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x6a8ec15e9680"}
+{"level":"info","ts":1773843587.22796,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773843587.227968,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773843587.227972,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"info","ts":1773843587.228169,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773843587.228277,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773843587.228317,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773843587.228359,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773843587.228396,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773843587.2284002,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773843587.2284029,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773843587.228406,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"warn","ts":1773843587.235513,"logger":"pki.ca.local","msg":"installing root certificate (you might be prompted for password)","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773843587.2358558,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773929987.235852,"try_again_in":86399.999999792}
+{"level":"info","ts":1773843587.236128,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1773843587.236129,"msg":"warning: \"certutil\" is not available, install \"certutil\" with \"brew install nss\" and try again"}
+{"level":"info","ts":1773843587.2361422,"msg":"define JAVA_HOME environment variable to use the Java trust"}
+{"level":"error","ts":1773843587.254556,"logger":"pki.ca.local","msg":"failed to install root certificate","error":"failed to execute sudo: exit status 1","certificate_file":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773843587.2547672,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773843587.254773,"msg":"serving initial configuration"}
+{"level":"warn","ts":1773843592.125796,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"error","ts":1773843595.168362,"logger":"http.log.error","msg":"dial tcp [::1]:9090: connect: connection refused","request":{"remote_ip":"192.168.200.195","remote_port":"56829","client_ip":"192.168.200.195","proto":"HTTP/2.0","method":"GET","host":"192.168.200.195:9443","uri":"/api/status","headers":{"User-Agent":["curl/8.7.1"],"Accept":["*/*"]},"tls":{"resumed":false,"version":772,"cipher_suite":4867,"proto":"h2","server_name":"","ech":false}},"duration":3.001112458,"status":502,"err_id":"x0hd2mi1u","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"error","ts":1773843601.4797661,"logger":"http.log.error","msg":"dial tcp [::1]:9090: connect: connection refused","request":{"remote_ip":"192.168.200.195","remote_port":"56832","client_ip":"192.168.200.195","proto":"HTTP/2.0","method":"GET","host":"192.168.200.195:9443","uri":"/api/status","headers":{"User-Agent":["curl/8.7.1"],"Accept":["*/*"]},"tls":{"resumed":false,"version":772,"cipher_suite":4867,"proto":"h2","server_name":"","ech":false}},"duration":3.000883292,"status":502,"err_id":"earud8dcn","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"info","ts":1773843627.56278,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1773843627.562881,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1773843627.563034,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773843627.563572,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773843627.563663,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1773843627.680616,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773843627.680654,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773843627.68066,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773843627.680664,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773843627.682367,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"info","ts":1773843627.682482,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x3f88965a6d80"}
+{"level":"info","ts":1773843627.682715,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773843627.682724,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773843627.68273,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"info","ts":1773843627.6829,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773843627.682997,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773843627.6830359,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773843627.683087,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773843627.683119,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773843627.6831481,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773843627.6831691,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773843627.683172,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"warn","ts":1773843627.688009,"logger":"pki.ca.local","msg":"installing root certificate (you might be prompted for password)","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773843627.690351,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773930027.690347,"try_again_in":86399.999999833}
+{"level":"info","ts":1773843627.691241,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1773843627.691251,"msg":"warning: \"certutil\" is not available, install \"certutil\" with \"brew install nss\" and try again"}
+{"level":"info","ts":1773843627.691256,"msg":"define JAVA_HOME environment variable to use the Java trust"}
+{"level":"error","ts":1773843627.70732,"logger":"pki.ca.local","msg":"failed to install root certificate","error":"failed to execute sudo: exit status 1","certificate_file":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773843627.707535,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773843627.707545,"msg":"serving initial configuration"}
+{"level":"warn","ts":1773843631.608055,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"error","ts":1773843631.61624,"logger":"http.log.error","msg":"dial tcp [::1]:9090: connect: connection refused","request":{"remote_ip":"192.168.200.195","remote_port":"56844","client_ip":"192.168.200.195","proto":"HTTP/2.0","method":"GET","host":"192.168.200.195:9443","uri":"/api/status","headers":{"User-Agent":["curl/8.7.1"],"Accept":["*/*"]},"tls":{"resumed":false,"version":772,"cipher_suite":4867,"proto":"h2","server_name":"","ech":false}},"duration":0.001975875,"status":502,"err_id":"mbi788hc9","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"info","ts":1773843686.244658,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1773843686.244771,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1773843686.244888,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773843686.245557,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773843686.245606,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1773843686.362,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773843686.36205,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773843686.3620548,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773843686.362059,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773843686.363777,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"info","ts":1773843686.3638809,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x686448496c00"}
+{"level":"info","ts":1773843686.364063,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773843686.364071,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773843686.364088,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"info","ts":1773843686.364248,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773843686.364338,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773843686.364374,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773843686.364417,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773843686.3644521,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773843686.364456,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773843686.364459,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773843686.3644621,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"warn","ts":1773843686.36938,"logger":"pki.ca.local","msg":"installing root certificate (you might be prompted for password)","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773843686.3709471,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773930086.370943,"try_again_in":86399.999999708}
+{"level":"info","ts":1773843686.3710878,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1773843686.371099,"msg":"warning: \"certutil\" is not available, install \"certutil\" with \"brew install nss\" and try again"}
+{"level":"info","ts":1773843686.371107,"msg":"define JAVA_HOME environment variable to use the Java trust"}
+{"level":"error","ts":1773843686.3876102,"logger":"pki.ca.local","msg":"failed to install root certificate","error":"failed to execute sudo: exit status 1","certificate_file":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773843686.387866,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773843686.3878741,"msg":"serving initial configuration"}
+{"level":"warn","ts":1773843691.294975,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"warn","ts":1773843733.931797,"logger":"tls","msg":"stapling OCSP","identifiers":["localhost"]}
+{"level":"info","ts":1773844051.954426,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1773844051.9545732,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1773844051.954689,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773844051.9551702,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773844051.9552362,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1773844052.071407,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773844052.071458,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773844052.0714638,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773844052.071468,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773844052.073153,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//127.0.0.1:2019","//localhost:2019","//[::1]:2019"]}
+{"level":"info","ts":1773844052.073262,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x3f8a5a304d80"}
+{"level":"info","ts":1773844052.073484,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773844052.0734909,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773844052.0734951,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"warn","ts":1773844052.073662,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773844052.073667,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773844052.0736692,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773844052.073706,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773844052.073792,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773844052.073823,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773844052.073866,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773844052.0738711,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"info","ts":1773844052.07547,"logger":"pki.ca.local","msg":"root certificate is already trusted by system","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773844052.076555,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773844052.076562,"msg":"serving initial configuration"}
+{"level":"info","ts":1773844052.081583,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773930452.08158,"try_again_in":86399.999999709}
+{"level":"info","ts":1773844052.081666,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"warn","ts":1773844057.010234,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"info","ts":1773845064.368114,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"warn","ts":1773845064.368259,"msg":"exiting; byeee!! 👋","signal":"SIGTERM"}
+{"level":"info","ts":1773845064.368437,"logger":"http","msg":"servers shutting down with eternal grace period"}
+{"level":"info","ts":1773845064.3859231,"msg":"shutting down apps, then terminating","signal":"SIGTERM"}
+{"level":"info","ts":1773845064.3860428,"logger":"admin","msg":"stopped previous server","address":"localhost:2019"}
+{"level":"info","ts":1773845064.38607,"msg":"shutdown complete","signal":"SIGTERM","exit_code":0}
+{"level":"info","ts":1773845064.480656,"msg":"maxprocs: Leaving GOMAXPROCS=28: CPU quota undefined"}
+{"level":"info","ts":1773845064.4807029,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":92771293593,"previous":9223372036854775807}
+{"level":"info","ts":1773845064.480709,"msg":"using config from file","file":"/Volumes/Code/jacq/digital-twin/Caddyfile"}
+{"level":"info","ts":1773845064.480712,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"info","ts":1773845064.482441,"logger":"admin","msg":"admin endpoint started","address":"localhost:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+{"level":"info","ts":1773845064.482563,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x4191a0657480"}
+{"level":"info","ts":1773845064.48302,"logger":"http.auto_https","msg":"server is listening only on the HTTPS port but has no TLS connection policies; adding one to enable TLS","server_name":"srv0","https_port":443}
+{"level":"info","ts":1773845064.483041,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv0"}
+{"level":"info","ts":1773845064.483045,"logger":"http.auto_https","msg":"enabling automatic HTTP->HTTPS redirects","server_name":"srv1"}
+{"level":"info","ts":1773845064.483289,"logger":"http","msg":"enabling HTTP/3 listener","addr":":443"}
+{"level":"info","ts":1773845064.4833899,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+{"level":"info","ts":1773845064.483427,"logger":"http","msg":"enabling HTTP/3 listener","addr":":9443"}
+{"level":"info","ts":1773845064.4834712,"logger":"http.log","msg":"server running","name":"srv1","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773845064.483499,"logger":"http","msg":"HTTP/2 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"warn","ts":1773845064.483504,"logger":"http","msg":"HTTP/3 skipped because it requires TLS","network":"tcp","addr":":80"}
+{"level":"info","ts":1773845064.483506,"logger":"http.log","msg":"server running","name":"remaining_auto_https_redirects","protocols":["h1","h2","h3"]}
+{"level":"warn","ts":1773845064.48351,"logger":"tls","msg":"YOUR SERVER MAY BE VULNERABLE TO ABUSE: on-demand TLS is enabled, but no protections are in place","docs":"https://caddyserver.com/docs/automatic-https#on-demand-tls"}
+{"level":"info","ts":1773845064.4856908,"logger":"pki.ca.local","msg":"root certificate is already trusted by system","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1773845064.485863,"msg":"autosaved config (load with --resume flag)","file":"/Users/ryanfisch/Library/Application Support/Caddy/autosave.json"}
+{"level":"info","ts":1773845064.4858701,"msg":"serving initial configuration"}
+{"level":"info","ts":1773845064.48962,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/Users/ryanfisch/Library/Application Support/Caddy","instance":"2ccf20e4-56cd-4b25-bb7f-17f399737949","try_again":1773931464.4896169,"try_again_in":86399.999999834}
+{"level":"info","ts":1773845064.489734,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"warn","ts":1773845065.609817,"logger":"tls","msg":"stapling OCSP","identifiers":["192.168.200.195"]}
+{"level":"error","ts":1773845065.628449,"logger":"http.log.error","msg":"dial tcp [::1]:7860: connect: connection refused","request":{"remote_ip":"192.168.200.104","remote_port":"56772","client_ip":"192.168.200.104","proto":"HTTP/1.1","method":"GET","host":"192.168.200.195","uri":"/_next/webpack-hmr?id=8RcMQhquB_RcBYnYjNjtr","headers":{"Sec-Fetch-Dest":["websocket"],"Sec-Websocket-Key":["5vg9X20acqWkZOczP4vrjQ=="],"Sec-Websocket-Version":["13"],"Accept":["*/*"],"Pragma":["no-cache"],"Cache-Control":["no-cache"],"Accept-Language":["en-US,en;q=0.9"],"Priority":["u=3, i"],"Sec-Websocket-Extensions":["permessage-deflate"],"Upgrade":["websocket"],"Sec-Fetch-Site":["same-origin"],"Origin":["https://192.168.200.195"],"Sec-Fetch-Mode":["websocket"],"Accept-Encoding":["gzip, deflate, br, zstd"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"],"Connection":["Upgrade"]},"tls":{"resumed":false,"version":772,"cipher_suite":4865,"proto":"http/1.1","server_name":"","ech":false}},"duration":0.002274667,"status":502,"err_id":"xt4di0te0","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"error","ts":1773845066.773123,"logger":"http.log.error","msg":"dial tcp [::1]:7860: connect: connection refused","request":{"remote_ip":"192.168.200.104","remote_port":"56774","client_ip":"192.168.200.104","proto":"HTTP/1.1","method":"GET","host":"192.168.200.195","uri":"/_next/webpack-hmr?id=8RcMQhquB_RcBYnYjNjtr","headers":{"Cache-Control":["no-cache"],"Priority":["u=3, i"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"],"Origin":["https://192.168.200.195"],"Accept":["*/*"],"Sec-Fetch-Mode":["websocket"],"Connection":["Upgrade"],"Sec-Fetch-Site":["same-origin"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Pragma":["no-cache"],"Sec-Websocket-Extensions":["permessage-deflate"],"Upgrade":["websocket"],"Sec-Websocket-Version":["13"],"Accept-Language":["en-US,en;q=0.9"],"Sec-Fetch-Dest":["websocket"],"Sec-Websocket-Key":["QFwaZVG0ss2gQDV9RIn/wg=="]},"tls":{"resumed":false,"version":772,"cipher_suite":4865,"proto":"http/1.1","server_name":"","ech":false}},"duration":0.002535208,"status":502,"err_id":"vfe9yni80","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"error","ts":1773845067.8621042,"logger":"http.log.error","msg":"dial tcp [::1]:7860: connect: connection refused","request":{"remote_ip":"192.168.200.104","remote_port":"56776","client_ip":"192.168.200.104","proto":"HTTP/1.1","method":"GET","host":"192.168.200.195","uri":"/_next/webpack-hmr?id=8RcMQhquB_RcBYnYjNjtr","headers":{"Pragma":["no-cache"],"Sec-Fetch-Mode":["websocket"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Sec-Fetch-Site":["same-origin"],"Sec-Fetch-Dest":["websocket"],"Priority":["u=3, i"],"Connection":["Upgrade"],"Sec-Websocket-Extensions":["permessage-deflate"],"Sec-Websocket-Key":["yQzLnzfk6gzptePAkzf42g=="],"Origin":["https://192.168.200.195"],"Sec-Websocket-Version":["13"],"Cache-Control":["no-cache"],"Upgrade":["websocket"],"Accept":["*/*"],"Accept-Language":["en-US,en;q=0.9"]},"tls":{"resumed":false,"version":772,"cipher_suite":4865,"proto":"http/1.1","server_name":"","ech":false}},"duration":0.001942625,"status":502,"err_id":"ncmg6jxmf","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"error","ts":1773845069.009183,"logger":"http.log.error","msg":"dial tcp [::1]:7860: connect: connection refused","request":{"remote_ip":"192.168.200.104","remote_port":"56778","client_ip":"192.168.200.104","proto":"HTTP/1.1","method":"GET","host":"192.168.200.195","uri":"/_next/webpack-hmr?id=8RcMQhquB_RcBYnYjNjtr","headers":{"Sec-Websocket-Extensions":["permessage-deflate"],"Sec-Fetch-Dest":["websocket"],"Connection":["Upgrade"],"Origin":["https://192.168.200.195"],"Priority":["u=3, i"],"Upgrade":["websocket"],"Sec-Fetch-Mode":["websocket"],"Pragma":["no-cache"],"Sec-Websocket-Key":["wIsAidlRtZCYrvwy9NFd4A=="],"Accept":["*/*"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"],"Sec-Websocket-Version":["13"],"Sec-Fetch-Site":["same-origin"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Cache-Control":["no-cache"],"Accept-Language":["en-US,en;q=0.9"]},"tls":{"resumed":false,"version":772,"cipher_suite":4865,"proto":"http/1.1","server_name":"","ech":false}},"duration":0.002062166,"status":502,"err_id":"47myjekny","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"error","ts":1773845070.072953,"logger":"http.log.error","msg":"dial tcp [::1]:7860: connect: connection refused","request":{"remote_ip":"192.168.200.104","remote_port":"56780","client_ip":"192.168.200.104","proto":"HTTP/1.1","method":"GET","host":"192.168.200.195","uri":"/_next/webpack-hmr?id=8RcMQhquB_RcBYnYjNjtr","headers":{"Pragma":["no-cache"],"Accept-Language":["en-US,en;q=0.9"],"Sec-Websocket-Key":["ogLenlm1EGm8qkGeQrpo9A=="],"Origin":["https://192.168.200.195"],"Cache-Control":["no-cache"],"Sec-Fetch-Site":["same-origin"],"Accept":["*/*"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"],"Sec-Websocket-Extensions":["permessage-deflate"],"Connection":["Upgrade"],"Sec-Fetch-Mode":["websocket"],"Upgrade":["websocket"],"Sec-Fetch-Dest":["websocket"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Priority":["u=3, i"],"Sec-Websocket-Version":["13"]},"tls":{"resumed":false,"version":772,"cipher_suite":4865,"proto":"http/1.1","server_name":"","ech":false}},"duration":0.001617916,"status":502,"err_id":"m05w1z8e1","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}
+{"level":"error","ts":1773845075.1766558,"logger":"http.log.error","msg":"dial tcp [::1]:7860: connect: connection refused","request":{"remote_ip":"192.168.200.104","remote_port":"56782","client_ip":"192.168.200.104","proto":"HTTP/1.1","method":"GET","host":"192.168.200.195","uri":"/_next/webpack-hmr?id=8RcMQhquB_RcBYnYjNjtr","headers":{"Pragma":["no-cache"],"Sec-Websocket-Version":["13"],"Accept-Language":["en-US,en;q=0.9"],"Upgrade":["websocket"],"Sec-Websocket-Key":["FHSORBpJbDJNZdF0MMSGQg=="],"Sec-Fetch-Site":["same-origin"],"User-Agent":["Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"],"Connection":["Upgrade"],"Accept-Encoding":["gzip, deflate, br, zstd"],"Origin":["https://192.168.200.195"],"Sec-Websocket-Extensions":["permessage-deflate"],"Accept":["*/*"],"Cache-Control":["no-cache"],"Priority":["u=3, i"],"Sec-Fetch-Mode":["websocket"],"Sec-Fetch-Dest":["websocket"]},"tls":{"resumed":false,"version":772,"cipher_suite":4865,"proto":"http/1.1","server_name":"","ech":false}},"duration":0.001583125,"status":502,"err_id":"uytk2jyuv","err_trace":"reverseproxy.statusError (reverseproxy.go:1525)"}

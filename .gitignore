@@ -58,6 +58,7 @@ data/scheduled_posts.json
 
 # SSL certs (self-signed, local only)
 certs/
+caddy-root-ca.crt
 
 # Storybook build output
 storybook-static/

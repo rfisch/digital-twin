@@ -1,8 +1,11 @@
 """Generation endpoints — single and LinkedIn multi-post."""
 
 import asyncio
+import logging
 
 from fastapi import APIRouter, HTTPException
+
+logger = logging.getLogger("api.generate")
 
 from api import dependencies as deps
 from api.schemas import (
@@ -55,6 +58,7 @@ async def generate(req: GenerateRequest) -> GenerateResponse:
             **kwargs,
         )
     except Exception as e:
+        logger.exception("generate failed: %s", e)
         raise HTTPException(status_code=500, detail=str(e))
 
     # generate() with return_prompt=True returns (text, prompt_dict)
@@ -85,6 +89,7 @@ async def generate_linkedin_multi(req: LinkedInMultiRequest) -> LinkedInMultiRes
             max_tokens=req.max_tokens,
         )
     except Exception as e:
+        logger.exception("generate_linkedin_multi failed: %s", e)
         raise HTTPException(status_code=500, detail=str(e))
 
     posts = [

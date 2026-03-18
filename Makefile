@@ -7,6 +7,7 @@
        export-model export-model-v6 \
        eval-feedback evaluate evaluate-quick \
        post-scheduled cron-install cron-remove \
+       service-start service-stop service-restart service-status wake-install wake-uninstall wake-logs \
        setup fresh
 
 .DEFAULT_GOAL := help
@@ -26,7 +27,7 @@ dev: ## Start FastAPI + Next.js dev servers
 	bash scripts/dev.sh
 
 dev-api: ## Start FastAPI server only (port 8000)
-	source .venv/bin/activate && uvicorn api.main:app --reload --port 8000
+	source .venv/bin/activate && uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 
 dev-web: ## Start Next.js server only (port 7860)
 	cd web && npm run dev
@@ -130,6 +131,51 @@ cron-remove: ## Remove post_scheduled crontab entry
 	@echo "Removing post_scheduled crontab entry..."
 	crontab -l 2>/dev/null | grep -v 'post_scheduled' | crontab -
 	@echo "Done."
+
+# ─── Background Service ─────────────────────────────────────────────
+
+service-start: ## Start the app as a background service
+	@echo "Starting background service..."
+	@bash scripts/service.sh start
+	@echo "Running. Logs: logs/service.log"
+
+service-stop: ## Stop the background service
+	@echo "Stopping background service..."
+	@bash scripts/service.sh stop
+	@echo "Done."
+
+service-restart: ## Restart the background service (redeploy)
+	@echo "Restarting background service..."
+	@bash scripts/service.sh stop
+	@bash scripts/service.sh start
+	@echo "Running. Logs: logs/service.log"
+
+service-status: ## Check if the background service is running
+	@bash scripts/service.sh status
+
+WAKE_PLIST_SRC  = $(CURDIR)/com.jacq.wake.plist
+WAKE_PLIST_DEST = $(HOME)/Library/LaunchAgents/com.jacq.wake.plist
+
+wake-install: ## Install wake server + Caddy HTTPS proxy (auto-start on login)
+	@echo "Installing wake service..."
+	@mkdir -p $(HOME)/Library/LaunchAgents
+	@cp $(WAKE_PLIST_SRC) $(WAKE_PLIST_DEST)
+	@launchctl bootout gui/$$(id -u) $(WAKE_PLIST_DEST) 2>/dev/null || true
+	@launchctl bootstrap gui/$$(id -u) $(WAKE_PLIST_DEST)
+	@echo "Done. Wake server: https://192.168.200.195:9443"
+
+wake-uninstall: ## Remove wake service
+	@echo "Removing wake service..."
+	@launchctl bootout gui/$$(id -u) $(WAKE_PLIST_DEST) 2>/dev/null || true
+	@rm -f $(WAKE_PLIST_DEST)
+	@echo "Done."
+
+wake-logs: ## Show wake server + Caddy logs
+	@echo "--- Wake Server ---"
+	@tail -20 logs/wake-server.log 2>/dev/null || echo "No wake logs yet."
+	@echo ""
+	@echo "--- Caddy ---"
+	@tail -20 logs/caddy.log 2>/dev/null || echo "No Caddy logs yet."
 
 # ─── Compound ────────────────────────────────────────────────────────
 

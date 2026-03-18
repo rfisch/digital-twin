@@ -14,7 +14,13 @@ import type {
   FeedbackRequest,
 } from "./types";
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// Caddy proxies /api/* to FastAPI on the same origin, so no separate port needed.
+// Falls back to localhost:8000 for local dev without Caddy.
+const BASE_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  (typeof window !== "undefined" && window.location.port !== "7860"
+    ? ""
+    : "http://localhost:8000");
 
 class ApiError extends Error {
   constructor(
